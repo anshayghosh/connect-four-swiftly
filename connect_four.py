@@ -5,14 +5,17 @@ import cProfile
 import numpy as np
 import minimax_search
 import math
+import cProfile
+
 def cls():
     os.system('cls' if os.name=='nt' else 'clear')
 
 NONE = 0
-PLAYER = 1
-COMPUTER = -1
+PLAYER = -1
+COMPUTER = 1
 
 TIE = 0
+NOT_OVER = -99
 
 MIN = -1
 MAX = 1
@@ -29,13 +32,14 @@ def diagonalsNeg (matrix, cols, rows):
         yield [matrix[i][j] for i, j in di if i >= 0 and j >= 0 and i < cols and j < rows]
 
 class Game:
-    def __init__ (self, cols = 7, rows = 6, requiredToWin = 4):
+    def __init__ (self, cols = 7, rows = 6, requiredToWin = 4, move_list=""):
         """Create a new game."""
         self.cols = cols
         self.rows = rows
         self.win = requiredToWin
         # self.board = [[NONE] * rows for _ in range(cols)]
         self.board = np.zeros([cols, rows])
+        self.move_list = move_list  # A string to keep track of the current moves leading to the current board state
 
     def insert (self, column, color):
         """Insert the color in the given column."""
@@ -46,10 +50,13 @@ class Game:
         while c[i] != NONE:
             i -= 1
         c[i] = color
+        self.move_list += str(color) + str(column)
 
         return True
 
     def simulate_insert(self, column, color):
+        """Similar to insert except that it doesn't modify the current game board. Instead, it generates an entirely new
+        board. This method is used for generated successors in the minimax_search.py file"""
         board_copy = np.copy(self.board)
 
         c = board_copy[column]
@@ -66,17 +73,17 @@ class Game:
         """Check the current board for a winner."""
         w = self.getWinner()
         if w == PLAYER:
-            self.printBoard()
-            print(str(w) + ' won!')
+            # self.printBoard()
+            # print(str(w) + ' won!')
             return - math.inf
         elif w == COMPUTER:
-            self.printBoard()
-            print(str(w) + ' won!')
+            # self.printBoard()
+            # print(str(w) + ' won!')
             return math.inf
 
         # self.printBoard()
         if not (self.board != 0).all():
-            return None
+            return NOT_OVER
 
         return TIE
 
@@ -111,54 +118,6 @@ class Game:
         print()
 
 
-    def generate_successors(self, player):
-        successors = []
-
-        if player == MIN:
-            token = PLAYER
-        else:
-            token = COMPUTER
-
-        for i in range(self.cols):
-            next_state = self.simulate_insert(i, token)
-
-            if not (np.array_equal(self.board, next_state)):
-                successors.append(next_state)
-
-        return successors
-
-
-def check_for_win(game):
-    w = get_winner(game.board, game.win)
-    if w == PLAYER:
-        return - math.inf
-    elif w == COMPUTER:
-        return math.inf
-
-    # self.printBoard()
-    if not (game.board != 0).all():
-        return None
-
-    return TIE
-
-
-def get_winner(board, required_to_win):
-    lines = (
-        board,  # columns
-        zip(*board),  # rows
-        diagonalsPos(board, board.shape[0], board.shape[1]),  # positive diagonals
-        diagonalsNeg(board, board.shape[0], board.shape[1])  # negative diagonals
-    )
-
-    for line in chain(*lines):
-        for color, group in groupby(line):
-            if color != NONE and len(list(group)) >= required_to_win:
-                return color
-
-def mini_func(g):
-    state = minimax_search.StateSpace(g)
-    minimax_search.search(state, MAX)
-
 def main():
     g = Game()
     turn = PLAYER
@@ -169,8 +128,10 @@ def main():
             state = minimax_search.StateSpace(g)
             new_state = minimax_search.search(state, MAX)[1]
 
+            # cProfile.runctx('minimax_search.search(state, MAX)[1]', {"state": state, "minimax_search":minimax_search, "MAX":MAX}, {})
             if new_state is not None:
                 g.board = new_state.game.board
+                g.move_list = new_state.game.move_list
         else:
             row = input('{}\'s turn: '.format('Player' if turn == PLAYER else 'Computer'))
             if row == '':
@@ -178,9 +139,17 @@ def main():
             while (g.insert(int(row), turn) == False):
                 print("Column is full")
                 row = input('{}\'s turn: '.format('Player' if turn == PLAYER else 'Computer'))
-        if (g.checkForWin() is not None):
+
+        win_check_result = g.checkForWin()
+        if (win_check_result != NOT_OVER):
             # print(g.checkForWin())
-            # g.printBoard()
+            g.printBoard()
+            if win_check_result == math.inf:
+                print("Computer won!")
+            elif win_check_result == -math.inf:
+                print("Player won!")
+            else:
+                print("Tie Game!")
             break
         turn = COMPUTER if turn == PLAYER else PLAYER
         cls()

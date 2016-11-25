@@ -1,9 +1,12 @@
 import math
 import numpy as np
 import connect_four
+import hashlib
 
 MIN = -1
 MAX = 1
+
+CACHE = {}
 
 class StateSpace:
     def __init__(self, game):
@@ -12,27 +15,32 @@ class StateSpace:
     def successors(self, player):
         successors = []
 
-        for successor_board in self.game.generate_successors(player):
-            successor = StateSpace(connect_four.Game(self.game.cols, self.game.rows, self.game.win))
-            successor.game.board = successor_board
-            successors.append(successor)
+        for column in range(self.game.cols):
+            successor_board = self.game.simulate_insert(column, player)
+            if not np.array_equal(self.game.board, successor_board):
+                successor = StateSpace(connect_four.Game(self.game.cols, self.game.rows, self.game.win, self.game.move_list + str(player) + str(column)))
+                successor.game.board = successor_board
+                successors.append(successor)
 
         return successors
 
 
 def search(state, player, max_depth = 4):
-    # print("Call to search")
-    check_game_over = connect_four.check_for_win(state.game)
+    md5 = hashlib.md5(state.game.move_list.encode('utf-8'))
 
-    if check_game_over is not None:
-        # print("Check game over")
-        # print(check_game_over)
-        return check_game_over, None
+    cache_result = CACHE.get(state.game.move_list.encode('utf-8'))
+    if cache_result is not None:
+        if cache_result != connect_four.NOT_OVER:
+            return cache_result, None
+    else:
+        check_game_over = state.game.checkForWin()
+        CACHE[state.game.move_list.encode('utf-8')] = check_game_over
 
-    elif max_depth == 0:
-        # print("MAx depth")
+        if check_game_over != connect_four.NOT_OVER:
+            return check_game_over, None
+
+    if max_depth == 0:
         ret_val = evaluation_function(state)
-        # print(str(ret_val))
         return evaluation_function(state), None
 
     if player == MIN:
