@@ -2,6 +2,10 @@ import math
 import numpy as np
 import connect_four
 import hashlib
+import sys
+sys.path.append(".\\")
+print(sys.path)
+from evaluation_utils import *
 
 MIN = -1
 MAX = 1
@@ -16,16 +20,17 @@ class StateSpace:
         successors = []
 
         for column in range(self.game.cols):
-            successor_board = self.game.simulate_insert(column, player)
+            successor_board, last_move = self.game.simulate_insert(column, player)
+
             if not np.array_equal(self.game.board, successor_board):
-                successor = StateSpace(connect_four.Game(self.game.cols, self.game.rows, self.game.win, self.game.move_list + str(player) + str(column), self.game.last_move))
+                successor = StateSpace(connect_four.Game(self.game.cols, self.game.rows, self.game.win, self.game.move_list + str(player) + str(column), last_move))
                 successor.game.board = successor_board
                 successors.append(successor)
 
         return successors
 
 
-def search(state, player, max_depth = 4):
+def search(state, player, alpha=-math.inf, beta=math.inf, max_depth = 6):
     md5 = hashlib.md5(state.game.move_list.encode('utf-8'))
 
     cache_result = CACHE.get(state.game.move_list.encode('utf-8'))
@@ -40,14 +45,20 @@ def search(state, player, max_depth = 4):
             return check_game_over, None
 
     if max_depth == 0:
-        ret_val = evaluation_function(state)
-        return evaluation_function(state), None
+        ret_val = evaluate_based_on_location_ratings(state)
+        return ret_val, None
 
     if player == MIN:
         min_state = None
-        min_value = 9999
+        min_value = math.inf
         for state in state.successors(player):
-            a,b = search(state, MAX, max_depth - 1)
+            a,b = search(state, MAX, alpha, beta, max_depth - 1)
+
+            if a <= alpha:
+                # print("Pruned")
+                return a, state
+
+            beta = min(beta, a)
 
             if a < min_value:
                 min_value = a
@@ -57,9 +68,15 @@ def search(state, player, max_depth = 4):
         return min_value, min_state
     else:
         max_state = None
-        max_value = - 9999
+        max_value = - math.inf
         for state in state.successors(player):
-            a,b = search(state, MIN, max_depth - 1)
+            a,b = search(state, MIN, alpha, beta, max_depth - 1)
+
+            if a >= beta:
+                # print("Pruned")
+                return a, state
+
+            alpha = max(alpha, a)
 
             if a > max_value:
                 max_value = a
@@ -69,5 +86,3 @@ def search(state, player, max_depth = 4):
         return max_value, max_state
 
 
-def evaluation_function(state):
-    return np.random.uniform(-1,1,1)[0]
