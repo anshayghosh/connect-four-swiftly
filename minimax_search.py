@@ -18,7 +18,7 @@ class StateSpace:
         for column in range(self.game.cols):
             successor_board = self.game.simulate_insert(column, player)
             if not np.array_equal(self.game.board, successor_board):
-                successor = StateSpace(connect_four.Game(self.game.cols, self.game.rows, self.game.win, self.game.move_list + str(player) + str(column)))
+                successor = StateSpace(connect_four.Game(self.game.cols, self.game.rows, self.game.win, self.game.move_list + str(player) + str(column), self.game.last_move))
                 successor.game.board = successor_board
                 successors.append(successor)
 
@@ -45,7 +45,7 @@ def search(state, player, max_depth = 4):
 
     if player == MIN:
         min_state = None
-        min_value = math.inf
+        min_value = 9999
         for state in state.successors(player):
             a,b = search(state, MAX, max_depth - 1)
 
@@ -57,7 +57,7 @@ def search(state, player, max_depth = 4):
         return min_value, min_state
     else:
         max_state = None
-        max_value = - math.inf
+        max_value = - 9999
         for state in state.successors(player):
             a,b = search(state, MIN, max_depth - 1)
 

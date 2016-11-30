@@ -18,21 +18,10 @@ TIE = 0
 NOT_OVER = -99
 
 MIN = -1
-MAX = 1
-
-
-def diagonalsPos (matrix, cols, rows):
-    """Get positive diagonals, going from bottom-left to top-right."""
-    for di in ([(j, i - j) for j in range(cols)] for i in range(cols + rows -1)):
-        yield [matrix[i][j] for i, j in di if i >= 0 and j >= 0 and i < cols and j < rows]
-
-def diagonalsNeg (matrix, cols, rows):
-    """Get negative diagonals, going from top-left to bottom-right."""
-    for di in ([(j, i - cols + j + 1) for j in range(cols)] for i in range(cols + rows - 1)):
-        yield [matrix[i][j] for i, j in di if i >= 0 and j >= 0 and i < cols and j < rows]
+MAX = 1        
 
 class Game:
-    def __init__ (self, cols = 7, rows = 6, requiredToWin = 4, move_list=""):
+    def __init__ (self, cols = 7, rows = 6, requiredToWin = 4, move_list="", last_move = []):
         """Create a new game."""
         self.cols = cols
         self.rows = rows
@@ -40,6 +29,7 @@ class Game:
         # self.board = [[NONE] * rows for _ in range(cols)]
         self.board = np.zeros([cols, rows])
         self.move_list = move_list  # A string to keep track of the current moves leading to the current board state
+        self.last_move = last_move
 
     def insert (self, column, color):
         """Insert the color in the given column."""
@@ -51,6 +41,7 @@ class Game:
             i -= 1
         c[i] = color
         self.move_list += str(color) + str(column)
+        self.last_move = [column, c.size + i]
 
         return True
 
@@ -66,6 +57,7 @@ class Game:
         while c[i] != NONE:
             i -= 1
         c[i] = color
+        self.last_move = [column, c.size + i]
 
         return board_copy
 
@@ -75,11 +67,11 @@ class Game:
         if w == PLAYER:
             # self.printBoard()
             # print(str(w) + ' won!')
-            return - math.inf
+            return - 9999
         elif w == COMPUTER:
             # self.printBoard()
             # print(str(w) + ' won!')
-            return math.inf
+            return 9999
 
         # self.printBoard()
         if not (self.board != 0).all():
@@ -90,16 +82,22 @@ class Game:
     def getWinner (self):
         """Get the winner on the current board."""
         lines = (
-            self.board, # columns
-            zip(*self.board), # rows
-            diagonalsPos(self.board, self.cols, self.rows), # positive diagonals
-            diagonalsNeg(self.board, self.cols, self.rows) # negative diagonals
+            self.board[self.last_move[0]].tolist(), # columns
+            self.lastPlayedRow(self.board, self.cols, self.rows), # rows
+            self.lastPlayedDiagonalPos(self.board, self.cols, self.rows), # positive diagonals
+            self.lastPlayedDiagonalNeg(self.board, self.cols, self.rows) # negative diagonals
         )
 
-        for line in chain(*lines):
-            for color, group in groupby(line):
-                if color != NONE and len(list(group)) >= self.win:
-                    return color
+        colour = self.board[self.last_move[0], self.last_move[1]]
+        for line in lines:
+            count = 0
+            for var in line:
+                if var == colour:
+                    count += 1
+                    if count == 4:
+                        return colour
+                else:
+                    count = 0
 
     def printBoard (self):
         """Print the board."""
@@ -116,7 +114,48 @@ class Game:
             #print('  '.join(str(self.board[x][y]) for x in range(self.cols)))
             print(s[2:])
         print()
+        
+        
+    def lastPlayedRow (self, matrix, cols, rows):
+            """Get positive diagonals, going from bottom-left to top-right."""
+            board = self.board.tolist()
+            rowList = []
+            col = 0
+            row = self.last_move[1]
+            while (col < cols):
+                rowList.append(board[col][row])
+                col += 1
+            return rowList       
 
+    def lastPlayedDiagonalPos (self, matrix, cols, rows):
+        """Get positive diagonals, going from bottom-left to top-right."""
+        board = self.board.tolist()
+        diag = []
+        col = self.last_move[0]
+        row = self.last_move[1]
+        while (col > 0 and row > 0):
+            col -= 1
+            row -= 1
+        while (col < cols and row < rows):
+            diag.append(board[col][row])
+            col += 1
+            row += 1
+        return diag
+    
+    def lastPlayedDiagonalNeg (self, matrix, cols, rows):
+        """Get positive diagonals, going from bottom-left to top-right."""
+        board = self.board.tolist()
+        diag = []
+        col = self.last_move[0]
+        row = self.last_move[1]
+        while (col > 0 and col < cols - 1 and row > 0 and row < rows - 1):
+            col -= 1
+            row += 1
+        while (col >= 0 and col < cols and row >= 0 and row < rows):
+            diag.append(board[col][row])
+            col += 1
+            row -= 1
+        return diag
 
 def main():
     g = Game()
@@ -129,24 +168,29 @@ def main():
             new_state = minimax_search.search(state, MAX)[1]
 
             # cProfile.runctx('minimax_search.search(state, MAX)[1]', {"state": state, "minimax_search":minimax_search, "MAX":MAX}, {})
+            print("computer turn")
             if new_state is not None:
-                g.board = new_state.game.board
-                g.move_list = new_state.game.move_list
+                print("computer turn")
+                g.insert(int(new_state.game.move_list[-1][-1:]), turn)
+                #g.board = new_state.game.board
+                #g.move_list = new_state.game.move_list
         else:
-            row = input('{}\'s turn: '.format('Player' if turn == PLAYER else 'Computer'))
-            if row == '':
+            col = input('{}\'s turn: '.format('Player' if turn == PLAYER else 'Computer'))
+            if col == '':
                 break
-            while (g.insert(int(row), turn) == False):
+            row = g.insert(int(col), turn)
+            while (row == False):
                 print("Column is full")
-                row = input('{}\'s turn: '.format('Player' if turn == PLAYER else 'Computer'))
+                col = input('{}\'s turn: '.format('Player' if turn == PLAYER else 'Computer'))
+                row = g.insert(int(col), turn)
 
         win_check_result = g.checkForWin()
         if (win_check_result != NOT_OVER):
             # print(g.checkForWin())
             g.printBoard()
-            if win_check_result == math.inf:
+            if win_check_result == 9999:
                 print("Computer won!")
-            elif win_check_result == -math.inf:
+            elif win_check_result == -9999:
                 print("Player won!")
             else:
                 print("Tie Game!")
