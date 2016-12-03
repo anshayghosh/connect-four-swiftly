@@ -169,7 +169,6 @@ def main():
             new_state = minimax_search.search(state, MAX)[1]
 
             # cProfile.runctx('minimax_search.search(state, MAX)[1]', {"state": state, "minimax_search":minimax_search, "MAX":MAX}, {})
-            print("computer turn")
             if new_state is not None:
                 print("computer turn")
                 g.insert(int(new_state.game.move_list[-1][-1:]), turn)

@@ -45,7 +45,7 @@ def search(state, player, alpha=-math.inf, beta=math.inf, max_depth = 6):
             return check_game_over, None
 
     if max_depth == 0:
-        ret_val = evaluate_based_on_location_ratings(state)
+        ret_val = evaluate_using_lengths(state)
         return ret_val, None
 
     if player == MIN:
