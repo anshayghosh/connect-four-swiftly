@@ -302,5 +302,5 @@ def grid_search():
 
 if __name__ == '__main__':
     main()
-    computer_vs_computer()
+    # computer_vs_computer()
     # grid_search()
