@@ -15,7 +15,7 @@ PLAYER = -1
 COMPUTER = 1
 
 TIE = 0
-NOT_OVER = -99
+NOT_OVER = -5000
 
 MIN = -1
 MAX = 1        
@@ -29,7 +29,8 @@ class Game:
         # self.board = [[NONE] * rows for _ in range(cols)]
         self.board = np.zeros([rows, cols])
         self.move_list = move_list  # A string to keep track of the current moves leading to the current board state
-        self.last_move = last_move
+        self.last_move = last_move # An list of shape [row, col] indicating the cell where the last token was placed
+        self.full = np.zeros([cols])
 
     def insert (self, column, color):
         """Insert the color in the given column."""
@@ -40,6 +41,8 @@ class Game:
         while c[i] != NONE:
             i -= 1
         c[i] = color
+        if c[0] != NONE:
+            self.full[column] = 1
         self.move_list += str(color) + str(column)
         self.last_move = [c.size + i, column]
 
@@ -64,6 +67,9 @@ class Game:
 
     def checkForWin (self):
         """Check the current board for a winner."""
+        if self.last_move == []:
+            return NOT_OVER
+
         w = self.getWinner()
         if w == PLAYER:
             # self.printBoard()
@@ -159,6 +165,7 @@ class Game:
         return diag
 
 def main():
+    minimax_search.load_cache()
     g = Game()
     turn = PLAYER
     while True:
@@ -166,14 +173,19 @@ def main():
 
         if (turn == COMPUTER):
             state = minimax_search.StateSpace(g)
-            new_state = minimax_search.search(state, MAX)[1]
+            print("computer turn")
+            # new_state = minimax_search.search(state, MAX)[1]
+            new_move = minimax_search.alpha_beta_search(state, MAX)
 
             # cProfile.runctx('minimax_search.search(state, MAX)[1]', {"state": state, "minimax_search":minimax_search, "MAX":MAX}, {})
-            if new_state is not None:
-                print("computer turn")
-                g.insert(int(new_state.game.move_list[-1][-1:]), turn)
-                #g.board = new_state.game.board
-                #g.move_list = new_state.game.move_list
+            # input("Enter")
+            # if new_state is not None:
+            #     print("computer turn")
+            #     g.insert(int(new_state.game.move_list[-1][-1:]), turn)
+            #     #g.board = new_state.game.board
+            #     #g.move_list = new_state.game.move_list
+            if new_move is not None:
+                g.insert(new_move[1], turn)
         else:
             col = input('{}\'s turn: '.format('Player' if turn == PLAYER else 'Computer'))
             if col == '':
@@ -194,10 +206,101 @@ def main():
                 print("Player won!")
             else:
                 print("Tie Game!")
+
+            minimax_search.save_cache()
             break
         turn = COMPUTER if turn == PLAYER else PLAYER
         cls()
 
 
+def computer_vs_computer(p1_initial_moves=[], p2_initial_moves=[], p1_diff=3, p2_diff=3):
+    g = Game()
+    turn = PLAYER
+
+    for i in range(len(p1_initial_moves)):
+        g.insert(p1_initial_moves[i], turn)
+        turn = COMPUTER if turn == PLAYER else PLAYER
+
+        win_check_result = g.checkForWin()
+        if (win_check_result != NOT_OVER):
+            # print(g.checkForWin())
+            g.printBoard()
+            if win_check_result == math.inf:
+                print("Computer won!")
+            elif win_check_result == -math.inf:
+                print("Player won!")
+            else:
+                print("Tie Game!")
+            return
+
+        g.insert(p2_initial_moves[i], turn)
+        turn = COMPUTER if turn == PLAYER else PLAYER
+
+        win_check_result = g.checkForWin()
+        if (win_check_result != NOT_OVER):
+            # print(g.checkForWin())
+            g.printBoard()
+            if win_check_result == math.inf:
+                print("Computer won!")
+            elif win_check_result == -math.inf:
+                print("Player won!")
+            else:
+                print("Tie Game!")
+            return
+
+
+    while True:
+        g.printBoard()
+
+        if (turn == COMPUTER):
+            state = minimax_search.StateSpace(g)
+            print("computer turn")
+            new_move = minimax_search.alpha_beta_search(state, MAX)
+
+
+            if new_move is not None:
+                g.insert(new_move[1], turn)
+        else:
+            state = minimax_search.StateSpace(g)
+            print("player turn")
+            new_move = minimax_search.alpha_beta_search(state, MAX, depth_limit=4)
+
+
+            if new_move is not None:
+                g.insert(new_move[1], turn)
+
+        win_check_result = g.checkForWin()
+        if (win_check_result != NOT_OVER):
+            # print(g.checkForWin())
+            g.printBoard()
+            if win_check_result == math.inf:
+                print("Computer won!")
+            elif win_check_result == -math.inf:
+                print("Player won!")
+            else:
+                print("Tie Game!")
+
+            minimax_search.save_cache()
+            break
+        turn = COMPUTER if turn == PLAYER else PLAYER
+        cls()
+
+def grid_search():
+    """
+    Tries a bunch of different settings for different search depths, combined with random initial moves
+    """
+    minimax_search.load_cache()
+    difficulties = [1,2,3,4]
+
+    for p1_diff in difficulties:
+        for p2_diff in difficulties:
+            initial_moves_p1 = np.random.random_integers(0, 6, 5)
+            initial_moves_p2 = np.random.random_integers(0, 6, 5)
+            computer_vs_computer(list(initial_moves_p1), list(initial_moves_p2), p1_diff, p2_diff)
+
+
+
 if __name__ == '__main__':
     main()
+    computer_vs_computer()
+    # grid_search()

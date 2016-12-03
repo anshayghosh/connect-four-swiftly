@@ -18,6 +18,16 @@ DIRECTION_TABLE = [[0,1,1,-1],[1,1,0,1]]
 weights = [0,10,100]
 
 def evaluate_based_on_location_ratings(state):
+    """"
+    Calculates the estimated utility of a given state by iterating over all cells of the board, checking who has
+    control of the cells that are occupied by tokens, and adding up the usefulness of each sell. Note that this is
+    made so that a positive utility is returned if the computer has a better chance of winning, and a negative utility
+    is returned if the player has a better chance of winning.
+
+    :param state: A StateSpace object
+    :return: Positive value if computer is more likely to win, negative value if player is more likely to win, 0 if both
+             players are equally likely to win
+    """
     utility = 138
     sum = 0
 
