@@ -7,6 +7,7 @@ sys.path.append(".\\")
 print(sys.path)
 from evaluation_utils import *
 import pickle
+import operator
 
 MIN = -1
 MAX = 1
@@ -29,6 +30,29 @@ class StateSpace:
                 successors.append(successor)
 
         return successors
+
+    def successorsSorted(self, player):
+        successors = dict()
+
+        for column in range(self.game.cols):
+            successor_board, last_move = self.game.simulate_insert(column, player)
+
+            if not np.array_equal(self.game.board, successor_board):
+                successor = StateSpace(connect_four.Game(self.game.cols, self.game.rows, self.game.win, self.game.move_list + str(player) + str(column), last_move))
+                successor.game.board = successor_board
+                successors[successor] = evaluate_using_lengths(successor)
+
+        if player == MAX:
+            successors = sorted(successors.items(), key=operator.itemgetter(1),reverse = True)
+        elif player == MIN:
+            successors = sorted(successors.items(), key=operator.itemgetter(1))
+
+        finallist = []
+
+        for element in successors:
+            finallist.append(element[0])
+
+        return finallist
 
 
 def alpha_beta_search(state, player, depth_limit=4):
@@ -76,7 +100,7 @@ def search(state, player, alpha=-math.inf, beta=math.inf, depth_limit=6, current
     # If we've reached the
     # maximum search depth, then use the evaluation function to estimate the utility of the state.
     if depth_limit == current_depth:
-        estimated_utility = evaluate_based_on_location_ratings(state)
+        estimated_utility =evaluate_using_both(state)
         return estimated_utility, state.game.last_move
 
     # The case where player is MIN
@@ -86,7 +110,7 @@ def search(state, player, alpha=-math.inf, beta=math.inf, depth_limit=6, current
         one_time = True
 
         # Iterate over all of the successors for the current board state and player
-        for state in state.successors(player):
+        for state in state.successorsSorted(player):
             # Make sure that best_move won't be None
             if one_time:
                 best_move = state.game.last_move
@@ -115,7 +139,7 @@ def search(state, player, alpha=-math.inf, beta=math.inf, depth_limit=6, current
         one_time = True
 
         # Iterate over all of the successors for the current board state and player
-        for state in state.successors(player):
+        for state in state.successorsSorted(player):
             # Make sure that best_move won't be None
             if one_time:
                 best_move = state.game.last_move

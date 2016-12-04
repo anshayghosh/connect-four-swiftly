@@ -15,7 +15,9 @@ BORDER_ROW = 5
 
 DIRECTION_TABLE = [[0,1,1,-1],[1,1,0,1]]
 
-weights = [0,10,100]
+weights = [0,50,500]
+
+#======================= INDIVIDUAL EVALUATION FUNCTIONS ==========================================
 
 def evaluate_based_on_location_ratings(state):
     """"
@@ -28,7 +30,6 @@ def evaluate_based_on_location_ratings(state):
     :return: Positive value if computer is more likely to win, negative value if player is more likely to win, 0 if both
              players are equally likely to win
     """
-    utility = 138
     sum = 0
 
     for i in range(state.game.rows):
@@ -38,33 +39,9 @@ def evaluate_based_on_location_ratings(state):
             if state.game.board[i][j] == COMPUTER:
                 sum += EVALUATION_TABLE[i][j]
 
-    return sum + utility
+    return sum
 
 
-
-def positionCheck(row,col, color, state):
-    if(col<= BORDER_COLUMN and row <= BORDER_ROW and row>=0 and col>=0 and state.game.board[row][col] == color):
-        return True
-    else:
-        return False
-
-
-def getActualandPotentialLength(state, row, col, dir1, dir2, visited):
-    length = 1
-    color = state.game.board[row][col]
-
-    while(positionCheck(row + (dir1*length), col + (dir2*length), color, state)):
-        visited[row + (dir1*length)][col + (dir2*length)] = True
-        length = length + 1
-
-    actual = length-1
-
-    while(positionCheck(row + (dir1*length), col + (dir2*length), NONE, state)):
-        visited[row + (dir1*length)][col + (dir2*length)] = True
-        length = length + 1
-
-
-    return actual,length-1
 
 
 def evaluate_using_lengths(state):
@@ -98,6 +75,51 @@ def evaluate_using_lengths(state):
 
 
 
+def evaluate_using_both(state):
+    total = 0
+    total = total + evaluate_based_on_location_ratings(state)
+    total = total + evaluate_using_lengths(state)
+
+    return total 
+
+
+
+
+
+
+
+
+
+
+
+#========================  HELPER FUNCTIONS  ==================================================
+
+
+
+
+def positionCheck(row,col, color, state):
+    if(col<= BORDER_COLUMN and row <= BORDER_ROW and row>=0 and col>=0 and state.game.board[row][col] == color):
+        return True
+    else:
+        return False
+
+
+def getActualandPotentialLength(state, row, col, dir1, dir2, visited):
+    length = 1
+    color = state.game.board[row][col]
+
+    while(positionCheck(row + (dir1*length), col + (dir2*length), color, state)):
+        visited[row + (dir1*length)][col + (dir2*length)] = True
+        length = length + 1
+
+    actual = length-1
+
+    while(positionCheck(row + (dir1*length), col + (dir2*length), NONE, state)):
+        visited[row + (dir1*length)][col + (dir2*length)] = True
+        length = length + 1
+
+
+    return actual-1,length-1
 
 
 
