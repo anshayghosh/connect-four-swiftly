@@ -1,61 +1,6 @@
 Winner: locations, Loser: locations
  Depth: 1
 0  1  2  3  4  5  6
-C  P  C  C  P  C  0
-P  C  C  P  P  P  0
-C  P  P  C  C  C  0
-P  C  C  P  P  P  0
-C  C  P  C  C  C  0
-P  P  C  P  P  P  P
-
-
-Winner: locations, Loser: locations
- Depth: 1
-0  1  2  3  4  5  6
-0  P  C  C  P  C  0
-0  P  P  P  C  C  0
-0  C  C  C  P  P  0
-0  P  P  P  C  C  0
-0  C  C  C  P  P  0
-P  P  P  P  C  C  0
-
-
-Winner: locations, Loser: locations
- Depth: 1
-0  1  2  3  4  5  6
-0  0  C  C  C  0  0
-0  0  P  P  P  0  0
-0  0  C  C  C  0  0
-0  0  P  P  P  0  0
-0  0  C  C  C  0  0
-0  P  P  P  P  0  0
-
-
-Tie: locations, locations
- Depth: 1
-0  1  2  3  4  5  6
-P  C  C  C  P  P  C
-C  P  P  P  C  C  P
-P  C  C  C  P  P  C
-C  P  P  P  C  C  P
-P  C  C  C  P  C  C
-C  P  P  P  C  P  P
-
-
-Loser: locations, Winner: locations
- Depth: 1
-0  1  2  3  4  5  6
-C  C  C  C  P  P  0
-P  C  C  P  P  P  0
-C  P  P  C  C  C  0
-P  C  C  P  P  P  0
-C  P  P  C  C  C  0
-P  C  C  P  P  P  0
-
-
-Winner: locations, Loser: locations
- Depth: 1
-0  1  2  3  4  5  6
 0  0  C  C  C  0  0
 0  0  P  P  P  0  0
 0  0  C  C  C  0  0
@@ -72,40 +17,18 @@ Winner: locations, Loser: locations
 0  0  C  C  C  0  0
 0  0  P  P  P  0  0
 0  0  C  C  C  0  0
-0  P  P  P  P  0  0
+0  0  P  P  P  P  0
 
 
 Winner: locations, Loser: locations
  Depth: 1
 0  1  2  3  4  5  6
-C  C  P  C  C  P  0
-P  C  C  P  P  P  0
-C  P  P  C  C  C  0
-P  C  C  P  P  P  0
-C  C  P  C  C  C  0
-P  P  C  P  P  P  P
-
-
-Tie: locations, locations
- Depth: 1
-0  1  2  3  4  5  6
-P  P  C  C  P  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  C  C
-C  C  P  P  C  P  P
-
-
-Winner: locations, Loser: locations
- Depth: 1
-0  1  2  3  4  5  6
-0  0  C  C  C  0  0
-0  0  P  P  P  0  0
-0  0  C  C  C  0  0
-0  0  P  P  P  0  0
-0  0  C  C  C  0  0
-0  P  P  P  P  0  0
+0  P  P  C  C  C  0
+0  P  P  P  C  C  0
+0  C  C  C  P  P  0
+0  P  P  P  C  C  0
+0  C  C  C  P  P  0
+P  P  P  P  C  C  0
 
 
 Winner: locations, Loser: locations
@@ -130,6 +53,17 @@ C  P  P  C  C  C  0
 P  C  C  P  P  P  P
 
 
+Winner: locations, Loser: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  C  C  C  0  0
+0  0  P  P  P  0  0
+0  0  C  C  C  0  0
+0  0  P  P  P  0  0
+0  0  C  C  C  0  0
+0  P  P  P  P  0  0
+
+
 Tie: locations, locations
  Depth: 1
 0  1  2  3  4  5  6
@@ -152,59 +86,114 @@ Winner: locations, Loser: locations
 0  P  P  P  P  0  0
 
 
+Winner: locations, Loser: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  C  C  C  0  0
+0  0  P  P  P  0  0
+0  0  C  C  C  0  0
+0  0  P  P  P  0  0
+0  0  C  C  C  0  0
+0  0  P  P  P  P  0
+
+
+Winner: locations, Loser: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  P  P  C  C  C  0
+0  P  P  P  C  C  0
+0  C  C  C  P  P  0
+0  P  P  P  C  C  0
+0  C  C  C  P  P  0
+P  P  P  P  C  C  0
+
+
+Winner: locations, Loser: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  C  C  C  0  0
+0  0  P  P  P  0  0
+0  0  C  C  C  0  0
+0  0  P  P  P  0  0
+0  0  C  C  C  0  0
+0  0  P  P  P  P  0
+
+
 Tie: locations, locations
  Depth: 1
 0  1  2  3  4  5  6
-P  C  P  C  C  P  C
-C  P  P  P  C  C  C
-P  C  C  C  P  P  P
-C  P  P  P  C  C  C
-P  C  C  C  P  C  P
-C  P  P  P  C  P  P
+P  P  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  C  C
+C  C  P  P  C  P  P
+
+
+Winner: locations, Loser: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  C  C  C  0  0
+0  0  P  P  P  0  0
+0  0  C  C  C  0  0
+0  0  P  P  P  0  0
+0  0  C  C  C  0  0
+0  0  P  P  P  P  0
+
+
+Winner: locations, Loser: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  C  C  C  0  0
+0  0  P  P  P  0  0
+0  0  C  C  C  0  0
+0  0  P  P  P  0  0
+0  0  C  C  C  0  0
+0  0  P  P  P  P  0
 
 
 Winner: locations, Loser: locations
  Depth: 1
 0  1  2  3  4  5  6
 C  P  C  C  P  C  0
-C  C  C  P  P  P  0
-P  P  P  C  C  C  0
-C  C  C  P  P  P  0
-P  C  P  C  C  C  0
-P  P  C  P  P  P  P
-
-
-Winner: locations, Loser: locations
- Depth: 1
-0  1  2  3  4  5  6
-0  0  C  C  C  0  0
-0  0  P  P  P  0  0
-0  0  C  C  C  0  0
-0  0  P  P  P  0  0
-0  0  C  C  C  0  0
-0  P  P  P  P  0  0
-
-
-Winner: locations, Loser: locations
- Depth: 1
-0  1  2  3  4  5  6
-0  0  C  C  C  0  0
-0  0  P  P  P  0  0
-0  0  C  C  C  0  0
-0  0  P  P  P  0  0
-0  0  C  C  C  0  0
-0  P  P  P  P  0  0
-
-
-Winner: locations, Loser: locations
- Depth: 1
-0  1  2  3  4  5  6
-P  C  C  C  P  C  0
 P  C  C  P  P  P  0
 C  P  P  C  C  C  0
 P  C  C  P  P  P  0
-C  C  P  C  C  C  0
-P  P  C  P  P  P  P
+C  P  P  C  C  C  0
+P  C  C  P  P  P  P
+
+
+Winner: locations, Loser: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  C  C  C  0  0
+0  0  P  P  P  0  0
+0  0  C  C  C  0  0
+0  0  P  P  P  0  0
+0  0  C  C  C  0  0
+0  0  P  P  P  P  0
+
+
+Winner: locations, Loser: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  C  C  C  0  0
+0  0  P  P  P  0  0
+0  0  C  C  C  0  0
+0  0  P  P  P  0  0
+0  0  C  C  C  0  0
+0  0  P  P  P  P  0
+
+
+Tie: locations, locations
+ Depth: 1
+0  1  2  3  4  5  6
+C  P  C  C  P  P  P
+P  C  C  P  P  C  C
+C  P  P  C  C  P  P
+P  C  C  P  P  C  C
+C  C  P  C  C  P  P
+P  P  C  P  P  C  C
 
 
 Winner: locations, Loser: locations
@@ -216,6 +205,28 @@ Winner: locations, Loser: locations
 0  0  P  P  P  0  0
 0  0  C  C  C  0  0
 0  P  P  P  P  0  0
+
+
+Winner: locations, Loser: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  C  C  C  0  0
+0  0  P  P  P  0  0
+0  0  C  C  C  0  0
+0  0  P  P  P  0  0
+0  0  C  C  C  0  0
+0  0  P  P  P  P  0
+
+
+Winner: locations, Loser: locations
+ Depth: 2
+0  1  2  3  4  5  6
+0  C  0  C  0  C  0
+0  P  C  P  0  P  0
+0  C  P  C  0  C  0
+0  P  C  P  0  P  0
+0  C  P  C  P  C  0
+P  P  C  P  P  P  C
 
 
 Loser: locations, Winner: locations
@@ -233,11 +244,121 @@ Winner: locations, Loser: locations
  Depth: 2
 0  1  2  3  4  5  6
 0  C  0  C  0  C  0
+0  P  0  P  C  P  0
+0  C  0  C  P  C  0
+0  P  0  P  C  P  0
+0  C  P  C  P  C  0
+C  P  P  P  C  P  P
+
+
+Winner: locations, Loser: locations
+ Depth: 2
+0  1  2  3  4  5  6
+0  C  0  C  0  C  0
 0  P  C  P  0  P  0
 0  C  P  C  0  C  0
 0  P  C  P  0  P  0
 0  C  P  C  P  C  0
 P  P  C  P  P  P  C
+
+
+Winner: locations, Loser: locations
+ Depth: 2
+0  1  2  3  4  5  6
+0  C  0  C  0  C  0
+0  P  C  P  0  P  0
+0  C  P  C  0  C  0
+0  P  C  P  0  P  0
+0  C  P  C  P  C  0
+P  P  C  P  P  P  C
+
+
+Winner: locations, Loser: locations
+ Depth: 2
+0  1  2  3  4  5  6
+0  C  0  C  0  C  0
+0  P  0  P  C  P  0
+0  C  0  C  P  C  0
+0  P  0  P  C  P  0
+0  C  P  C  P  C  0
+C  P  P  P  C  P  P
+
+
+Winner: locations, Loser: locations
+ Depth: 2
+0  1  2  3  4  5  6
+0  C  0  C  0  C  0
+0  P  0  P  C  P  0
+0  C  0  C  P  C  0
+0  P  0  P  C  P  0
+0  C  P  C  P  C  0
+C  P  P  P  C  P  P
+
+
+Loser: locations, Winner: locations
+ Depth: 2
+0  1  2  3  4  5  6
+0  C  0  C  0  C  0
+0  P  0  P  0  P  0
+0  C  0  C  P  C  0
+0  P  P  P  C  P  0
+C  C  C  C  P  C  0
+C  P  P  P  C  P  P
+
+
+Loser: locations, Winner: locations
+ Depth: 2
+0  1  2  3  4  5  6
+0  C  0  C  0  C  0
+0  P  0  P  0  P  0
+0  C  P  C  0  C  0
+0  P  C  P  P  P  0
+0  C  P  C  C  C  C
+P  P  C  P  P  P  C
+
+
+Loser: locations, Winner: locations
+ Depth: 2
+0  1  2  3  4  5  6
+0  C  0  C  0  C  0
+0  P  0  P  0  P  0
+0  C  0  C  P  C  0
+0  P  P  P  C  P  0
+C  C  C  C  P  C  0
+C  P  P  P  C  P  P
+
+
+Loser: locations, Winner: locations
+ Depth: 2
+0  1  2  3  4  5  6
+0  C  0  C  0  C  0
+0  P  0  P  0  P  0
+0  C  0  C  P  C  0
+0  P  P  P  C  P  0
+C  C  C  C  P  C  0
+C  P  P  P  C  P  P
+
+
+Loser: locations, Winner: locations
+ Depth: 2
+0  1  2  3  4  5  6
+0  C  0  C  0  C  0
+0  P  0  P  0  P  0
+0  C  0  C  P  C  0
+0  P  P  P  C  P  0
+C  C  C  C  P  C  0
+C  P  P  P  C  P  P
+
+
+Winner: locations, Loser: locations
+ Depth: 2
+0  1  2  3  4  5  6
+0  C  0  C  0  C  0
+0  P  0  P  C  P  0
+0  C  0  C  P  C  0
+0  P  0  P  C  P  0
+0  C  P  C  P  C  0
+C  P  P  P  C  P  P
 
 
 Loser: locations, Winner: locations
@@ -284,147 +405,15 @@ Loser: locations, Winner: locations
 P  P  C  P  P  P  C
 
 
-Loser: locations, Winner: locations
- Depth: 2
-0  1  2  3  4  5  6
-0  C  0  C  0  C  0
-0  P  0  P  0  P  0
-0  C  P  C  0  C  0
-0  P  C  P  P  P  0
-0  C  P  C  C  C  C
-P  P  C  P  P  P  C
-
-
 Winner: locations, Loser: locations
  Depth: 2
 0  1  2  3  4  5  6
 0  C  0  C  0  C  0
-0  P  C  P  0  P  0
-0  C  P  C  0  C  0
-0  P  C  P  0  P  0
+0  P  0  P  C  P  0
+0  C  0  C  P  C  0
+0  P  0  P  C  P  0
 0  C  P  C  P  C  0
-P  P  C  P  P  P  C
-
-
-Loser: locations, Winner: locations
- Depth: 2
-0  1  2  3  4  5  6
-0  C  0  C  0  C  0
-0  P  0  P  0  P  0
-0  C  P  C  0  C  0
-0  P  C  P  P  P  0
-0  C  P  C  C  C  C
-P  P  C  P  P  P  C
-
-
-Loser: locations, Winner: locations
- Depth: 2
-0  1  2  3  4  5  6
-0  C  0  C  0  C  0
-0  P  0  P  0  P  0
-0  C  P  C  0  C  0
-0  P  C  P  P  P  0
-0  C  P  C  C  C  C
-P  P  C  P  P  P  C
-
-
-Loser: locations, Winner: locations
- Depth: 2
-0  1  2  3  4  5  6
-0  C  0  C  0  C  0
-0  P  0  P  0  P  0
-0  C  P  C  0  C  0
-0  P  C  P  P  P  0
-0  C  P  C  C  C  C
-P  P  C  P  P  P  C
-
-
-Winner: locations, Loser: locations
- Depth: 2
-0  1  2  3  4  5  6
-0  C  0  C  0  C  0
-0  P  C  P  0  P  0
-0  C  P  C  0  C  0
-0  P  C  P  0  P  0
-0  C  P  C  P  C  0
-P  P  C  P  P  P  C
-
-
-Loser: locations, Winner: locations
- Depth: 2
-0  1  2  3  4  5  6
-0  C  0  C  0  C  0
-0  P  0  P  0  P  0
-0  C  P  C  0  C  0
-0  P  C  P  P  P  0
-0  C  P  C  C  C  C
-P  P  C  P  P  P  C
-
-
-Loser: locations, Winner: locations
- Depth: 2
-0  1  2  3  4  5  6
-0  C  0  C  0  C  0
-0  P  0  P  0  P  0
-0  C  P  C  0  C  0
-0  P  C  P  P  P  0
-0  C  P  C  C  C  C
-P  P  C  P  P  P  C
-
-
-Winner: locations, Loser: locations
- Depth: 2
-0  1  2  3  4  5  6
-0  C  0  C  0  C  0
-0  P  C  P  0  P  0
-0  C  P  C  0  C  0
-0  P  C  P  0  P  0
-0  C  P  C  P  C  0
-P  P  C  P  P  P  C
-
-
-Loser: locations, Winner: locations
- Depth: 2
-0  1  2  3  4  5  6
-0  C  0  C  0  C  0
-0  P  0  P  0  P  0
-0  C  P  C  0  C  0
-0  P  C  P  P  P  0
-0  C  P  C  C  C  C
-P  P  C  P  P  P  C
-
-
-Winner: locations, Loser: locations
- Depth: 2
-0  1  2  3  4  5  6
-0  C  0  C  0  C  0
-0  P  C  P  0  P  0
-0  C  P  C  0  C  0
-0  P  C  P  0  P  0
-0  C  P  C  P  C  0
-P  P  C  P  P  P  C
-
-
-Winner: locations, Loser: locations
- Depth: 2
-0  1  2  3  4  5  6
-0  C  0  C  0  C  0
-0  P  C  P  0  P  0
-0  C  P  C  0  C  0
-0  P  C  P  0  P  0
-0  C  P  C  P  C  0
-P  P  C  P  P  P  C
-
-
-Winner: locations, Loser: locations
- Depth: 2
-0  1  2  3  4  5  6
-0  C  0  C  0  C  0
-0  P  C  P  0  P  0
-0  C  P  C  0  C  0
-0  P  C  P  0  P  0
-0  C  P  C  P  C  0
-P  P  C  P  P  P  C
+C  P  P  P  C  P  P
 
 
 Winner: locations, Loser: locations
@@ -438,80 +427,14 @@ Winner: locations, Loser: locations
 C  P  P  P  C  P  P
 
 
-Tie: locations, locations
- Depth: 3
+Winner: locations, Loser: locations
+ Depth: 2
 0  1  2  3  4  5  6
-P  P  C  C  P  C  C
-C  C  P  P  C  C  C
-P  P  C  C  P  P  P
-C  C  P  P  C  C  C
-P  P  C  C  P  C  P
-C  P  P  P  C  P  P
-
-
-Tie: locations, locations
- Depth: 3
-0  1  2  3  4  5  6
-P  C  C  C  P  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  C  C
-C  P  P  P  C  P  P
-
-
-Tie: locations, locations
- Depth: 3
-0  1  2  3  4  5  6
-P  C  P  C  C  P  C
-C  C  P  P  C  C  C
-P  P  C  C  P  P  P
-C  C  P  P  C  C  C
-P  P  C  C  P  C  P
-C  P  P  P  C  P  P
-
-
-Tie: locations, locations
- Depth: 3
-0  1  2  3  4  5  6
-P  C  C  C  P  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  C  C
-C  P  P  P  C  P  P
-
-
-Loser: locations, Winner: locations
- Depth: 3
-0  1  2  3  4  5  6
-C  C  C  C  P  C  C
-P  C  C  P  P  C  P
-P  P  P  C  C  P  P
-C  C  C  P  P  C  C
-P  C  P  C  C  P  P
-P  P  C  P  P  P  C
-
-
-Loser: locations, Winner: locations
- Depth: 3
-0  1  2  3  4  5  6
-0  0  P  C  C  C  C
-0  C  P  P  C  C  P
-0  P  C  C  P  P  P
-0  C  P  P  C  C  C
-0  P  C  C  P  C  P
-C  P  P  P  C  P  P
-
-
-Tie: locations, locations
- Depth: 3
-0  1  2  3  4  5  6
-P  C  P  C  C  P  C
-C  C  C  P  P  C  C
-P  P  P  C  C  P  P
-C  C  C  P  P  C  C
-P  C  P  C  C  P  P
+0  C  0  C  0  C  0
+0  P  C  P  0  P  0
+0  C  P  C  0  C  0
+0  P  C  P  0  P  0
+0  C  P  C  P  C  0
 P  P  C  P  P  P  C
 
 
@@ -519,10 +442,120 @@ Loser: locations, Winner: locations
  Depth: 3
 0  1  2  3  4  5  6
 C  P  P  C  C  C  C
-P  C  P  P  C  C  P
-C  P  C  C  P  P  P
-P  C  P  P  C  C  C
+C  C  C  P  P  C  P
+P  P  P  C  C  P  P
+C  C  C  P  P  C  C
+P  C  P  C  C  P  P
+P  P  C  P  P  P  C
+
+
+Tie: locations, locations
+ Depth: 3
+0  1  2  3  4  5  6
 C  P  C  C  P  C  P
+C  C  C  P  P  C  C
+P  P  P  C  C  P  P
+C  C  C  P  P  C  C
+P  C  P  C  C  P  P
+P  P  C  P  P  P  C
+
+
+Tie: locations, locations
+ Depth: 3
+0  1  2  3  4  5  6
+P  C  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  C  C
+C  P  P  P  C  P  P
+
+
+Tie: locations, locations
+ Depth: 3
+0  1  2  3  4  5  6
+C  P  P  C  C  C  P
+P  C  C  P  P  C  C
+C  P  P  C  C  P  P
+P  C  C  P  P  C  C
+C  C  P  C  C  P  P
+P  P  C  P  P  P  C
+
+
+Tie: locations, locations
+ Depth: 3
+0  1  2  3  4  5  6
+P  C  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  C  C
+C  P  P  P  C  P  P
+
+
+Tie: locations, locations
+ Depth: 3
+0  1  2  3  4  5  6
+P  C  C  C  P  P  C
+C  C  C  P  P  C  P
+P  P  P  C  C  P  C
+C  C  C  P  P  C  P
+P  C  P  C  C  P  C
+P  P  C  P  P  P  C
+
+
+Tie: locations, locations
+ Depth: 3
+0  1  2  3  4  5  6
+P  C  P  C  C  P  C
+C  C  P  P  C  C  C
+P  P  C  C  P  P  P
+C  C  P  P  C  C  C
+P  P  C  C  P  C  P
+C  P  P  P  C  P  P
+
+
+Loser: locations, Winner: locations
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  P  C  C  C  C
+0  C  P  P  C  C  P
+0  P  C  C  P  P  P
+0  C  P  P  C  C  C
+0  P  C  C  P  C  P
+C  P  P  P  C  P  P
+
+
+Tie: locations, locations
+ Depth: 3
+0  1  2  3  4  5  6
+C  C  P  C  C  P  P
+C  C  C  P  P  C  C
+P  P  P  C  C  P  P
+C  C  C  P  P  C  C
+P  C  P  C  C  P  P
+P  P  C  P  P  P  C
+
+
+Tie: locations, locations
+ Depth: 3
+0  1  2  3  4  5  6
+P  P  C  C  P  C  C
+C  C  P  P  C  C  C
+P  P  C  C  P  P  P
+C  C  P  P  C  C  C
+P  P  C  C  P  C  P
+C  P  P  P  C  P  P
+
+
+Tie: locations, locations
+ Depth: 3
+0  1  2  3  4  5  6
+C  C  P  C  C  P  P
+C  C  P  P  C  C  C
+P  P  C  C  P  P  P
+C  C  P  P  C  C  C
+P  P  C  C  P  C  P
 C  P  P  P  C  P  P
 
 
@@ -551,83 +584,6 @@ C  P  P  P  C  P  P
 Loser: locations, Winner: locations
  Depth: 3
 0  1  2  3  4  5  6
-C  C  C  C  P  C  C
-P  C  C  P  P  C  P
-P  P  P  C  C  P  P
-C  C  C  P  P  C  C
-P  C  P  C  C  P  P
-P  P  C  P  P  P  C
-
-
-Tie: locations, locations
- Depth: 3
-0  1  2  3  4  5  6
-P  C  P  C  C  P  C
-C  C  P  P  C  C  C
-P  P  C  C  P  P  P
-C  C  P  P  C  C  C
-P  P  C  C  P  C  P
-C  P  P  P  C  P  P
-
-
-Loser: locations, Winner: locations
- Depth: 3
-0  1  2  3  4  5  6
-C  C  C  C  P  C  C
-P  C  P  P  C  C  P
-P  P  C  C  P  P  P
-C  C  P  P  C  C  C
-P  P  C  C  P  C  P
-C  P  P  P  C  P  P
-
-
-Tie: locations, locations
- Depth: 3
-0  1  2  3  4  5  6
-P  P  C  C  P  C  C
-C  C  P  P  C  C  C
-P  P  C  C  P  P  P
-C  C  P  P  C  C  C
-P  P  C  C  P  C  P
-C  P  P  P  C  P  P
-
-
-Tie: locations, locations
- Depth: 3
-0  1  2  3  4  5  6
-P  P  C  C  P  C  C
-C  C  P  P  C  C  C
-P  P  C  C  P  P  P
-C  C  P  P  C  C  C
-P  P  C  C  P  C  P
-C  P  P  P  C  P  P
-
-
-Tie: locations, locations
- Depth: 3
-0  1  2  3  4  5  6
-P  P  C  C  P  C  C
-C  C  P  P  C  C  C
-P  P  C  C  P  P  P
-C  C  P  P  C  C  C
-P  P  C  C  P  C  P
-C  P  P  P  C  P  P
-
-
-Tie: locations, locations
- Depth: 3
-0  1  2  3  4  5  6
-P  C  P  C  C  P  C
-C  C  P  P  C  C  C
-P  P  C  C  P  P  P
-C  C  P  P  C  C  C
-P  P  C  C  P  C  P
-C  P  P  P  C  P  P
-
-
-Loser: locations, Winner: locations
- Depth: 3
-0  1  2  3  4  5  6
 0  0  P  C  C  C  C
 0  C  P  P  C  C  P
 0  P  C  C  P  P  P
@@ -639,19 +595,19 @@ C  P  P  P  C  P  P
 Tie: locations, locations
  Depth: 3
 0  1  2  3  4  5  6
-P  C  P  C  C  P  C
-C  C  C  P  P  C  C
-P  P  P  C  C  P  P
-C  C  C  P  P  C  C
-P  C  P  C  C  P  P
-P  P  C  P  P  P  C
+P  C  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  C  C
+C  P  P  P  C  P  P
 
 
-Loser: locations, Winner: locations
+Tie: locations, locations
  Depth: 3
 0  1  2  3  4  5  6
-C  C  C  C  P  C  C
-P  C  P  P  C  C  P
+P  C  P  C  C  P  C
+C  C  P  P  C  C  C
 P  P  C  C  P  P  P
 C  C  P  P  C  C  C
 P  P  C  C  P  C  P
@@ -659,14 +615,69 @@ C  P  P  P  C  P  P
 
 
 Tie: locations, locations
+ Depth: 3
+0  1  2  3  4  5  6
+P  C  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  C  C
+C  P  P  P  C  P  P
+
+
+Tie: locations, locations
+ Depth: 3
+0  1  2  3  4  5  6
+C  C  P  C  C  P  P
+C  C  P  P  C  C  C
+P  P  C  C  P  P  P
+C  C  P  P  C  C  C
+P  P  C  C  P  C  P
+C  P  P  P  C  P  P
+
+
+Tie: locations, locations
+ Depth: 3
+0  1  2  3  4  5  6
+P  P  C  C  P  C  C
+C  C  P  P  C  C  C
+P  P  C  C  P  P  P
+C  C  P  P  C  C  C
+P  P  C  C  P  C  P
+C  P  P  P  C  P  P
+
+
+Tie: locations, locations
+ Depth: 3
+0  1  2  3  4  5  6
+P  C  P  C  C  P  C
+C  C  P  P  C  C  C
+P  P  C  C  P  P  P
+C  C  P  P  C  C  C
+P  P  C  C  P  C  P
+C  P  P  P  C  P  P
+
+
+Loser: locations, Winner: locations
  Depth: 4
 0  1  2  3  4  5  6
-C  P  P  C  C  P  C
-C  C  C  P  P  C  P
-P  P  P  C  C  P  C
-C  C  C  P  P  C  P
-P  P  P  C  C  P  C
-C  P  P  P  C  C  P
+0  0  C  C  P  C  0
+P  0  C  P  P  C  C
+P  0  P  C  C  P  P
+C  0  C  P  P  C  C
+P  C  P  C  C  P  P
+C  P  C  P  P  P  C
+
+
+Tie: locations, locations
+ Depth: 4
+0  1  2  3  4  5  6
+C  P  P  C  C  P  P
+C  C  C  P  P  C  C
+P  P  P  C  C  P  P
+C  C  C  P  P  C  C
+P  P  P  C  C  P  P
+C  P  P  P  C  C  C
 
 
 Tie: locations, locations
@@ -680,17 +691,6 @@ P  P  P  C  C  P  C
 C  P  P  P  C  C  P
 
 
-Tie: locations, locations
- Depth: 4
-0  1  2  3  4  5  6
-P  P  C  C  P  C  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  P
-C  C  P  P  C  C  C
-P  P  C  C  P  P  P
-C  C  C  P  P  P  C
-
-
 Loser: locations, Winner: locations
  Depth: 4
 0  1  2  3  4  5  6
@@ -702,26 +702,15 @@ P  C  P  C  C  P  P
 C  P  C  P  P  P  C
 
 
-Tie: locations, locations
- Depth: 4
-0  1  2  3  4  5  6
-P  P  P  C  C  P  C
-C  C  P  P  C  C  C
-P  P  C  C  P  P  P
-C  C  P  P  C  C  C
-P  P  C  C  P  P  P
-C  C  C  P  P  P  C
-
-
 Loser: locations, Winner: locations
  Depth: 4
 0  1  2  3  4  5  6
-0  0  P  C  C  P  0
-C  0  C  P  P  C  C
-P  0  P  C  C  P  P
-C  0  C  P  P  C  C
-P  C  P  C  C  P  P
-C  P  C  P  P  P  C
+0  C  C  C  P  P  C
+0  P  P  P  C  C  C
+0  C  C  C  P  P  P
+0  P  P  P  C  C  C
+C  C  C  C  P  P  P
+P  P  C  P  P  P  C
 
 
 Loser: locations, Winner: locations
@@ -735,15 +724,15 @@ Loser: locations, Winner: locations
 0  0  C  P  P  P  C
 
 
-Tie: locations, locations
+Loser: locations, Winner: locations
  Depth: 4
 0  1  2  3  4  5  6
-C  P  P  C  C  P  C
-C  C  C  P  P  C  P
-P  P  P  C  C  P  C
-C  C  C  P  P  C  P
-P  P  P  C  C  P  C
-C  P  P  P  C  C  P
+0  C  P  C  C  0  0
+C  C  P  P  C  0  P
+P  P  C  C  P  0  P
+C  C  P  P  C  0  C
+P  P  C  C  P  C  P
+C  P  P  P  C  P  C
 
 
 Loser: locations, Winner: locations
@@ -755,39 +744,6 @@ Loser: locations, Winner: locations
 0  0  C  P  P  0  0
 0  C  P  C  C  0  0
 0  P  C  P  P  0  0
-
-
-Loser: locations, Winner: locations
- Depth: 4
-0  1  2  3  4  5  6
-0  P  C  C  P  0  0
-C  C  P  P  C  0  C
-P  P  C  C  P  0  P
-C  C  P  P  C  0  C
-P  P  C  C  P  C  P
-C  P  P  P  C  P  C
-
-
-Loser: locations, Winner: locations
- Depth: 4
-0  1  2  3  4  5  6
-0  0  C  C  P  C  0
-0  0  P  P  C  C  0
-0  0  P  C  C  P  0
-0  0  C  P  P  C  0
-0  C  P  C  C  P  P
-0  P  C  P  P  P  C
-
-
-Loser: locations, Winner: locations
- Depth: 4
-0  1  2  3  4  5  6
-0  0  P  C  C  0  0
-0  C  C  P  P  0  0
-0  P  C  C  P  0  0
-0  C  P  P  C  0  0
-0  P  C  C  P  C  0
-C  P  P  P  C  P  0
 
 
 Tie: locations, locations
@@ -804,34 +760,67 @@ C  P  P  P  C  C  P
 Loser: locations, Winner: locations
  Depth: 4
 0  1  2  3  4  5  6
-0  0  C  C  P  P  0
-C  0  P  P  C  C  P
-P  0  P  C  C  P  C
-C  0  C  P  P  C  P
-P  C  P  C  C  P  C
+0  0  P  C  C  P  0
+P  0  C  P  P  C  C
+C  0  P  C  C  P  P
+P  0  C  P  P  C  C
+C  C  P  C  C  P  P
 C  P  C  P  P  P  C
 
 
 Tie: locations, locations
  Depth: 4
 0  1  2  3  4  5  6
-P  P  P  C  C  P  C
-C  C  P  P  C  C  C
-P  P  C  C  P  P  P
-C  C  P  P  C  C  C
-P  P  C  C  P  P  P
-C  C  C  P  P  P  C
-
-
-Tie: locations, locations
- Depth: 4
-0  1  2  3  4  5  6
-C  P  P  C  C  P  C
+C  P  C  C  P  P  C
 C  C  C  P  P  C  P
 P  P  P  C  C  P  C
 C  C  C  P  P  C  P
 P  P  P  C  C  P  C
 C  P  P  P  C  C  P
+
+
+Loser: locations, Winner: locations
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  P  C  C  0  0
+0  0  C  P  P  0  0
+0  0  C  C  P  0  0
+0  0  P  P  C  0  0
+0  0  C  C  P  C  0
+0  0  P  P  C  P  0
+
+
+Loser: locations, Winner: locations
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  P  C  C  C  C
+0  0  P  P  C  C  P
+0  0  C  C  P  P  P
+0  0  P  P  C  C  C
+0  0  C  C  P  P  P
+0  0  C  P  P  P  C
+
+
+Loser: locations, Winner: locations
+ Depth: 4
+0  1  2  3  4  5  6
+C  P  P  C  C  C  0
+C  C  C  P  P  P  0
+P  P  P  C  C  C  0
+C  C  C  P  P  P  0
+P  P  P  C  C  C  C
+C  P  P  P  C  P  P
+
+
+Loser: locations, Winner: locations
+ Depth: 4
+0  1  2  3  4  5  6
+C  0  P  C  C  P  C
+P  0  P  P  C  C  P
+C  0  P  C  C  P  C
+P  0  C  P  P  C  P
+C  C  P  C  C  P  C
+P  P  C  P  P  P  C
 
 
 Tie: locations, locations
@@ -848,45 +837,67 @@ C  P  P  P  C  C  P
 Loser: locations, Winner: locations
  Depth: 4
 0  1  2  3  4  5  6
-0  P  C  C  P  0  0
-C  C  P  P  C  0  C
+0  0  P  C  C  0  0
+0  0  C  P  P  0  0
+0  0  C  C  P  0  0
+0  0  P  P  C  0  0
+0  0  C  C  P  C  0
+0  0  P  P  C  P  0
+
+
+Tie: locations, locations
+ Depth: 4
+0  1  2  3  4  5  6
+C  P  C  C  P  P  C
+C  C  C  P  P  C  P
+P  P  P  C  C  P  C
+C  C  C  P  P  C  P
+P  P  P  C  C  P  C
+C  P  P  P  C  C  P
+
+
+Loser: locations, Winner: locations
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  P  C  C  P  0
+P  0  C  P  P  C  C
+C  0  P  C  C  P  P
+P  0  C  P  P  C  C
+C  C  P  C  C  P  P
+C  P  C  P  P  P  C
+
+
+Loser: locations, Winner: locations
+ Depth: 4
+0  1  2  3  4  5  6
+0  C  P  C  C  0  0
+P  C  P  P  C  0  C
 P  P  C  C  P  0  P
 C  C  P  P  C  0  C
 P  P  C  C  P  C  P
 C  P  P  P  C  P  C
 
 
-Loser: locations, Winner: locations
- Depth: 4
-0  1  2  3  4  5  6
-0  P  C  C  P  0  0
-P  C  C  P  P  0  C
-C  P  C  C  P  0  P
-P  C  P  P  C  0  C
-C  P  C  C  P  C  P
-C  P  P  P  C  P  C
-
-
-Loser: locations, Winner: locations
- Depth: 4
-0  1  2  3  4  5  6
-0  P  P  C  C  C  C
-0  C  P  P  C  C  P
-0  P  C  C  P  P  P
-0  C  P  P  C  C  C
-0  P  C  C  P  P  P
-0  C  C  P  P  P  C
-
-
-Tie: locations, locations
+Winner: locations, Loser: locations
  Depth: 5
 0  1  2  3  4  5  6
-P  C  C  C  P  P  C
-C  P  P  P  C  C  P
-P  C  C  C  P  P  C
-C  P  P  P  C  C  P
-P  C  C  C  P  P  C
-C  P  P  P  C  C  P
+0  P  0  C  P  0  0
+C  C  0  P  C  0  C
+P  P  0  C  P  0  P
+C  C  0  P  C  P  C
+P  P  0  C  P  C  P
+C  P  0  P  C  C  P
+
+
+Loser: locations, Winner: locations
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  C  0  0  0
+0  0  P  P  0  0  0
+0  0  P  C  P  C  0
+0  0  C  P  C  P  0
+0  0  P  C  C  C  0
+0  0  C  P  P  C  P
 
 
 Loser: locations, Winner: locations
@@ -900,15 +911,26 @@ Loser: locations, Winner: locations
 0  C  P  P  C  C  P
 
 
+Winner: locations, Loser: locations
+ Depth: 5
+0  1  2  3  4  5  6
+0  C  0  C  P  0  0
+P  C  0  P  C  0  C
+P  P  0  C  P  0  P
+C  C  0  P  C  P  C
+P  P  0  C  P  C  P
+C  P  0  P  C  C  P
+
+
 Loser: locations, Winner: locations
  Depth: 5
 0  1  2  3  4  5  6
-0  0  0  C  0  0  0
-0  0  P  P  0  0  0
-0  0  P  C  P  C  0
-0  0  C  P  C  P  0
-0  0  P  C  C  C  0
-0  0  C  P  P  C  P
+C  C  C  C  P  P  P
+C  P  P  P  C  C  P
+P  C  C  C  P  P  C
+C  P  P  P  C  C  P
+P  C  C  C  P  P  C
+C  P  P  P  C  C  P
 
 
 Winner: locations, Loser: locations
@@ -922,70 +944,37 @@ Winner: locations, Loser: locations
 0  0  P  P  C  P  P
 
 
-Tie: locations, locations
+Loser: locations, Winner: locations
  Depth: 5
 0  1  2  3  4  5  6
-C  P  P  C  C  P  C
+C  C  C  C  P  P  P
+C  P  P  P  C  C  P
+P  C  C  C  P  P  C
+C  P  P  P  C  C  P
+P  C  C  C  P  P  C
+C  P  P  P  C  C  P
+
+
+Winner: locations, Loser: locations
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  0  0  P  C  0  C
+0  0  P  C  P  C  C
+0  0  C  P  C  P  P
+0  0  P  C  P  C  C
+0  0  P  P  C  P  P
+
+
+Loser: locations, Winner: locations
+ Depth: 5
+0  1  2  3  4  5  6
+0  C  P  C  P  P  0
+0  C  C  P  C  P  0
+P  P  P  C  C  C  0
+C  C  C  P  P  P  0
+P  P  P  C  C  C  C
 P  C  C  P  P  C  P
-C  P  P  C  P  P  C
-P  C  C  P  C  C  P
-C  P  P  C  C  P  C
-P  C  C  P  P  C  P
-
-
-Tie: locations, locations
- Depth: 5
-0  1  2  3  4  5  6
-P  C  C  C  P  P  C
-C  P  P  P  C  C  P
-P  C  C  C  P  P  C
-C  P  P  P  C  C  P
-P  C  C  C  P  P  C
-C  P  P  P  C  C  P
-
-
-Loser: locations, Winner: locations
- Depth: 5
-0  1  2  3  4  5  6
-0  0  P  C  0  0  0
-0  P  C  P  0  0  0
-C  C  P  C  0  0  0
-P  P  C  P  0  0  0
-C  C  P  C  0  0  0
-P  P  C  P  C  0  0
-
-
-Loser: locations, Winner: locations
- Depth: 5
-0  1  2  3  4  5  6
-0  0  P  C  0  0  0
-0  P  C  P  0  0  0
-C  C  P  C  0  0  0
-P  P  C  P  0  0  0
-C  C  P  C  0  0  0
-P  P  C  P  C  0  0
-
-
-Loser: locations, Winner: locations
- Depth: 5
-0  1  2  3  4  5  6
-0  0  0  C  0  0  0
-0  0  P  P  0  0  0
-0  0  P  C  0  C  0
-0  0  C  P  0  C  0
-0  0  P  C  P  C  0
-0  0  C  P  P  C  P
-
-
-Loser: locations, Winner: locations
- Depth: 5
-0  1  2  3  4  5  6
-0  0  0  C  0  0  0
-0  0  P  P  0  0  0
-0  0  P  C  P  C  0
-0  0  C  P  C  P  0
-0  0  P  C  C  C  0
-0  0  C  P  P  C  P
 
 
 Loser: locations, Winner: locations
@@ -1014,44 +1003,77 @@ Winner: locations, Loser: locations
  Depth: 5
 0  1  2  3  4  5  6
 0  P  0  C  P  0  0
-C  C  0  P  C  0  C
-P  P  0  C  P  0  P
-C  C  0  P  C  P  C
-P  P  0  C  P  C  P
+P  C  0  P  C  0  C
+C  P  0  C  P  0  P
+P  C  0  P  C  P  C
+C  P  0  C  P  C  P
 C  P  0  P  C  C  P
+
+
+Loser: locations, Winner: locations
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  P  C  C  0  0
+0  0  C  P  P  P  0
+P  0  P  C  C  C  0
+C  0  C  P  P  P  0
+P  0  P  C  C  C  C
+P  C  C  P  P  C  P
 
 
 Winner: locations, Loser: locations
  Depth: 5
 0  1  2  3  4  5  6
-0  0  P  C  0  C  0
-C  0  C  P  0  C  P
-P  0  P  C  0  P  P
-C  P  C  P  0  C  C
-P  C  P  C  0  P  P
-P  C  C  P  0  P  C
+0  0  0  C  P  0  0
+0  0  0  P  C  0  C
+0  0  P  C  P  C  C
+0  0  C  P  C  P  P
+0  0  P  C  P  C  C
+0  0  P  P  C  P  P
+
+
+Winner: locations, Loser: locations
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  0  0  P  C  0  C
+0  0  P  C  P  C  C
+0  0  C  P  C  P  P
+0  0  P  C  P  C  C
+0  0  P  P  C  P  P
 
 
 Loser: locations, Winner: locations
  Depth: 5
 0  1  2  3  4  5  6
-0  0  C  C  P  0  0
-0  P  P  P  C  0  0
-0  C  C  C  P  0  P
-0  P  P  P  C  0  C
-C  C  C  C  P  0  P
-P  C  P  P  C  C  P
+0  0  0  C  P  0  0
+0  0  0  P  C  0  0
+0  0  0  C  P  0  P
+0  0  C  P  C  0  C
+0  C  P  C  P  0  P
+0  C  P  P  C  C  P
 
 
-Loser: locations, Winner: locations
+Winner: locations, Loser: locations
  Depth: 5
 0  1  2  3  4  5  6
-0  0  P  C  0  0  0
-0  P  C  P  0  0  0
-C  C  P  C  0  0  0
-P  P  C  P  0  0  0
-C  C  P  C  0  0  0
-P  P  C  P  C  0  0
+0  0  0  C  P  0  0
+0  0  0  P  C  0  C
+0  0  P  C  P  C  C
+0  0  C  P  C  P  P
+0  0  P  C  P  C  C
+0  0  P  P  C  P  P
+
+
+Tie: locations, locations
+ Depth: 5
+0  1  2  3  4  5  6
+P  C  C  C  P  P  C
+C  P  P  P  C  C  P
+P  C  C  C  P  P  C
+C  P  P  P  C  C  P
+P  C  C  C  P  P  C
+C  P  P  P  C  C  P
 
 
 Loser: locations, Winner: locations
@@ -1069,66 +1091,55 @@ Loser: locations, Winner: locations
  Depth: 5
 0  1  2  3  4  5  6
 0  0  0  C  0  0  0
-0  0  P  P  0  0  0
-0  0  P  C  P  C  0
-0  0  C  P  C  P  0
-0  0  P  C  C  C  0
-0  0  C  P  P  C  P
+0  0  0  P  P  0  0
+0  C  0  C  P  0  0
+0  C  0  P  C  0  0
+0  C  P  C  P  0  0
+P  C  P  P  C  0  0
 
 
 Loser: locations, Winner: locations
- Depth: 5
+ Depth: 6
 0  1  2  3  4  5  6
-0  0  0  C  0  0  0
-0  0  P  P  0  0  0
-0  0  P  C  P  C  0
-0  0  C  P  C  P  0
-0  0  P  C  C  C  0
-0  0  C  P  P  C  P
-
-
-Loser: locations, Winner: locations
- Depth: 5
-0  1  2  3  4  5  6
-0  0  0  C  0  0  0
-0  0  P  P  0  0  0
-0  0  P  C  P  C  0
-0  0  C  P  C  P  0
-0  0  P  C  C  C  0
-0  0  C  P  P  C  P
+C  C  C  C  P  P  0
+P  C  C  P  P  P  0
+C  P  P  C  C  C  P
+P  C  C  P  P  P  C
+C  P  P  C  C  C  P
+C  P  P  P  C  P  C
 
 
 Winner: locations, Loser: locations
  Depth: 6
 0  1  2  3  4  5  6
-0  C  C  C  P  C  0
+0  C  C  C  P  P  0
 P  P  P  P  C  C  0
-C  C  P  C  P  P  P
-P  P  C  P  C  C  C
-C  P  P  C  C  P  P
-P  C  C  P  P  P  C
+C  C  P  C  P  P  0
+P  P  C  P  C  C  0
+C  P  P  C  C  P  0
+P  C  C  P  P  C  0
 
 
 Loser: locations, Winner: locations
  Depth: 6
 0  1  2  3  4  5  6
-0  P  C  C  P  P  C
-0  P  P  P  C  C  C
+0  C  C  C  P  P  C
+0  P  P  P  C  C  P
 0  C  C  C  P  P  C
 0  P  P  P  C  C  P
 C  C  C  C  P  P  C
 P  P  C  P  P  P  C
 
 
-Winner: locations, Loser: locations
+Loser: locations, Winner: locations
  Depth: 6
 0  1  2  3  4  5  6
-C  P  C  C  P  P  0
-C  C  C  P  P  P  P
-P  P  P  C  P  P  C
-C  C  C  P  C  C  P
-P  P  C  C  P  P  C
-C  C  P  P  C  C  P
+0  C  C  C  P  P  C
+0  P  P  P  C  C  P
+0  C  C  C  P  P  C
+0  P  P  P  C  C  P
+C  C  C  C  P  P  C
+P  P  C  P  P  P  C
 
 
 Tie: locations, locations
@@ -1136,60 +1147,16 @@ Tie: locations, locations
 0  1  2  3  4  5  6
 C  P  C  C  P  C  C
 P  C  C  P  P  C  P
-P  P  P  C  C  P  C
-C  C  C  P  P  C  P
-P  P  P  C  C  P  C
-C  P  P  P  C  C  P
-
-
-Loser: locations, Winner: locations
- Depth: 6
-0  1  2  3  4  5  6
-0  P  C  C  P  C  C
-0  P  P  P  C  C  P
-0  C  C  C  P  P  C
-0  P  P  P  C  C  P
-C  C  C  C  P  P  C
-P  P  C  P  P  P  C
-
-
-Tie: locations, locations
- Depth: 6
-0  1  2  3  4  5  6
-C  P  P  C  C  P  C
-P  C  C  P  P  C  P
-C  P  P  C  C  P  C
-P  C  C  P  P  C  P
-C  P  P  C  C  P  C
-C  P  P  P  C  C  P
-
-
-Tie: locations, locations
- Depth: 6
-0  1  2  3  4  5  6
-C  P  C  C  P  P  C
-C  C  C  P  P  C  P
 P  P  P  C  P  P  C
 C  C  C  P  C  P  P
 P  P  C  C  P  P  C
 C  C  P  P  C  C  P
 
 
-Loser: locations, Winner: locations
- Depth: 6
-0  1  2  3  4  5  6
-C  P  P  C  C  C  0
-C  C  C  P  P  P  0
-P  P  P  C  C  C  0
-C  C  C  P  P  P  0
-P  P  P  C  C  C  C
-C  P  P  P  C  P  P
-
-
 Tie: locations, locations
  Depth: 6
 0  1  2  3  4  5  6
-C  P  P  C  C  P  C
+C  P  C  C  P  P  C
 P  C  P  P  C  C  P
 C  P  C  C  P  P  C
 P  C  P  P  C  C  P
@@ -1197,44 +1164,121 @@ C  P  C  C  P  P  C
 P  C  C  P  P  P  C
 
 
+Tie: locations, locations
+ Depth: 6
+0  1  2  3  4  5  6
+C  P  C  C  P  C  C
+P  C  C  P  P  C  P
+P  P  P  C  P  P  C
+C  C  C  P  C  P  P
+P  P  C  C  P  P  C
+C  C  P  P  C  C  P
+
+
+Tie: locations, locations
+ Depth: 6
+0  1  2  3  4  5  6
+P  P  P  C  C  P  C
+P  C  C  P  P  C  C
+C  P  P  C  C  P  P
+P  C  C  P  P  C  C
+C  P  P  C  C  P  P
+C  P  P  P  C  C  C
+
+
+Tie: locations, locations
+ Depth: 6
+0  1  2  3  4  5  6
+P  P  P  C  C  P  C
+P  C  C  P  P  C  C
+C  P  P  C  C  P  P
+P  C  C  P  P  C  C
+C  P  P  C  C  P  P
+C  P  P  P  C  C  C
+
+
 Loser: locations, Winner: locations
  Depth: 6
 0  1  2  3  4  5  6
-C  P  P  C  C  P  0
-C  C  C  P  P  P  0
-C  P  P  C  C  C  0
-P  C  C  P  P  P  0
-C  P  P  C  C  C  C
-C  P  P  P  C  P  P
+0  P  P  C  C  C  C
+0  P  P  P  C  C  P
+0  C  C  C  P  P  C
+0  P  P  P  C  C  P
+0  C  C  C  P  P  C
+0  P  C  P  P  P  C
 
 
 Winner: locations, Loser: locations
  Depth: 6
 0  1  2  3  4  5  6
-0  C  P  C  C  P  0
-0  P  P  P  C  C  C
-0  C  P  C  P  P  P
-0  P  C  P  C  C  C
-P  P  P  C  C  P  P
-C  C  C  P  P  P  C
-
-
-Tie: locations, locations
- Depth: 6
-0  1  2  3  4  5  6
-C  C  P  C  C  P  C
-P  C  P  P  C  C  P
-C  P  C  C  P  P  P
-P  C  P  P  C  C  C
-C  P  C  C  P  P  P
+0  C  P  C  C  P  C
+P  P  P  P  C  C  P
+C  C  P  C  P  P  C
+P  P  C  P  C  C  P
+C  P  P  C  C  P  C
 P  C  C  P  P  P  C
 
 
 Tie: locations, locations
  Depth: 6
 0  1  2  3  4  5  6
+C  P  P  C  C  P  C
+P  C  P  P  C  C  P
 C  P  C  C  P  P  C
+P  C  P  P  C  C  P
+C  P  C  C  P  P  C
+P  C  C  P  P  P  C
+
+
+Loser: locations, Winner: locations
+ Depth: 6
+0  1  2  3  4  5  6
+C  C  C  C  P  P  0
+P  C  C  P  P  P  0
+C  P  P  C  C  C  P
+P  C  C  P  P  P  C
+C  P  P  C  C  C  P
+C  P  P  P  C  P  C
+
+
+Loser: locations, Winner: locations
+ Depth: 6
+0  1  2  3  4  5  6
+0  P  P  C  C  C  C
+0  P  P  P  C  C  P
+0  C  C  C  P  P  C
+0  P  P  P  C  C  P
+0  C  C  C  P  P  C
+0  P  C  P  P  P  C
+
+
+Tie: locations, locations
+ Depth: 6
+0  1  2  3  4  5  6
+C  P  P  C  C  P  P
+P  C  C  P  P  C  C
+C  P  P  C  C  P  P
+P  C  C  P  P  C  C
+C  P  P  C  C  P  P
+C  P  P  P  C  C  C
+
+
+Tie: locations, locations
+ Depth: 6
+0  1  2  3  4  5  6
+C  P  P  C  C  P  C
 C  C  C  P  P  C  P
+P  P  P  C  C  P  C
+C  C  C  P  P  C  P
+P  P  P  C  C  P  C
+C  P  P  P  C  C  P
+
+
+Tie: locations, locations
+ Depth: 6
+0  1  2  3  4  5  6
+C  P  C  C  P  C  C
+P  C  C  P  P  C  P
 P  P  P  C  P  P  C
 C  C  C  P  C  P  P
 P  P  C  C  P  P  C
@@ -1244,89 +1288,34 @@ C  C  P  P  C  C  P
 Loser: locations, Winner: locations
  Depth: 6
 0  1  2  3  4  5  6
-C  C  P  C  C  P  0
+C  C  C  C  P  P  0
 P  C  C  P  P  P  0
-C  P  P  C  C  C  0
-P  C  C  P  P  P  0
-C  P  P  C  C  C  C
-C  P  P  P  C  P  P
+C  P  P  C  C  C  P
+P  C  C  P  P  P  C
+C  P  P  C  C  C  P
+C  P  P  P  C  P  C
 
 
-Loser: locations, Winner: locations
+Winner: locations, Loser: locations
  Depth: 6
 0  1  2  3  4  5  6
-0  P  C  C  P  P  C
-0  P  P  P  C  C  C
-0  C  C  C  P  P  C
-0  P  P  P  C  C  P
-C  C  C  C  P  P  C
-P  P  C  P  P  P  C
-
-
-Loser: locations, Winner: locations
- Depth: 6
-0  1  2  3  4  5  6
-0  P  C  C  P  C  C
-0  P  P  P  C  C  C
-0  C  C  C  P  P  P
-0  P  P  P  C  C  C
-C  C  C  C  P  P  P
-P  P  C  P  P  P  C
-
-
-Loser: locations, Winner: locations
- Depth: 6
-0  1  2  3  4  5  6
-C  C  P  C  C  P  0
-P  C  C  P  P  P  0
-C  P  P  C  C  C  0
-P  C  C  P  P  P  0
-C  P  P  C  C  C  C
-C  P  P  P  C  P  P
-
-
-Loser: locations, Winner: locations
- Depth: 6
-0  1  2  3  4  5  6
-C  C  C  C  P  C  0
-P  C  C  P  P  P  0
-P  P  P  C  C  C  0
-P  C  C  P  P  P  0
-C  P  P  C  C  C  0
-C  P  P  P  C  P  0
-
-
-Tie: locations, locations
- Depth: 6
-0  1  2  3  4  5  6
-C  P  C  C  P  P  C
-P  C  C  P  P  C  P
+P  P  C  C  P  P  0
+P  C  C  P  P  P  P
 C  P  P  C  P  P  C
-P  C  C  P  C  P  P
-C  P  C  C  P  P  C
-C  C  P  P  C  C  P
+P  C  C  P  C  C  C
+C  P  C  C  P  P  P
+C  C  P  P  C  C  C
 
 
-Loser: locations, Winner: locations
+Winner: locations, Loser: locations
  Depth: 6
 0  1  2  3  4  5  6
-0  C  P  C  C  C  C
-0  P  P  P  C  C  C
-P  C  C  C  P  P  P
-C  P  P  P  C  C  P
-P  C  C  C  P  P  C
-P  P  C  P  P  P  C
-
-
-Winner: locations, Loser: lengths
- Depth: 1
-0  1  2  3  4  5  6
-0  0  P  C  0  0  0
-0  0  C  C  0  0  0
-0  0  P  C  0  C  0
-0  0  C  P  0  P  0
-0  C  P  C  0  C  0
-P  P  P  P  0  P  0
+0  P  C  C  P  C  0
+P  P  P  P  C  C  0
+C  C  P  C  P  P  0
+P  P  C  P  C  C  0
+C  P  P  C  C  P  0
+P  C  C  P  P  C  0
 
 
 Winner: locations, Loser: lengths
@@ -1344,33 +1333,11 @@ Winner: locations, Loser: lengths
  Depth: 1
 0  1  2  3  4  5  6
 0  0  0  C  P  0  0
-0  0  0  C  C  0  0
-0  0  0  C  P  0  0
-0  0  0  P  C  0  0
-0  0  0  C  P  C  0
-0  0  0  P  P  P  P
-
-
-Winner: locations, Loser: lengths
- Depth: 1
-0  1  2  3  4  5  6
-0  0  P  C  0  0  0
-0  0  C  C  0  C  0
-0  0  P  C  0  C  0
-0  0  C  P  0  P  0
-0  0  P  C  0  C  0
-P  P  P  P  0  P  0
-
-
-Winner: locations, Loser: lengths
- Depth: 1
-0  1  2  3  4  5  6
-0  0  P  C  0  0  0
-0  0  C  C  0  C  0
-0  0  P  C  0  C  0
-0  0  C  P  0  P  0
-0  0  P  C  0  C  0
-P  P  P  P  0  P  0
+0  C  0  C  C  0  0
+0  C  0  C  P  0  0
+0  P  0  P  C  0  0
+0  C  0  C  P  0  0
+0  P  0  P  P  P  P
 
 
 Winner: locations, Loser: lengths
@@ -1387,12 +1354,45 @@ P  P  P  P  0  0  0
 Winner: locations, Loser: lengths
  Depth: 1
 0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  0  0  C  C  0  0
+0  0  0  C  P  0  0
+0  0  0  P  C  0  0
+0  0  0  C  P  C  0
+0  0  0  P  P  P  P
+
+
+Winner: locations, Loser: lengths
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  P  C  0  0  0
+0  0  C  C  0  0  0
+0  0  P  C  0  C  0
+0  0  C  P  0  P  0
+0  C  P  C  0  C  0
+P  P  P  P  0  P  0
+
+
+Winner: locations, Loser: lengths
+ Depth: 1
+0  1  2  3  4  5  6
 0  0  P  C  0  0  0
 0  0  C  C  0  C  0
 0  0  P  C  0  C  0
 0  0  C  P  0  P  0
 0  0  P  C  0  C  0
 P  P  P  P  0  P  0
+
+
+Winner: locations, Loser: lengths
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  0  0  C  C  0  0
+0  0  0  C  P  0  0
+0  0  0  P  C  0  0
+0  0  0  C  P  C  0
+0  0  0  P  P  P  P
 
 
 Winner: locations, Loser: lengths
@@ -1431,89 +1431,12 @@ Winner: locations, Loser: lengths
 Winner: locations, Loser: lengths
  Depth: 1
 0  1  2  3  4  5  6
-0  0  0  C  P  0  0
-0  0  0  C  C  0  0
-0  0  0  C  P  0  0
-0  0  0  P  C  0  0
-0  0  0  C  P  C  0
-0  0  0  P  P  P  P
-
-
-Winner: locations, Loser: lengths
- Depth: 1
-0  1  2  3  4  5  6
 0  0  P  C  0  0  0
-0  0  C  C  0  C  0
+0  0  C  C  0  0  0
 0  0  P  C  0  C  0
 0  0  C  P  0  P  0
-0  0  P  C  0  C  0
+0  C  P  C  0  C  0
 P  P  P  P  0  P  0
-
-
-Winner: locations, Loser: lengths
- Depth: 1
-0  1  2  3  4  5  6
-0  0  0  C  P  0  0
-0  0  0  C  C  0  0
-0  0  0  C  P  0  0
-0  0  0  P  C  0  0
-0  0  0  C  P  C  0
-0  0  0  P  P  P  P
-
-
-Winner: locations, Loser: lengths
- Depth: 1
-0  1  2  3  4  5  6
-0  0  0  C  P  0  0
-0  0  0  C  C  0  0
-0  0  0  C  P  0  0
-0  0  0  P  C  0  0
-0  0  0  C  P  C  0
-0  0  0  P  P  P  P
-
-
-Winner: locations, Loser: lengths
- Depth: 1
-0  1  2  3  4  5  6
-0  0  P  C  0  0  0
-0  0  C  C  0  C  0
-0  0  P  C  0  C  0
-0  0  C  P  0  P  0
-0  0  P  C  0  C  0
-P  P  P  P  0  P  0
-
-
-Winner: locations, Loser: lengths
- Depth: 1
-0  1  2  3  4  5  6
-0  0  0  C  P  0  0
-0  0  0  C  C  0  0
-0  0  0  C  P  0  0
-0  0  0  P  C  0  0
-0  0  0  C  P  C  0
-0  0  0  P  P  P  P
-
-
-Winner: locations, Loser: lengths
- Depth: 1
-0  1  2  3  4  5  6
-0  0  0  C  P  0  0
-0  0  0  C  C  0  0
-0  0  0  C  P  0  0
-0  0  0  P  C  0  0
-0  0  0  C  P  C  0
-0  0  0  P  P  P  P
-
-
-Winner: locations, Loser: lengths
- Depth: 1
-0  1  2  3  4  5  6
-0  0  0  C  P  0  0
-0  0  0  C  C  0  0
-0  0  0  C  P  0  0
-0  0  0  P  C  0  0
-0  0  0  C  P  C  0
-0  0  0  P  P  P  P
 
 
 Winner: locations, Loser: lengths
@@ -1539,6 +1462,127 @@ Winner: locations, Loser: lengths
 
 
 Winner: locations, Loser: lengths
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  C  0  C  C  0  0
+0  C  0  C  P  0  0
+0  P  0  P  C  0  0
+0  C  0  C  P  0  0
+0  P  0  P  P  P  P
+
+
+Winner: locations, Loser: lengths
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  P  C  0  0  0
+0  0  C  C  0  C  0
+0  0  P  C  0  C  0
+0  0  C  P  0  P  0
+0  0  P  C  0  C  0
+P  P  P  P  0  P  0
+
+
+Winner: locations, Loser: lengths
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  P  C  0  0  0
+0  0  C  C  0  0  0
+0  0  P  C  0  C  0
+0  0  C  P  0  P  0
+0  C  P  C  0  C  0
+P  P  P  P  0  P  0
+
+
+Winner: locations, Loser: lengths
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  P  C  0  0  0
+0  0  C  C  0  C  0
+0  0  P  C  0  C  0
+0  0  C  P  0  P  0
+0  0  P  C  0  C  0
+P  P  P  P  0  P  0
+
+
+Winner: locations, Loser: lengths
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  0  0  C  C  0  0
+0  C  0  C  P  0  0
+0  P  0  P  C  0  0
+0  C  0  C  P  C  0
+0  P  0  P  P  P  P
+
+
+Winner: locations, Loser: lengths
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  P  C  0  0  0
+0  0  C  C  0  0  0
+0  0  P  C  0  0  0
+0  0  C  P  0  0  0
+0  C  P  C  0  0  0
+P  P  P  P  0  0  0
+
+
+Winner: locations, Loser: lengths
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  P  C  0  0  0
+0  0  C  C  0  0  0
+0  0  P  C  0  0  0
+0  0  C  P  0  0  0
+0  C  P  C  0  0  0
+P  P  P  P  0  0  0
+
+
+Winner: locations, Loser: lengths
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+0  0  P  C  0  0  0
+0  0  C  C  C  0  0
+0  0  P  P  P  P  0
+
+
+Winner: locations, Loser: lengths
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+0  0  P  C  0  0  0
+0  0  C  C  C  0  0
+0  0  P  P  P  P  0
+
+
+Winner: locations, Loser: lengths
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+0  0  P  C  0  0  0
+0  0  C  C  C  0  0
+0  0  P  P  P  P  0
+
+
+Winner: locations, Loser: lengths
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  P  C  C  0  0
+0  0  P  P  C  0  0
+0  0  C  C  P  0  0
+0  0  P  C  C  0  0
+0  0  C  C  P  0  0
+0  0  P  P  P  P  0
+
+
+Winner: locations, Loser: lengths
  Depth: 2
 0  1  2  3  4  5  6
 0  0  P  C  C  0  0
@@ -1552,11 +1596,11 @@ Winner: locations, Loser: lengths
 Winner: locations, Loser: lengths
  Depth: 2
 0  1  2  3  4  5  6
-0  0  C  C  P  0  0
-0  0  P  P  C  0  0
-0  0  P  C  C  0  0
-0  0  C  C  P  0  0
-0  0  P  C  C  0  0
+0  0  0  0  0  0  0
+0  0  0  P  P  0  0
+0  0  0  C  C  0  0
+0  0  0  C  P  0  0
+0  0  C  C  C  0  0
 0  P  P  P  P  0  0
 
 
@@ -1576,10 +1620,32 @@ Winner: locations, Loser: lengths
 0  1  2  3  4  5  6
 0  0  P  C  C  0  0
 0  0  C  P  P  0  0
+0  0  P  C  C  0  0
+0  0  C  C  P  0  0
+0  0  P  C  C  0  0
+0  P  P  P  P  0  0
+
+
+Winner: locations, Loser: lengths
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  P  C  C  0  0
+0  0  P  P  C  0  0
 0  0  C  C  P  0  0
 0  0  P  C  C  0  0
 0  0  C  C  P  0  0
 0  P  P  P  P  0  0
+
+
+Winner: locations, Loser: lengths
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  P  C  C  0  0
+0  0  C  P  P  0  0
+0  0  C  C  P  0  0
+0  0  P  C  C  0  0
+0  0  C  C  P  0  0
+0  0  P  P  P  P  0
 
 
 Winner: locations, Loser: lengths
@@ -1591,50 +1657,6 @@ Winner: locations, Loser: lengths
 0  0  C  C  P  0  0
 0  0  P  C  C  0  0
 0  0  P  P  P  P  0
-
-
-Winner: locations, Loser: lengths
- Depth: 2
-0  1  2  3  4  5  6
-0  0  0  0  0  0  0
-0  0  0  P  P  0  0
-0  0  0  C  C  0  0
-0  0  0  C  P  0  0
-0  0  C  C  C  0  0
-0  P  P  P  P  0  0
-
-
-Winner: locations, Loser: lengths
- Depth: 2
-0  1  2  3  4  5  6
-0  0  P  C  C  0  0
-0  0  C  P  P  0  0
-0  0  C  C  P  0  0
-0  0  P  C  C  0  0
-0  0  C  C  P  0  0
-0  P  P  P  P  0  0
-
-
-Winner: locations, Loser: lengths
- Depth: 2
-0  1  2  3  4  5  6
-0  0  0  0  0  0  0
-0  0  0  P  P  0  0
-0  0  0  C  C  0  0
-0  0  0  C  P  0  0
-0  0  C  C  C  0  0
-0  P  P  P  P  0  0
-
-
-Winner: locations, Loser: lengths
- Depth: 2
-0  1  2  3  4  5  6
-0  0  P  C  C  0  0
-0  0  P  P  C  0  0
-0  0  P  C  C  0  0
-0  0  C  C  P  0  0
-0  0  P  C  C  0  0
-0  P  P  P  P  0  0
 
 
 Winner: locations, Loser: lengths
@@ -1663,11 +1685,11 @@ Winner: locations, Loser: lengths
  Depth: 2
 0  1  2  3  4  5  6
 0  0  0  0  0  0  0
-0  0  0  P  P  0  0
-0  0  0  C  C  0  0
-0  0  0  C  P  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+0  0  P  C  0  0  0
 0  0  C  C  C  0  0
-0  P  P  P  P  0  0
+0  0  P  P  P  P  0
 
 
 Winner: locations, Loser: lengths
@@ -1708,39 +1730,6 @@ Winner: locations, Loser: lengths
 0  1  2  3  4  5  6
 0  0  C  C  P  0  0
 0  0  C  P  P  0  0
-0  0  P  C  C  0  0
-0  0  C  C  P  0  0
-0  0  P  C  C  0  0
-0  0  P  P  P  P  0
-
-
-Winner: locations, Loser: lengths
- Depth: 2
-0  1  2  3  4  5  6
-0  0  0  0  0  0  0
-0  0  P  P  0  0  0
-0  0  C  C  0  0  0
-0  0  P  C  0  0  0
-0  0  C  C  C  0  0
-0  0  P  P  P  P  0
-
-
-Winner: locations, Loser: lengths
- Depth: 2
-0  1  2  3  4  5  6
-0  0  0  0  0  0  0
-0  0  P  P  0  0  0
-0  0  C  C  0  0  0
-0  0  P  C  0  0  0
-0  0  C  C  C  0  0
-0  0  P  P  P  P  0
-
-
-Winner: locations, Loser: lengths
- Depth: 2
-0  1  2  3  4  5  6
-0  0  P  C  C  0  0
-0  0  P  P  C  0  0
 0  0  C  C  P  0  0
 0  0  P  C  C  0  0
 0  0  C  C  P  0  0
@@ -1750,11 +1739,22 @@ Winner: locations, Loser: lengths
 Winner: locations, Loser: lengths
  Depth: 2
 0  1  2  3  4  5  6
-0  0  P  C  C  0  0
-0  0  P  P  C  0  0
-0  0  P  C  C  0  0
-0  0  C  C  P  0  0
-0  0  P  C  C  0  0
+0  0  0  0  0  0  0
+0  0  0  P  P  0  0
+0  0  0  C  C  0  0
+0  0  0  C  P  0  0
+0  0  C  C  C  0  0
+0  P  P  P  P  0  0
+
+
+Winner: locations, Loser: lengths
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  0  P  P  0  0
+0  0  0  C  C  0  0
+0  0  0  C  P  0  0
+0  0  C  C  C  0  0
 0  P  P  P  P  0  0
 
 
@@ -1762,77 +1762,11 @@ Loser: locations, Winner: lengths
  Depth: 3
 0  1  2  3  4  5  6
 0  0  0  P  P  0  0
-0  0  C  P  C  0  0
+0  0  P  P  C  0  0
 0  0  C  C  P  0  0
 0  0  P  C  C  0  0
-P  0  C  P  P  C  0
-P  C  C  C  P  P  0
-
-
-Loser: locations, Winner: lengths
- Depth: 3
-0  1  2  3  4  5  6
-0  0  0  P  P  0  0
-0  0  C  P  C  0  0
-0  0  C  C  P  0  0
-0  0  P  C  C  0  0
-P  0  C  P  P  C  0
-P  C  C  C  P  P  0
-
-
-Loser: locations, Winner: lengths
- Depth: 3
-0  1  2  3  4  5  6
-0  0  0  P  P  0  0
-0  0  C  P  C  0  0
-0  0  C  C  P  0  0
-0  0  P  C  C  0  0
-P  0  C  P  P  C  0
-P  C  C  C  P  P  0
-
-
-Loser: locations, Winner: lengths
- Depth: 3
-0  1  2  3  4  5  6
-0  0  0  P  P  0  0
-0  0  C  P  C  0  0
-0  0  C  C  P  0  0
-0  0  P  C  C  0  0
-P  0  C  P  P  C  0
-P  C  C  C  P  P  0
-
-
-Loser: locations, Winner: lengths
- Depth: 3
-0  1  2  3  4  5  6
-0  0  0  P  P  0  0
-0  0  C  P  C  0  0
-0  0  C  C  P  0  0
-0  0  P  C  C  P  0
 0  0  C  P  P  C  0
-P  C  C  C  P  P  0
-
-
-Loser: locations, Winner: lengths
- Depth: 3
-0  1  2  3  4  5  6
-0  0  0  P  P  0  0
-0  0  C  P  C  0  0
-0  0  C  C  P  0  0
-0  0  P  C  C  P  0
-0  0  C  P  P  C  0
-P  C  C  C  P  P  0
-
-
-Loser: locations, Winner: lengths
- Depth: 3
-0  1  2  3  4  5  6
-0  0  0  P  P  0  0
-0  0  C  P  C  0  0
-0  0  C  C  P  0  0
-0  0  P  C  C  0  0
-P  0  C  P  P  C  0
-P  C  C  C  P  P  0
+P  C  C  C  P  P  C
 
 
 Loser: locations, Winner: lengths
@@ -1852,64 +1786,9 @@ Loser: locations, Winner: lengths
 0  0  0  P  P  0  0
 0  0  C  P  C  0  0
 0  0  C  C  P  0  0
-0  0  P  C  C  0  0
-P  0  C  P  P  C  0
-P  C  C  C  P  P  0
-
-
-Loser: locations, Winner: lengths
- Depth: 3
-0  1  2  3  4  5  6
-0  0  0  P  P  0  0
-0  0  C  P  C  0  0
-0  0  C  C  P  0  0
-0  0  P  C  C  0  0
-P  0  C  P  P  C  0
-P  C  C  C  P  P  0
-
-
-Loser: locations, Winner: lengths
- Depth: 3
-0  1  2  3  4  5  6
-0  0  0  P  P  0  0
-0  0  C  P  C  0  0
-0  0  C  C  P  0  0
-0  0  P  C  C  0  0
-P  0  C  P  P  C  0
-P  C  C  C  P  P  0
-
-
-Loser: locations, Winner: lengths
- Depth: 3
-0  1  2  3  4  5  6
-0  0  0  P  P  0  0
-0  0  P  P  C  0  0
-0  0  C  C  P  0  0
-0  0  P  C  C  0  0
-0  0  C  P  P  C  0
-P  C  C  C  P  P  C
-
-
-Loser: locations, Winner: lengths
- Depth: 3
-0  1  2  3  4  5  6
-0  0  0  P  P  0  0
-0  0  C  P  C  0  0
-0  0  C  C  P  0  0
-0  0  P  C  C  0  0
-P  0  C  P  P  C  0
-P  C  C  C  P  P  0
-
-
-Loser: locations, Winner: lengths
- Depth: 3
-0  1  2  3  4  5  6
-0  0  0  P  P  0  0
-0  0  P  P  C  0  0
-0  0  C  C  P  C  0
 0  0  P  C  C  P  0
 0  0  C  P  P  C  0
-P  C  C  C  P  P  C
+P  C  C  C  P  P  0
 
 
 Loser: locations, Winner: lengths
@@ -1949,9 +1828,97 @@ Loser: locations, Winner: lengths
  Depth: 3
 0  1  2  3  4  5  6
 0  0  0  P  P  0  0
+0  0  C  P  C  0  0
+0  0  C  C  P  0  0
+0  0  P  C  C  P  0
+0  0  C  P  P  C  0
+P  C  C  C  P  P  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  P  P  0  0
 0  0  P  P  C  0  0
 0  0  C  C  P  0  0
 0  0  P  C  C  0  0
+0  0  C  P  P  C  0
+P  C  C  C  P  P  C
+
+
+Loser: locations, Winner: lengths
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  P  P  0  0
+0  0  P  P  C  0  0
+0  0  C  C  P  0  0
+0  0  P  C  C  0  0
+0  0  C  P  P  C  0
+P  C  C  C  P  P  C
+
+
+Loser: locations, Winner: lengths
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  P  P  0  0
+0  0  P  P  C  0  0
+0  0  C  C  P  C  0
+0  0  P  C  C  P  0
+0  0  C  P  P  C  0
+P  C  C  C  P  P  C
+
+
+Loser: locations, Winner: lengths
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  P  P  0  0
+0  0  C  P  C  0  0
+0  0  C  C  P  0  0
+0  0  P  C  C  0  0
+P  0  C  P  P  C  0
+P  C  C  C  P  P  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  P  P  0  0
+0  0  C  P  C  0  0
+0  0  C  C  P  0  0
+0  0  P  C  C  P  0
+0  0  C  P  P  C  0
+P  C  C  C  P  P  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  P  P  0  0
+0  0  C  P  C  0  0
+0  0  C  C  P  0  0
+0  0  P  C  C  P  0
+0  0  C  P  P  C  0
+P  C  C  C  P  P  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  P  P  0  0
+0  0  P  P  C  0  0
+0  0  C  C  P  C  0
+0  0  P  C  C  P  0
+0  0  C  P  P  C  0
+P  C  C  C  P  P  C
+
+
+Loser: locations, Winner: lengths
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  P  P  0  0
+0  0  P  P  C  0  0
+0  0  C  C  P  C  0
+0  0  P  C  C  P  0
 0  0  C  P  P  C  0
 P  C  C  C  P  P  C
 
@@ -1979,25 +1946,36 @@ P  C  C  C  P  P  0
 
 
 Loser: locations, Winner: lengths
- Depth: 4
+ Depth: 3
 0  1  2  3  4  5  6
-0  0  0  P  0  0  0
+0  0  0  P  P  0  0
 0  0  C  P  C  0  0
+0  0  C  C  P  0  0
 0  0  P  C  C  0  0
-0  0  C  P  P  0  0
-0  C  P  C  C  0  0
-0  P  C  P  P  0  0
+P  0  C  P  P  C  0
+P  C  C  C  P  P  0
 
 
 Loser: locations, Winner: lengths
- Depth: 4
+ Depth: 3
 0  1  2  3  4  5  6
-0  0  0  P  0  0  0
+0  0  0  P  P  0  0
 0  0  C  P  C  0  0
+0  0  C  C  P  0  0
 0  0  P  C  C  0  0
-0  0  C  P  P  0  0
-0  C  P  C  C  0  0
-0  P  C  P  P  0  0
+P  0  C  P  P  C  0
+P  C  C  C  P  P  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  P  P  0  0
+0  0  P  P  C  0  0
+0  0  C  C  P  0  0
+0  0  P  C  C  0  0
+0  0  C  P  P  C  0
+P  C  C  C  P  P  C
 
 
 Loser: locations, Winner: lengths
@@ -2025,177 +2003,199 @@ Loser: locations, Winner: lengths
 Loser: locations, Winner: lengths
  Depth: 4
 0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  C  P  C  0  0
+0  0  P  C  C  0  0
+0  0  C  P  P  0  0
+0  C  P  C  C  0  0
+0  P  C  P  P  0  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  C  P  C  0  0
+0  0  P  C  C  0  0
+0  0  C  P  P  0  0
+0  C  P  C  C  0  0
+0  P  C  P  P  0  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  C  P  C  0  0
+0  0  P  C  C  0  0
+0  0  C  P  P  0  0
+0  C  P  C  C  0  0
+0  P  C  P  P  0  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  C  P  C  0  0
+0  0  P  C  C  0  0
+0  0  C  P  P  0  0
+0  C  P  C  C  0  0
+0  P  C  P  P  0  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  C  P  C  0  0
+0  0  P  C  C  0  0
+0  0  C  P  P  0  0
+0  C  P  C  C  0  0
+0  P  C  P  P  0  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  C  P  C  0  0
+0  0  C  C  P  0  0
+0  0  P  P  C  0  0
+0  0  C  C  P  C  0
+0  0  C  P  P  P  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  C  P  C  0  0
+0  0  C  C  P  0  0
+0  0  P  P  C  0  0
+0  0  C  C  P  C  0
+0  0  C  P  P  P  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  C  P  C  0  0
+0  0  C  C  P  0  0
+0  0  P  P  C  0  0
+0  0  C  C  P  C  0
+0  0  C  P  P  P  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  C  P  C  0  0
+0  0  P  C  C  0  0
+0  0  C  P  P  0  0
+0  C  P  C  C  0  0
+0  P  C  P  P  0  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  C  P  C  0  0
+0  0  C  C  P  0  0
+0  0  P  P  C  0  0
+0  0  C  C  P  C  0
+0  0  C  P  P  P  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  C  P  C  0  0
+0  0  C  C  P  0  0
+0  0  P  P  C  0  0
+0  0  C  C  P  C  0
+0  0  C  P  P  P  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  C  P  C  0  0
+0  0  P  C  C  0  0
+0  0  C  P  P  0  0
+0  C  P  C  C  0  0
+0  P  C  P  P  0  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  C  P  C  0  0
+0  0  C  C  P  0  0
+0  0  P  P  C  0  0
+0  0  C  C  P  C  0
+0  0  C  P  P  P  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  C  P  C  0  0
+0  0  P  C  C  0  0
+0  0  C  P  P  0  0
+0  C  P  C  C  0  0
+0  P  C  P  P  0  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  C  P  C  0  0
+0  0  P  C  C  0  0
+0  0  C  P  P  0  0
+0  C  P  C  C  0  0
+0  P  C  P  P  0  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  C  P  C  0  0
+0  0  P  C  C  0  0
+0  0  C  P  P  0  0
+0  C  P  C  C  0  0
+0  P  C  P  P  0  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  C  P  C  0  0
+0  0  C  C  P  0  0
+0  0  P  P  C  0  0
+0  0  C  C  P  C  0
+0  0  C  P  P  P  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 4
+0  1  2  3  4  5  6
 0  0  0  0  0  0  0
 0  0  0  P  C  0  0
 0  0  P  C  C  0  0
 0  0  C  P  P  0  0
 0  C  P  C  C  0  0
 0  P  C  P  P  0  0
-
-
-Loser: locations, Winner: lengths
- Depth: 4
-0  1  2  3  4  5  6
-0  0  0  0  0  0  0
-0  0  0  P  C  0  0
-0  0  P  C  C  0  0
-0  0  C  P  P  0  0
-0  C  P  C  C  0  0
-0  P  C  P  P  0  0
-
-
-Loser: locations, Winner: lengths
- Depth: 4
-0  1  2  3  4  5  6
-0  0  0  P  0  0  0
-0  0  C  P  C  0  0
-0  0  C  C  P  0  0
-0  0  P  P  C  0  0
-0  0  C  C  P  C  0
-0  0  C  P  P  P  0
-
-
-Loser: locations, Winner: lengths
- Depth: 4
-0  1  2  3  4  5  6
-0  0  0  P  0  0  0
-0  0  C  P  C  0  0
-0  0  P  C  C  0  0
-0  0  C  P  P  0  0
-0  C  P  C  C  0  0
-0  P  C  P  P  0  0
-
-
-Loser: locations, Winner: lengths
- Depth: 4
-0  1  2  3  4  5  6
-0  0  0  P  0  0  0
-0  0  C  P  C  0  0
-0  0  P  C  C  0  0
-0  0  C  P  P  0  0
-0  C  P  C  C  0  0
-0  P  C  P  P  0  0
-
-
-Loser: locations, Winner: lengths
- Depth: 4
-0  1  2  3  4  5  6
-0  0  0  P  0  0  0
-0  0  C  P  C  0  0
-0  0  C  C  P  0  0
-0  0  P  P  C  0  0
-0  0  C  C  P  C  0
-0  0  C  P  P  P  0
-
-
-Loser: locations, Winner: lengths
- Depth: 4
-0  1  2  3  4  5  6
-0  0  0  P  0  0  0
-0  0  C  P  C  0  0
-0  0  C  C  P  0  0
-0  0  P  P  C  0  0
-0  0  C  C  P  C  0
-0  0  C  P  P  P  0
-
-
-Loser: locations, Winner: lengths
- Depth: 4
-0  1  2  3  4  5  6
-0  0  0  P  0  0  0
-0  0  C  P  C  0  0
-0  0  P  C  C  0  0
-0  0  C  P  P  0  0
-0  C  P  C  C  0  0
-0  P  C  P  P  0  0
-
-
-Loser: locations, Winner: lengths
- Depth: 4
-0  1  2  3  4  5  6
-0  0  0  P  0  0  0
-0  0  C  P  C  0  0
-0  0  P  C  C  0  0
-0  0  C  P  P  0  0
-0  C  P  C  C  0  0
-0  P  C  P  P  0  0
-
-
-Loser: locations, Winner: lengths
- Depth: 4
-0  1  2  3  4  5  6
-0  0  0  P  0  0  0
-0  0  C  P  C  0  0
-0  0  C  C  P  0  0
-0  0  P  P  C  0  0
-0  0  C  C  P  C  0
-0  0  C  P  P  P  0
-
-
-Loser: locations, Winner: lengths
- Depth: 4
-0  1  2  3  4  5  6
-0  0  0  0  0  0  0
-0  0  0  P  C  0  0
-0  0  P  C  C  0  0
-0  0  C  P  P  0  0
-0  C  P  C  C  0  0
-0  P  C  P  P  0  0
-
-
-Loser: locations, Winner: lengths
- Depth: 4
-0  1  2  3  4  5  6
-0  0  0  P  0  0  0
-0  0  C  P  C  0  0
-0  0  C  C  P  0  0
-0  0  P  P  C  0  0
-0  0  C  C  P  C  0
-0  0  C  P  P  P  0
-
-
-Loser: locations, Winner: lengths
- Depth: 4
-0  1  2  3  4  5  6
-0  0  0  P  0  0  0
-0  0  C  P  C  0  0
-0  0  C  C  P  0  0
-0  0  P  P  C  0  0
-0  0  C  C  P  C  0
-0  0  C  P  P  P  0
-
-
-Loser: locations, Winner: lengths
- Depth: 4
-0  1  2  3  4  5  6
-0  0  0  0  0  0  0
-0  0  0  P  C  0  0
-0  0  P  C  C  0  0
-0  0  C  P  P  0  0
-0  C  P  C  C  0  0
-0  P  C  P  P  0  0
-
-
-Loser: locations, Winner: lengths
- Depth: 4
-0  1  2  3  4  5  6
-0  0  0  P  0  0  0
-0  0  C  P  C  0  0
-0  0  C  C  P  0  0
-0  0  P  P  C  0  0
-0  0  C  C  P  C  0
-0  0  C  P  P  P  0
-
-
-Loser: locations, Winner: lengths
- Depth: 4
-0  1  2  3  4  5  6
-0  0  0  P  0  0  0
-0  0  C  P  C  0  0
-0  0  C  C  P  0  0
-0  0  P  P  C  0  0
-0  0  C  C  P  C  0
-0  0  C  P  P  P  0
 
 
 Loser: locations, Winner: lengths
@@ -2421,12 +2421,12 @@ Loser: locations, Winner: lengths
 Loser: locations, Winner: lengths
  Depth: 6
 0  1  2  3  4  5  6
-0  0  P  P  C  0  0
-0  0  C  C  C  0  0
-C  0  C  C  C  0  P
-P  0  P  P  P  C  C
-C  0  P  C  P  P  C
-P  P  C  P  P  C  P
+0  0  C  P  0  0  0
+0  C  P  C  P  0  0
+0  P  C  C  C  P  0
+0  C  P  P  C  C  0
+0  P  P  C  C  P  0
+0  P  C  P  P  C  0
 
 
 Loser: locations, Winner: lengths
@@ -2438,6 +2438,39 @@ Loser: locations, Winner: lengths
 0  0  P  P  P  C  P
 C  0  P  C  P  P  C
 P  P  C  P  P  C  P
+
+
+Loser: locations, Winner: lengths
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  C  P  0  0  0
+0  C  P  C  P  0  0
+0  P  C  C  C  P  0
+0  C  P  P  C  C  0
+0  P  P  C  C  P  0
+0  P  C  P  P  C  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  C  P  0  0  0
+0  C  P  C  P  0  0
+0  P  C  C  C  P  0
+0  C  P  P  C  C  0
+0  P  P  C  C  P  0
+0  P  C  P  P  C  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  P  C  P  0  0
+0  P  C  C  C  C  0
+0  C  P  P  C  P  0
+0  P  P  C  C  C  0
+0  P  C  P  P  C  0
 
 
 Loser: locations, Winner: lengths
@@ -2467,76 +2500,32 @@ Loser: locations, Winner: lengths
 0  1  2  3  4  5  6
 0  0  0  P  0  0  0
 0  0  P  C  P  0  0
-0  P  C  C  C  C  0
-0  C  P  P  C  P  0
-0  P  P  C  C  C  0
+0  C  C  C  C  P  0
+0  P  P  P  C  C  0
+0  C  P  C  C  P  0
 0  P  C  P  P  C  0
 
 
 Loser: locations, Winner: lengths
  Depth: 6
 0  1  2  3  4  5  6
-0  0  C  P  P  0  C
-0  0  C  C  C  0  P
+0  0  P  P  C  0  P
 0  0  C  C  C  0  C
-0  0  P  P  P  C  P
-C  0  P  C  P  P  C
+0  0  C  C  C  0  P
+0  C  P  P  P  0  C
+C  P  P  C  P  0  C
 P  P  C  P  P  C  P
 
 
 Loser: locations, Winner: lengths
  Depth: 6
 0  1  2  3  4  5  6
-0  0  C  P  P  0  C
-0  0  C  C  C  0  P
+0  0  P  P  C  0  P
 0  0  C  C  C  0  C
-0  0  P  P  P  C  P
-C  0  P  C  P  P  C
+0  0  C  C  C  0  P
+0  C  P  P  P  0  C
+C  P  P  C  P  0  C
 P  P  C  P  P  C  P
-
-
-Loser: locations, Winner: lengths
- Depth: 6
-0  1  2  3  4  5  6
-0  0  C  P  0  0  0
-0  C  P  C  P  0  0
-0  P  C  C  C  P  0
-0  C  P  P  C  C  0
-0  P  P  C  C  P  0
-0  P  C  P  P  C  0
-
-
-Loser: locations, Winner: lengths
- Depth: 6
-0  1  2  3  4  5  6
-0  0  C  P  0  0  0
-0  C  P  C  P  0  0
-0  P  C  C  C  P  0
-0  C  P  P  C  C  0
-0  P  P  C  C  P  0
-0  P  C  P  P  C  0
-
-
-Loser: locations, Winner: lengths
- Depth: 6
-0  1  2  3  4  5  6
-0  0  C  P  0  0  0
-0  C  P  C  P  0  0
-0  P  C  C  C  P  0
-0  C  P  P  C  C  0
-0  P  P  C  C  P  0
-0  P  C  P  P  C  0
-
-
-Loser: locations, Winner: lengths
- Depth: 6
-0  1  2  3  4  5  6
-0  0  0  P  0  0  0
-0  0  P  C  P  0  0
-0  P  C  C  C  C  0
-0  C  P  P  C  P  0
-0  P  P  C  C  C  0
-0  P  C  P  P  C  0
 
 
 Loser: locations, Winner: lengths
@@ -2558,50 +2547,6 @@ Loser: locations, Winner: lengths
 0  P  C  C  C  P  0
 0  C  P  P  C  C  0
 0  P  P  C  C  P  0
-0  P  C  P  P  C  0
-
-
-Loser: locations, Winner: lengths
- Depth: 6
-0  1  2  3  4  5  6
-0  0  C  P  0  0  0
-0  C  P  C  P  0  0
-0  P  C  C  C  P  0
-0  C  P  P  C  C  0
-0  P  P  C  C  P  0
-0  P  C  P  P  C  0
-
-
-Loser: locations, Winner: lengths
- Depth: 6
-0  1  2  3  4  5  6
-0  0  P  P  C  0  0
-0  0  C  C  C  0  0
-C  0  C  C  C  0  P
-P  0  P  P  P  C  C
-C  0  P  C  P  P  C
-P  P  C  P  P  C  P
-
-
-Loser: locations, Winner: lengths
- Depth: 6
-0  1  2  3  4  5  6
-0  0  C  P  0  0  0
-0  C  P  C  P  0  0
-0  P  C  C  C  P  0
-0  C  P  P  C  C  0
-0  P  P  C  C  P  0
-0  P  C  P  P  C  0
-
-
-Loser: locations, Winner: lengths
- Depth: 6
-0  1  2  3  4  5  6
-0  0  0  P  0  0  0
-0  0  P  C  P  0  0
-0  P  C  C  C  C  0
-0  C  P  P  C  P  0
-0  P  P  C  C  C  0
 0  P  C  P  P  C  0
 
 
@@ -2630,23 +2575,133 @@ Loser: locations, Winner: lengths
 Loser: locations, Winner: lengths
  Depth: 6
 0  1  2  3  4  5  6
+0  0  P  P  C  0  P
+0  0  C  C  C  0  C
+0  0  C  C  C  0  P
+0  C  P  P  P  0  C
+C  P  P  C  P  0  C
+P  P  C  P  P  C  P
+
+
+Loser: locations, Winner: lengths
+ Depth: 6
+0  1  2  3  4  5  6
 0  0  C  P  P  0  C
 0  0  C  C  C  0  P
 0  0  C  C  C  0  C
 0  0  P  P  P  C  P
 C  0  P  C  P  P  C
 P  P  C  P  P  C  P
+
+
+Loser: locations, Winner: lengths
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  P  C  P  0  0
+0  C  C  C  C  P  0
+0  P  P  P  C  C  0
+0  C  P  C  C  P  0
+0  P  C  P  P  C  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  C  P  0  0  0
+0  C  P  C  P  0  0
+0  P  C  C  C  P  0
+0  C  P  P  C  C  0
+0  P  P  C  C  P  0
+0  P  C  P  P  C  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  P  C  P  0  0
+0  C  C  C  C  P  0
+0  P  P  P  C  C  0
+0  C  P  C  C  P  0
+0  P  C  P  P  C  0
+
+
+Loser: locations, Winner: lengths
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  P  C  P  0  0
+0  C  C  C  C  P  0
+0  P  P  P  C  C  0
+0  C  P  C  C  P  0
+0  P  C  P  P  C  0
+
+
+Loser: lengths, Winner: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  C  P  P  P  0  0
+0  P  C  C  P  0  0
+C  P  P  P  C  0  C
+P  C  C  P  P  0  P
+C  P  P  C  C  C  C
+C  C  C  P  P  P  C
+
+
+Loser: lengths, Winner: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  P  P  P  0  0
+0  0  P  C  C  0  0
+C  0  C  P  P  0  C
+P  C  P  P  C  0  P
+C  P  C  C  P  0  C
+C  C  P  P  C  P  C
 
 
 Winner: lengths, Loser: locations
  Depth: 1
 0  1  2  3  4  5  6
-0  C  P  P  0  C  0
-0  P  C  C  0  P  0
-0  P  P  P  0  P  0
-0  C  C  P  0  C  0
-C  P  P  C  P  P  0
+0  0  P  P  0  0  0
+0  0  C  C  P  0  0
+0  P  P  P  P  0  0
+0  C  C  P  P  0  0
+C  P  P  C  C  0  0
 C  C  C  P  P  C  C
+
+
+Winner: lengths, Loser: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  C  P  P  0  0
+C  0  P  C  C  0  0
+P  P  P  P  P  0  0
+P  C  C  P  C  0  0
+C  P  P  C  P  0  C
+C  C  P  P  C  0  C
+
+
+Winner: lengths, Loser: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  P  P  P  0  0
+0  0  C  C  C  0  0
+0  0  P  P  P  P  0
+0  0  C  P  P  C  0
+C  0  P  C  C  P  0
+C  0  C  P  P  C  C
+
+
+Winner: lengths, Loser: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  C  P  P  0  0
+C  0  P  C  C  0  0
+P  P  P  P  P  0  0
+P  C  C  P  C  0  0
+C  P  P  C  P  0  C
+C  C  P  P  C  0  C
 
 
 Winner: lengths, Loser: locations
@@ -2663,12 +2718,23 @@ C  C  C  P  P  0  C
 Winner: lengths, Loser: locations
  Depth: 1
 0  1  2  3  4  5  6
-C  0  0  P  P  0  0
+0  0  C  P  0  C  0
+0  P  C  C  0  P  0
+0  P  P  P  0  P  0
+0  C  C  P  0  C  0
+C  P  P  C  P  P  0
+C  C  C  P  P  C  0
+
+
+Winner: lengths, Loser: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  0  P  P  0  0
 C  0  P  C  C  0  0
-P  P  P  P  P  0  0
-P  C  C  P  C  0  0
-C  P  P  C  P  0  C
-C  C  P  P  C  0  C
+P  0  P  P  P  P  0
+P  0  C  P  C  C  0
+C  0  P  C  P  P  C
+C  C  P  P  C  C  C
 
 
 Winner: lengths, Loser: locations
@@ -2687,31 +2753,9 @@ Winner: lengths, Loser: locations
 0  1  2  3  4  5  6
 0  0  P  P  P  0  0
 0  0  C  C  C  0  0
-0  P  P  P  P  0  0
-0  C  C  P  P  0  0
-C  P  P  C  C  0  0
-C  C  C  P  P  0  C
-
-
-Loser: lengths, Winner: locations
- Depth: 1
-0  1  2  3  4  5  6
-C  0  P  P  P  0  0
-P  0  P  C  C  0  0
-C  0  C  P  P  0  C
-P  0  P  P  C  0  P
-C  C  C  C  P  0  C
-C  P  P  P  C  0  C
-
-
-Winner: lengths, Loser: locations
- Depth: 1
-0  1  2  3  4  5  6
-0  0  P  P  0  0  0
-0  0  C  C  P  0  C
-0  0  P  P  P  0  P
-0  0  C  P  C  P  P
-C  0  P  C  P  C  C
+0  0  P  P  P  P  0
+0  0  C  P  P  C  0
+C  0  P  C  C  P  0
 C  0  C  P  P  C  C
 
 
@@ -2719,22 +2763,22 @@ Loser: lengths, Winner: locations
  Depth: 1
 0  1  2  3  4  5  6
 0  0  P  P  P  0  0
-0  0  P  C  C  0  0
-C  0  C  P  P  0  C
-P  0  P  P  C  0  P
-C  C  C  C  P  0  C
-C  P  P  P  C  0  C
+0  P  C  C  P  0  0
+0  P  P  P  C  0  C
+0  C  C  P  P  C  P
+C  P  P  C  C  P  C
+C  C  C  P  P  C  C
 
 
-Winner: lengths, Loser: locations
+Loser: lengths, Winner: locations
  Depth: 1
 0  1  2  3  4  5  6
-0  0  0  P  P  0  0
-C  0  P  C  C  0  0
-P  P  P  P  P  0  0
-P  C  C  P  C  0  0
-C  P  P  C  P  0  C
-C  C  P  P  C  C  C
+0  0  P  P  P  0  0
+P  0  P  C  C  0  0
+C  0  C  P  P  0  C
+P  C  P  P  C  0  P
+C  P  C  C  P  0  C
+C  C  P  P  C  0  C
 
 
 Winner: lengths, Loser: locations
@@ -2751,89 +2795,23 @@ C  C  P  P  C  C  C
 Winner: lengths, Loser: locations
  Depth: 1
 0  1  2  3  4  5  6
-0  0  0  P  0  0  0
-0  P  C  C  0  P  0
-0  P  P  P  0  P  0
-0  C  C  P  0  C  0
-C  P  P  C  P  P  0
-C  C  C  P  C  C  0
+0  0  P  P  C  0  0
+0  0  C  C  P  0  0
+0  P  P  P  P  0  0
+0  C  C  P  P  0  0
+C  P  P  C  C  0  0
+C  C  C  P  P  0  C
 
 
 Winner: lengths, Loser: locations
  Depth: 1
 0  1  2  3  4  5  6
-0  0  P  P  P  0  0
-0  C  C  C  P  P  0
-0  P  P  P  C  C  0
-0  C  C  P  P  P  P
-C  P  P  C  C  P  C
-C  C  C  P  P  C  C
-
-
-Loser: lengths, Winner: locations
- Depth: 1
-0  1  2  3  4  5  6
-0  C  P  P  P  0  0
-0  P  C  C  P  0  0
-0  P  P  P  C  0  C
-P  C  C  P  P  C  P
-C  P  P  C  C  P  C
-C  C  C  P  P  C  C
-
-
-Loser: lengths, Winner: locations
- Depth: 1
-0  1  2  3  4  5  6
-0  0  P  P  P  0  0
-0  0  C  C  P  0  P
-C  0  P  P  C  0  C
-P  0  C  P  P  C  P
-C  0  P  C  C  P  C
-C  0  C  P  P  C  C
-
-
-Loser: lengths, Winner: locations
- Depth: 1
-0  1  2  3  4  5  6
-0  0  P  P  P  0  0
-0  P  C  C  P  0  0
-0  P  P  P  C  0  P
-0  C  C  P  P  C  C
-C  P  P  C  C  P  C
-C  C  C  P  P  C  C
-
-
-Loser: lengths, Winner: locations
- Depth: 1
-0  1  2  3  4  5  6
-0  0  P  P  P  0  0
-C  0  P  C  C  0  0
-C  0  C  P  P  0  C
-P  C  P  P  C  0  P
-C  P  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Winner: lengths, Loser: locations
- Depth: 1
-0  1  2  3  4  5  6
-0  0  P  P  0  0  0
-0  C  C  C  0  P  0
-0  P  P  P  P  P  0
-0  P  C  P  C  C  0
-0  C  P  C  P  P  0
-0  C  C  P  C  C  C
-
-
-Loser: lengths, Winner: locations
- Depth: 1
-0  1  2  3  4  5  6
-0  0  P  P  P  0  0
-0  P  C  C  P  0  0
-0  P  P  P  C  0  C
-0  C  C  P  P  C  P
-C  P  P  C  C  P  C
-C  C  C  P  P  C  C
+C  P  P  P  P  0  0
+P  P  C  C  P  0  C
+C  P  P  P  C  0  C
+P  C  C  P  P  0  P
+C  P  P  C  C  0  C
+C  C  C  P  P  0  C
 
 
 Winner: lengths, Loser: locations
@@ -2841,49 +2819,148 @@ Winner: lengths, Loser: locations
 0  1  2  3  4  5  6
 0  0  0  P  P  0  0
 C  0  P  C  C  0  0
-P  0  P  P  P  0  0
-P  P  C  P  C  0  0
-C  C  P  C  P  0  C
-C  C  P  P  C  0  C
+P  P  P  P  P  0  0
+P  C  C  P  C  0  0
+C  P  P  C  P  0  C
+C  C  P  P  C  C  C
 
 
 Winner: lengths, Loser: locations
  Depth: 1
 0  1  2  3  4  5  6
-0  0  P  P  C  0  C
-0  0  C  C  P  0  C
-C  0  P  P  P  0  P
-P  0  C  P  C  0  P
-C  0  P  C  P  0  C
-C  P  C  P  P  0  C
+0  0  P  P  C  0  0
+0  0  C  C  P  P  0
+0  0  P  P  P  C  0
+0  0  C  P  P  P  0
+C  0  P  C  C  P  C
+C  0  C  P  P  C  C
 
 
-Tie: lengths, locations
- Depth: 2
+Winner: lengths, Loser: locations
+ Depth: 1
 0  1  2  3  4  5  6
-P  C  C  C  P  P  C
-P  C  P  P  P  C  P
-C  P  C  C  C  P  C
-P  C  P  P  P  C  P
-C  P  C  C  C  P  P
-P  C  C  P  P  C  C
+0  0  C  P  P  0  0
+C  0  P  C  C  0  0
+P  0  P  P  P  P  0
+P  0  C  P  C  P  0
+C  0  P  C  P  C  C
+C  0  P  P  C  C  C
+
+
+Winner: lengths, Loser: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  C  P  P  0  0
+C  0  P  C  C  0  0
+P  0  P  P  P  P  0
+P  0  C  P  C  C  0
+C  0  P  C  P  P  C
+C  0  P  P  C  C  C
 
 
 Winner: lengths, Loser: locations
  Depth: 2
 0  1  2  3  4  5  6
-C  0  0  C  C  P  0
-C  0  0  P  P  P  0
-P  0  0  C  C  P  C
-C  P  0  P  P  C  P
+P  P  P  C  0  P  C
+C  C  P  P  0  C  P
+P  P  C  C  0  P  C
+C  P  P  P  P  C  P
+C  P  C  C  C  P  C
+C  C  P  P  C  C  P
+
+
+Winner: lengths, Loser: locations
+ Depth: 2
+0  1  2  3  4  5  6
+P  0  P  C  C  P  C
+C  P  P  P  P  C  P
+P  C  C  C  P  P  C
+P  C  P  P  C  C  P
+C  P  C  C  P  P  C
+C  C  P  P  C  C  P
+
+
+Loser: lengths, Winner: locations
+ Depth: 2
+0  1  2  3  4  5  6
+0  C  P  C  C  C  C
+0  P  C  P  P  P  C
 P  P  P  C  C  P  P
-C  C  C  P  C  P  C
+P  C  P  P  P  C  P
+C  P  C  C  C  P  C
+C  P  C  P  P  C  C
+
+
+Loser: lengths, Winner: locations
+ Depth: 2
+0  1  2  3  4  5  6
+C  C  P  C  C  C  C
+P  P  C  P  P  P  C
+P  P  P  C  C  P  P
+P  C  P  P  P  C  P
+C  P  C  C  C  P  C
+C  P  C  P  P  C  C
+
+
+Winner: lengths, Loser: locations
+ Depth: 2
+0  1  2  3  4  5  6
+P  P  P  C  0  P  C
+C  C  P  P  0  C  P
+P  P  C  C  0  P  C
+C  P  P  P  P  C  P
+C  P  C  C  C  P  C
+C  C  P  P  C  C  P
 
 
 Winner: lengths, Loser: locations
  Depth: 2
 0  1  2  3  4  5  6
 C  0  P  C  C  P  P
+C  P  P  P  P  C  P
+P  C  C  C  P  P  C
+P  C  P  P  C  C  P
+C  P  C  C  P  P  C
+C  C  P  P  C  C  P
+
+
+Loser: lengths, Winner: locations
+ Depth: 2
+0  1  2  3  4  5  6
+0  C  P  C  C  C  C
+0  P  C  P  P  P  C
+P  P  P  C  C  P  P
+P  C  P  P  P  C  P
+C  P  C  C  C  P  C
+C  P  C  P  P  C  C
+
+
+Winner: lengths, Loser: locations
+ Depth: 2
+0  1  2  3  4  5  6
+C  0  0  C  C  P  0
+P  0  0  P  P  P  P
+P  0  0  C  C  P  C
+C  0  P  P  P  C  C
+P  0  P  C  C  P  P
+C  C  C  P  C  P  C
+
+
+Winner: lengths, Loser: locations
+ Depth: 2
+0  1  2  3  4  5  6
+P  C  P  C  0  P  C
+C  C  P  P  0  P  P
+P  P  C  C  0  P  C
+C  P  P  P  P  C  P
+C  P  C  C  C  P  C
+C  C  P  P  C  C  P
+
+
+Winner: lengths, Loser: locations
+ Depth: 2
+0  1  2  3  4  5  6
+P  0  P  C  C  P  C
 C  P  P  P  P  C  P
 P  C  C  C  P  P  C
 P  C  P  P  C  C  P
@@ -2905,28 +2982,6 @@ C  C  C  P  C  P  C
 Winner: lengths, Loser: locations
  Depth: 2
 0  1  2  3  4  5  6
-C  0  0  C  C  P  0
-P  0  0  P  P  P  0
-P  0  0  C  C  P  C
-C  P  0  P  P  C  C
-P  P  P  C  C  P  P
-C  C  C  P  C  P  C
-
-
-Winner: lengths, Loser: locations
- Depth: 2
-0  1  2  3  4  5  6
-C  0  0  C  C  P  0
-C  0  0  P  P  P  0
-P  0  0  C  C  P  C
-C  P  0  P  P  C  P
-P  P  P  C  C  P  P
-C  C  C  P  C  P  C
-
-
-Winner: lengths, Loser: locations
- Depth: 2
-0  1  2  3  4  5  6
 P  0  P  C  C  P  C
 C  P  P  P  P  C  P
 P  C  C  C  P  P  C
@@ -2939,77 +2994,22 @@ Winner: lengths, Loser: locations
  Depth: 2
 0  1  2  3  4  5  6
 C  0  0  C  C  P  0
-C  0  0  P  P  P  0
+P  0  0  P  P  P  P
 P  0  0  C  C  P  C
-C  P  0  P  P  C  P
-P  P  P  C  C  P  P
+C  0  P  P  P  C  C
+P  0  P  C  C  P  P
 C  C  C  P  C  P  C
 
 
 Loser: lengths, Winner: locations
  Depth: 2
 0  1  2  3  4  5  6
-C  0  P  C  C  P  P
-P  0  P  P  P  C  C
-C  0  C  C  C  P  P
-P  0  P  P  P  C  C
-C  C  C  C  C  P  P
+C  0  C  C  C  0  0
+P  0  P  P  P  0  P
+C  0  P  C  C  0  C
+P  0  P  P  P  0  P
+C  C  C  C  P  0  C
 P  P  C  P  P  C  C
-
-
-Winner: lengths, Loser: locations
- Depth: 2
-0  1  2  3  4  5  6
-C  0  P  C  C  P  P
-C  P  P  P  P  C  P
-P  C  C  C  P  P  C
-P  C  P  P  C  C  P
-C  P  C  C  P  P  C
-C  C  P  P  C  C  P
-
-
-Winner: lengths, Loser: locations
- Depth: 2
-0  1  2  3  4  5  6
-C  C  P  C  0  P  C
-C  C  P  P  0  P  P
-P  P  C  C  0  P  C
-C  P  P  P  P  C  P
-C  P  C  C  C  P  C
-C  C  P  P  C  P  P
-
-
-Winner: lengths, Loser: locations
- Depth: 2
-0  1  2  3  4  5  6
-C  0  0  C  C  P  0
-P  0  0  P  P  P  0
-P  0  0  C  C  P  C
-C  P  0  P  P  C  C
-P  P  P  C  C  P  P
-C  C  C  P  C  P  C
-
-
-Winner: lengths, Loser: locations
- Depth: 2
-0  1  2  3  4  5  6
-C  0  0  C  C  P  0
-P  0  0  P  P  P  0
-P  0  0  C  C  P  C
-C  P  0  P  P  C  C
-P  P  P  C  C  P  P
-C  C  C  P  C  P  C
-
-
-Winner: lengths, Loser: locations
- Depth: 2
-0  1  2  3  4  5  6
-P  0  P  C  C  P  C
-C  P  P  P  P  C  P
-P  C  C  C  P  P  C
-P  C  P  P  C  C  P
-C  P  C  C  P  P  C
-C  C  P  P  C  C  P
 
 
 Loser: lengths, Winner: locations
@@ -3026,7 +3026,7 @@ C  P  C  P  P  C  C
 Winner: lengths, Loser: locations
  Depth: 2
 0  1  2  3  4  5  6
-C  0  P  C  C  P  P
+P  0  P  C  C  P  C
 C  P  P  P  P  C  P
 P  C  C  C  P  P  C
 P  C  P  P  C  C  P
@@ -3037,45 +3037,67 @@ C  C  P  P  C  C  P
 Winner: lengths, Loser: locations
  Depth: 2
 0  1  2  3  4  5  6
-C  P  P  C  0  C  P
-C  C  P  P  0  C  P
-P  P  C  C  0  P  C
-C  P  P  P  P  C  P
-C  P  C  C  C  P  C
-C  C  P  P  C  P  P
-
-
-Winner: lengths, Loser: locations
- Depth: 2
-0  1  2  3  4  5  6
 C  0  0  C  C  P  0
-C  0  0  P  P  P  P
+P  0  0  P  P  P  P
 P  0  0  C  C  P  C
-C  0  P  P  P  C  P
+C  0  P  P  P  C  C
 P  0  P  C  C  P  P
 C  C  C  P  C  P  C
 
 
-Winner: lengths, Loser: locations
+Loser: lengths, Winner: locations
  Depth: 2
 0  1  2  3  4  5  6
-C  C  P  C  0  C  P
-C  C  P  P  0  P  P
-P  P  C  C  0  P  C
-C  P  P  P  P  C  P
-C  P  C  C  C  P  C
-C  C  P  P  C  P  P
-
-
-Winner: lengths, Loser: locations
- Depth: 2
-0  1  2  3  4  5  6
-C  0  0  C  C  P  0
-C  0  0  P  P  P  0
-P  0  0  C  C  P  C
-C  P  0  P  P  C  P
+C  C  P  C  C  C  C
+P  P  C  P  P  P  C
 P  P  P  C  C  P  P
-C  C  C  P  C  P  C
+P  C  P  P  P  C  P
+C  P  C  C  C  P  C
+C  P  C  P  P  C  C
+
+
+Loser: lengths, Winner: locations
+ Depth: 2
+0  1  2  3  4  5  6
+0  C  P  C  C  C  C
+0  P  C  P  P  P  C
+P  P  P  C  C  P  P
+P  C  P  P  P  C  P
+C  P  C  C  C  P  C
+C  P  C  P  P  C  C
+
+
+Winner: lengths, Loser: locations
+ Depth: 2
+0  1  2  3  4  5  6
+P  0  P  C  C  P  C
+C  P  P  P  P  C  P
+P  C  C  C  P  P  C
+P  C  P  P  C  C  P
+C  P  C  C  P  P  C
+C  C  P  P  C  C  P
+
+
+Winner: lengths, Loser: locations
+ Depth: 3
+0  1  2  3  4  5  6
+0  P  0  P  P  C  0
+0  C  P  P  P  P  0
+P  P  P  C  C  C  0
+C  C  C  P  P  C  0
+P  P  P  C  C  P  C
+C  C  P  P  C  C  C
+
+
+Winner: lengths, Loser: locations
+ Depth: 3
+0  1  2  3  4  5  6
+C  0  P  P  P  0  C
+P  0  P  P  C  0  P
+C  P  C  C  P  0  C
+P  C  P  P  P  C  P
+C  P  P  C  C  P  C
+P  C  C  P  C  C  C
 
 
 Winner: lengths, Loser: locations
@@ -3087,6 +3109,28 @@ C  0  C  C  P  C  0
 P  0  P  P  P  C  P
 C  0  P  C  C  P  C
 C  C  C  P  C  P  P
+
+
+Winner: lengths, Loser: locations
+ Depth: 3
+0  1  2  3  4  5  6
+C  0  P  P  C  0  0
+C  0  P  P  P  P  0
+P  0  C  C  P  C  0
+C  0  P  P  P  C  P
+C  0  P  C  C  P  C
+C  C  C  P  C  P  P
+
+
+Winner: lengths, Loser: locations
+ Depth: 3
+0  1  2  3  4  5  6
+P  P  P  P  P  C  0
+C  C  C  P  P  P  0
+P  P  P  C  C  C  0
+C  C  C  P  P  C  0
+P  P  P  C  C  P  0
+C  C  P  P  C  C  C
 
 
 Winner: lengths, Loser: locations
@@ -3103,23 +3147,12 @@ C  C  C  P  C  P  P
 Winner: lengths, Loser: locations
  Depth: 3
 0  1  2  3  4  5  6
-C  0  P  P  C  0  0
-C  0  P  P  P  P  0
-C  0  C  C  P  C  0
-P  0  P  P  P  C  P
-C  0  P  C  C  P  C
-C  C  C  P  C  P  P
-
-
-Winner: lengths, Loser: locations
- Depth: 3
-0  1  2  3  4  5  6
-C  0  P  P  C  0  0
-C  0  P  P  P  P  0
-C  0  C  C  P  C  0
-P  0  P  P  P  C  P
-C  0  P  C  C  P  C
-C  C  C  P  C  P  P
+C  0  C  P  P  0  C
+P  0  P  P  C  0  P
+C  P  C  C  P  0  C
+P  C  P  P  P  C  P
+C  P  P  C  C  P  C
+P  C  C  P  C  P  C
 
 
 Winner: lengths, Loser: locations
@@ -3131,6 +3164,72 @@ C  P  C  C  P  0  C
 P  C  P  P  P  C  P
 C  P  P  C  C  P  C
 P  C  C  P  C  C  C
+
+
+Winner: lengths, Loser: locations
+ Depth: 3
+0  1  2  3  4  5  6
+C  0  P  P  C  0  0
+C  0  P  P  P  P  0
+C  0  C  C  P  C  0
+P  0  P  P  P  C  P
+C  0  P  C  C  P  C
+C  C  C  P  C  P  P
+
+
+Winner: lengths, Loser: locations
+ Depth: 3
+0  1  2  3  4  5  6
+C  0  P  P  P  P  C
+P  0  P  P  C  C  P
+C  0  C  C  P  P  C
+P  0  P  P  P  C  P
+C  0  P  C  C  P  C
+P  C  C  P  C  C  C
+
+
+Loser: lengths, Winner: locations
+ Depth: 3
+0  1  2  3  4  5  6
+0  P  0  P  P  C  0
+0  C  0  P  P  P  0
+P  P  P  C  C  C  C
+C  C  C  P  P  C  P
+P  P  P  C  C  P  C
+C  C  P  P  C  C  C
+
+
+Winner: lengths, Loser: locations
+ Depth: 3
+0  1  2  3  4  5  6
+P  P  P  P  P  0  C
+C  C  P  P  C  0  P
+P  P  C  C  P  0  C
+C  C  P  P  P  C  P
+P  P  P  C  C  P  C
+C  C  C  P  C  C  C
+
+
+Loser: lengths, Winner: locations
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  P  P  0  0
+0  0  0  P  P  P  0
+0  0  C  C  C  C  P
+0  0  C  P  P  C  P
+0  0  P  C  C  P  C
+0  C  P  P  C  C  C
+
+
+Winner: lengths, Loser: locations
+ Depth: 3
+0  1  2  3  4  5  6
+C  0  P  P  C  0  0
+C  0  P  P  P  P  0
+C  0  C  C  P  C  0
+P  0  P  P  P  C  P
+C  0  P  C  C  P  C
+C  C  C  P  C  P  P
 
 
 Winner: lengths, Loser: locations
@@ -3150,119 +3249,20 @@ Winner: lengths, Loser: locations
 C  0  P  P  C  0  0
 C  0  P  P  P  P  0
 P  0  C  C  P  C  0
-P  0  P  P  P  C  P
-C  0  P  C  C  P  C
-C  C  C  P  C  C  P
-
-
-Winner: lengths, Loser: locations
- Depth: 3
-0  1  2  3  4  5  6
-C  0  C  P  P  0  C
-P  0  P  P  C  0  P
-C  P  C  C  P  0  C
-P  C  P  P  P  C  P
-C  P  P  C  C  P  C
-P  C  C  P  C  C  P
-
-
-Winner: lengths, Loser: locations
- Depth: 3
-0  1  2  3  4  5  6
-C  0  C  P  C  0  C
-C  0  P  P  P  0  P
-P  P  C  C  P  0  P
-P  C  P  P  P  0  C
-C  P  P  C  C  0  P
-C  C  C  P  C  P  C
-
-
-Winner: lengths, Loser: locations
- Depth: 3
-0  1  2  3  4  5  6
-C  0  P  P  C  P  P
-P  0  P  P  P  C  P
-C  0  C  C  C  P  P
-P  P  P  P  P  C  C
-C  C  P  C  C  P  C
-C  C  P  P  C  C  C
-
-
-Winner: lengths, Loser: locations
- Depth: 3
-0  1  2  3  4  5  6
-P  P  P  P  P  C  0
-C  C  C  P  P  P  0
-P  P  P  C  C  C  0
-C  C  C  P  P  C  0
-P  P  P  C  C  P  0
-C  C  P  P  C  C  C
-
-
-Winner: lengths, Loser: locations
- Depth: 3
-0  1  2  3  4  5  6
-C  0  C  P  P  0  C
-P  0  P  P  C  0  P
-C  P  C  C  P  0  C
-P  C  P  P  P  C  P
-C  P  P  C  C  P  C
-P  C  C  P  C  P  C
-
-
-Winner: lengths, Loser: locations
- Depth: 3
-0  1  2  3  4  5  6
-P  P  P  P  P  0  C
-C  C  P  P  C  0  P
-P  P  C  C  P  0  C
-C  C  P  P  P  C  P
-P  P  P  C  C  P  C
-C  C  C  P  C  C  C
-
-
-Winner: lengths, Loser: locations
- Depth: 3
-0  1  2  3  4  5  6
-C  0  P  P  C  0  0
-C  0  P  P  P  0  0
-P  0  C  C  P  P  0
 C  0  P  P  P  C  P
-C  C  P  C  C  P  C
+C  0  P  C  C  P  C
 C  C  C  P  C  P  P
 
 
 Winner: lengths, Loser: locations
  Depth: 3
 0  1  2  3  4  5  6
-C  0  C  P  P  0  C
-P  0  P  P  C  0  P
-C  P  C  C  P  0  C
-P  C  P  P  P  C  P
-C  P  P  C  C  P  C
-P  C  C  P  C  P  C
-
-
-Winner: lengths, Loser: locations
- Depth: 3
-0  1  2  3  4  5  6
-C  0  C  P  P  0  C
-P  0  P  P  C  0  P
-C  P  C  C  P  0  C
-P  C  P  P  P  C  P
-C  P  P  C  C  P  C
-P  C  C  P  C  P  C
-
-
-Loser: lengths, Winner: locations
- Depth: 3
-0  1  2  3  4  5  6
-0  0  P  P  C  0  0
-0  0  P  P  P  0  0
-0  0  C  C  C  0  0
-0  0  P  P  P  0  C
-0  0  P  C  C  C  C
-0  C  P  P  C  P  C
+C  P  P  P  P  0  C
+P  C  P  P  C  0  P
+P  P  C  C  P  0  C
+C  C  P  P  P  C  P
+P  P  P  C  C  P  C
+C  C  C  P  C  C  C
 
 
 Winner: lengths, Loser: locations
@@ -3276,26 +3276,26 @@ C  C  P  C  C  P  C
 C  C  C  P  C  P  P
 
 
-Loser: lengths, Winner: locations
+Winner: lengths, Loser: locations
  Depth: 3
 0  1  2  3  4  5  6
-0  P  0  P  P  C  0
-0  C  0  P  P  P  0
-P  P  P  C  C  C  C
-C  C  C  P  P  C  P
-P  P  P  C  C  P  C
-C  C  P  P  C  C  C
+C  0  C  P  P  0  C
+P  0  P  P  C  0  P
+C  P  C  C  P  0  C
+P  C  P  P  P  C  P
+C  P  P  C  C  P  C
+P  C  C  P  C  C  P
 
 
 Winner: lengths, Loser: locations
  Depth: 3
 0  1  2  3  4  5  6
-C  0  P  P  C  P  P
-P  0  P  P  P  C  P
-C  0  C  C  C  P  P
-P  P  P  P  P  C  C
+C  0  P  P  C  P  C
+P  0  P  P  C  C  P
+C  0  C  C  P  P  C
+P  P  P  P  P  C  P
 C  C  P  C  C  P  C
-C  C  P  P  C  C  C
+C  C  C  P  C  P  P
 
 
 Tie: lengths, locations
@@ -3304,48 +3304,15 @@ Tie: lengths, locations
 C  P  P  C  C  C  P
 C  C  P  P  P  C  C
 P  P  P  C  C  P  P
-P  C  C  P  C  C  C
-C  P  P  C  P  P  P
-C  C  P  P  P  C  C
-
-
-Winner: lengths, Loser: locations
- Depth: 4
-0  1  2  3  4  5  6
-C  0  P  C  C  P  0
-P  P  P  P  P  C  0
-C  C  P  C  C  P  C
 P  C  C  P  C  C  P
 C  P  P  C  P  P  C
-C  C  P  P  P  C  P
+C  C  P  P  P  C  C
 
 
 Tie: lengths, locations
  Depth: 4
 0  1  2  3  4  5  6
-C  P  P  C  C  P  C
-C  C  P  P  P  C  C
-P  P  P  C  C  P  P
-P  C  C  P  C  C  C
-C  P  P  C  P  P  P
-C  C  P  P  P  C  C
-
-
-Winner: lengths, Loser: locations
- Depth: 4
-0  1  2  3  4  5  6
-C  0  P  C  C  P  0
-P  P  P  P  P  C  0
-C  C  P  C  C  P  C
-P  C  C  P  C  C  P
-C  P  P  C  P  P  C
-C  C  P  P  P  C  P
-
-
-Tie: lengths, locations
- Depth: 4
-0  1  2  3  4  5  6
-C  P  P  C  C  P  C
+C  P  P  C  C  C  P
 C  C  P  P  P  C  C
 P  P  P  C  C  P  P
 P  C  C  P  C  C  P
@@ -3356,33 +3323,33 @@ C  C  P  P  P  C  C
 Tie: lengths, locations
  Depth: 4
 0  1  2  3  4  5  6
-C  P  P  C  C  P  C
+C  P  P  C  C  C  P
 C  C  P  P  P  C  C
 P  P  P  C  C  P  P
-P  C  C  P  C  C  C
-C  P  P  C  P  P  P
-C  C  P  P  P  C  C
-
-
-Winner: lengths, Loser: locations
- Depth: 4
-0  1  2  3  4  5  6
-C  0  P  C  C  P  0
-P  P  P  P  P  C  0
-C  C  P  C  C  P  C
 P  C  C  P  C  C  P
-C  P  P  C  P  P  P
+C  P  P  C  P  P  C
 C  C  P  P  P  C  C
 
 
-Winner: lengths, Loser: locations
+Tie: lengths, locations
  Depth: 4
 0  1  2  3  4  5  6
-C  0  P  C  C  0  C
-P  P  P  P  P  0  P
-C  C  P  C  C  P  P
-P  C  C  P  C  C  C
-C  P  P  C  P  P  P
+C  P  P  C  C  C  P
+C  C  P  P  P  C  C
+P  P  P  C  C  P  P
+P  C  C  P  C  C  P
+C  P  P  C  P  P  C
+C  C  P  P  P  C  C
+
+
+Tie: lengths, locations
+ Depth: 4
+0  1  2  3  4  5  6
+C  P  P  C  C  C  P
+C  C  P  P  P  C  C
+P  P  P  C  C  P  P
+P  C  C  P  C  C  P
+C  P  P  C  P  P  C
 C  C  P  P  P  C  C
 
 
@@ -3400,7 +3367,7 @@ C  C  P  P  P  C  C
 Tie: lengths, locations
  Depth: 4
 0  1  2  3  4  5  6
-C  P  P  C  C  P  C
+C  P  P  C  C  C  P
 C  C  P  P  P  C  C
 P  P  P  C  C  P  P
 P  C  C  P  C  C  P
@@ -3411,10 +3378,10 @@ C  C  P  P  P  C  C
 Winner: lengths, Loser: locations
  Depth: 4
 0  1  2  3  4  5  6
-C  0  P  C  C  P  0
-P  P  P  P  P  C  0
-C  C  P  C  C  P  C
-P  C  C  P  C  C  P
+C  0  P  C  C  P  C
+P  P  P  P  P  C  P
+C  C  P  C  C  P  P
+P  C  C  P  C  C  C
 C  P  P  C  P  P  P
 C  C  P  P  P  C  C
 
@@ -3422,7 +3389,29 @@ C  C  P  P  P  C  C
 Tie: lengths, locations
  Depth: 4
 0  1  2  3  4  5  6
-C  P  P  C  C  P  C
+C  P  P  C  C  C  P
+C  C  P  P  P  C  C
+P  P  P  C  C  P  P
+P  C  C  P  C  C  P
+C  P  P  C  P  P  C
+C  C  P  P  P  C  C
+
+
+Winner: lengths, Loser: locations
+ Depth: 4
+0  1  2  3  4  5  6
+C  0  P  C  C  P  C
+P  P  P  P  P  C  P
+C  C  P  C  C  P  P
+P  C  C  P  C  C  C
+C  P  P  C  P  P  P
+C  C  P  P  P  C  C
+
+
+Tie: lengths, locations
+ Depth: 4
+0  1  2  3  4  5  6
+C  P  P  C  C  C  P
 C  C  P  P  P  C  C
 P  P  P  C  C  P  P
 P  C  C  P  C  C  P
@@ -3433,32 +3422,21 @@ C  C  P  P  P  C  C
 Tie: lengths, locations
  Depth: 4
 0  1  2  3  4  5  6
-C  P  P  C  C  P  C
+C  P  P  C  C  C  P
 C  C  P  P  P  C  C
 P  P  P  C  C  P  P
-P  C  C  P  C  C  C
-C  P  P  C  P  P  P
-C  C  P  P  P  C  C
-
-
-Tie: lengths, locations
- Depth: 4
-0  1  2  3  4  5  6
-C  P  P  C  C  P  C
-C  C  P  P  P  C  C
-P  P  P  C  C  P  P
-P  C  C  P  C  C  C
-C  P  P  C  P  P  P
+P  C  C  P  C  C  P
+C  P  P  C  P  P  C
 C  C  P  P  P  C  C
 
 
 Winner: lengths, Loser: locations
  Depth: 4
 0  1  2  3  4  5  6
-C  0  P  C  C  P  0
-P  P  P  P  P  C  0
-C  C  P  C  C  P  C
-P  C  C  P  C  C  P
+C  0  P  C  C  P  C
+P  P  P  P  P  C  P
+C  C  P  C  C  P  P
+P  C  C  P  C  C  C
 C  P  P  C  P  P  P
 C  C  P  P  P  C  C
 
@@ -3466,7 +3444,7 @@ C  C  P  P  P  C  C
 Tie: lengths, locations
  Depth: 4
 0  1  2  3  4  5  6
-C  P  P  C  C  P  C
+C  P  P  C  C  C  P
 C  C  P  P  P  C  C
 P  P  P  C  C  P  P
 P  C  C  P  C  C  P
@@ -3477,262 +3455,284 @@ C  C  P  P  P  C  C
 Tie: lengths, locations
  Depth: 4
 0  1  2  3  4  5  6
-C  P  P  C  C  P  C
+C  P  P  C  C  C  P
 C  C  P  P  P  C  C
 P  P  P  C  C  P  P
-P  C  C  P  C  C  C
-C  P  P  C  P  P  P
-C  C  P  P  P  C  C
-
-
-Tie: lengths, locations
- Depth: 4
-0  1  2  3  4  5  6
-C  P  P  C  C  P  C
-C  C  P  P  P  C  C
-P  P  P  C  C  P  P
-P  C  C  P  C  C  C
-C  P  P  C  P  P  P
-C  C  P  P  P  C  C
-
-
-Tie: lengths, locations
- Depth: 4
-0  1  2  3  4  5  6
-C  P  P  C  C  P  C
-C  C  P  P  P  C  C
-P  P  P  C  C  P  P
-P  C  C  P  C  C  C
-C  P  P  C  P  P  P
+P  C  C  P  C  C  P
+C  P  P  C  P  P  C
 C  C  P  P  P  C  C
 
 
 Winner: lengths, Loser: locations
  Depth: 4
 0  1  2  3  4  5  6
-C  0  P  C  C  P  0
-P  P  P  P  P  C  0
-C  C  P  C  C  P  C
-P  C  C  P  C  C  P
+C  0  P  C  C  P  C
+P  P  P  P  P  C  P
+C  C  P  C  C  P  P
+P  C  C  P  C  C  C
 C  P  P  C  P  P  P
 C  C  P  P  P  C  C
+
+
+Tie: lengths, locations
+ Depth: 4
+0  1  2  3  4  5  6
+C  P  P  C  C  C  P
+C  C  P  P  P  C  C
+P  P  P  C  C  P  P
+P  C  C  P  C  C  P
+C  P  P  C  P  P  C
+C  C  P  P  P  C  C
+
+
+Tie: lengths, locations
+ Depth: 4
+0  1  2  3  4  5  6
+C  P  P  C  C  C  P
+C  C  P  P  P  C  C
+P  P  P  C  C  P  P
+P  C  C  P  C  C  P
+C  P  P  C  P  P  C
+C  C  P  P  P  C  C
+
+
+Tie: lengths, locations
+ Depth: 4
+0  1  2  3  4  5  6
+C  P  P  C  C  C  P
+C  C  P  P  P  C  C
+P  P  P  C  C  P  P
+P  C  C  P  C  C  P
+C  P  P  C  P  P  C
+C  C  P  P  P  C  C
+
+
+Tie: lengths, locations
+ Depth: 4
+0  1  2  3  4  5  6
+C  P  P  C  C  C  P
+C  C  P  P  P  C  C
+P  P  P  C  C  P  P
+P  C  C  P  C  C  P
+C  P  P  C  P  P  C
+C  C  P  P  P  C  C
+
+
+Loser: lengths, Winner: locations
+ Depth: 5
+0  1  2  3  4  5  6
+C  0  0  P  P  P  C
+C  0  0  C  C  P  P
+C  P  0  P  P  P  C
+P  P  0  P  C  C  P
+C  C  C  C  P  P  C
+C  C  P  P  C  P  C
+
+
+Loser: lengths, Winner: locations
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  P  P  0  0
+0  0  0  C  C  0  P
+C  C  0  P  P  C  C
+C  P  P  P  C  P  P
+C  P  C  C  P  P  C
+C  C  P  P  C  P  C
+
+
+Loser: lengths, Winner: locations
+ Depth: 5
+0  1  2  3  4  5  6
+C  0  0  P  P  P  C
+C  0  0  C  C  P  P
+C  P  0  P  P  P  C
+P  P  0  P  C  C  P
+C  C  C  C  P  P  C
+C  C  P  P  C  P  C
+
+
+Tie: lengths, locations
+ Depth: 5
+0  1  2  3  4  5  6
+C  C  C  P  P  P  C
+C  P  P  C  C  P  P
+P  C  C  P  P  C  C
+C  P  P  P  C  P  P
+P  C  C  C  P  P  C
+C  P  P  P  C  C  C
+
+
+Loser: lengths, Winner: locations
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  P  P  0  0
+0  0  0  C  C  0  P
+C  C  0  P  P  C  C
+C  P  P  P  C  P  P
+C  P  C  C  P  P  C
+C  C  P  P  C  P  C
+
+
+Tie: lengths, locations
+ Depth: 5
+0  1  2  3  4  5  6
+C  C  C  P  P  C  C
+P  P  P  C  C  P  P
+P  C  C  P  P  C  C
+C  P  P  P  C  P  P
+C  P  C  C  P  P  C
+C  C  P  P  C  P  C
+
+
+Tie: lengths, locations
+ Depth: 5
+0  1  2  3  4  5  6
+C  C  C  P  P  C  C
+P  P  P  C  C  P  P
+P  C  C  P  P  P  C
+C  P  P  P  C  C  P
+P  C  C  C  P  P  C
+C  P  P  P  C  C  C
+
+
+Tie: lengths, locations
+ Depth: 5
+0  1  2  3  4  5  6
+C  C  C  P  P  C  C
+P  P  P  C  C  P  P
+P  C  C  P  P  P  C
+C  P  P  P  C  C  P
+P  C  C  C  P  P  C
+C  P  P  P  C  C  C
+
+
+Loser: lengths, Winner: locations
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  P  P  0  P
+0  0  0  C  C  C  C
+P  0  0  P  P  P  C
+C  P  0  P  C  C  P
+P  C  0  C  P  P  C
+C  C  0  P  C  P  C
+
+
+Loser: lengths, Winner: locations
+ Depth: 5
+0  1  2  3  4  5  6
+C  0  0  P  P  P  C
+C  0  0  C  C  P  P
+C  P  0  P  P  P  C
+P  P  0  P  C  C  P
+C  C  C  C  P  P  C
+C  C  P  P  C  P  C
+
+
+Tie: lengths, locations
+ Depth: 5
+0  1  2  3  4  5  6
+C  C  C  P  P  C  C
+P  P  P  C  C  P  P
+P  C  C  P  P  C  C
+C  P  P  P  C  P  P
+P  C  C  C  P  P  C
+C  P  P  P  C  C  C
+
+
+Loser: lengths, Winner: locations
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  P  P  0  0
+0  0  0  C  C  0  P
+C  C  0  P  P  C  C
+C  P  P  P  C  P  P
+C  P  C  C  P  P  C
+C  C  P  P  C  P  C
+
+
+Tie: lengths, locations
+ Depth: 5
+0  1  2  3  4  5  6
+C  C  C  P  P  P  C
+C  P  P  C  C  P  P
+P  C  C  P  P  C  C
+C  P  P  P  C  P  P
+P  P  C  C  P  P  C
+C  C  P  P  C  C  C
+
+
+Tie: lengths, locations
+ Depth: 5
+0  1  2  3  4  5  6
+C  C  C  P  P  C  C
+P  P  P  C  C  P  P
+P  C  C  P  P  P  C
+C  P  P  P  C  C  P
+P  C  C  C  P  P  C
+C  P  P  P  C  C  C
+
+
+Tie: lengths, locations
+ Depth: 5
+0  1  2  3  4  5  6
+C  P  C  P  P  C  C
+C  C  P  C  C  P  P
+P  P  C  P  P  C  C
+C  P  P  P  C  P  P
+P  P  C  C  P  P  C
+C  C  P  P  C  C  C
+
+
+Tie: lengths, locations
+ Depth: 5
+0  1  2  3  4  5  6
+C  C  C  P  P  C  C
+P  P  P  C  C  P  P
+P  C  C  P  P  P  C
+C  P  P  P  C  C  P
+P  P  C  C  P  P  C
+C  C  P  P  C  C  C
+
+
+Loser: lengths, Winner: locations
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  P  P  P  C
+C  C  0  C  C  P  P
+C  P  0  P  P  P  C
+P  P  0  P  C  C  P
+C  C  C  C  P  P  C
+C  C  P  P  C  P  C
+
+
+Loser: lengths, Winner: locations
+ Depth: 5
+0  1  2  3  4  5  6
+C  0  0  P  P  P  C
+C  0  0  C  C  P  P
+C  P  0  P  P  P  C
+P  P  0  P  C  C  P
+C  C  C  C  P  P  C
+C  C  P  P  C  P  C
 
 
 Loser: lengths, Winner: locations
  Depth: 5
 0  1  2  3  4  5  6
 0  0  0  P  P  0  C
-0  0  0  C  C  C  C
-P  0  0  P  P  P  C
-C  0  0  P  C  C  P
-P  0  0  C  P  P  C
-C  P  0  P  C  P  C
-
-
-Loser: lengths, Winner: locations
- Depth: 5
-0  1  2  3  4  5  6
-C  C  0  P  P  P  C
-C  P  0  C  C  P  P
-C  P  0  P  P  P  C
-P  P  0  P  C  C  P
-C  C  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Loser: lengths, Winner: locations
- Depth: 5
-0  1  2  3  4  5  6
-0  0  0  P  P  0  0
-C  0  0  C  C  C  C
-P  0  0  P  P  P  C
-C  0  0  P  C  C  P
-P  0  0  C  P  P  C
-C  P  0  P  C  P  C
-
-
-Tie: lengths, locations
- Depth: 5
-0  1  2  3  4  5  6
-C  C  C  P  P  C  C
-P  P  P  C  C  P  P
-P  C  C  P  P  P  C
-C  P  P  P  C  C  P
-P  C  C  C  P  P  C
-C  P  P  P  C  C  C
-
-
-Loser: lengths, Winner: locations
- Depth: 5
-0  1  2  3  4  5  6
-0  P  0  P  P  0  0
-C  C  0  C  C  0  C
-P  P  0  P  P  C  C
-C  C  0  P  C  P  P
-P  P  0  C  P  P  C
-C  C  0  P  C  P  C
-
-
-Tie: lengths, locations
- Depth: 5
-0  1  2  3  4  5  6
-C  C  C  P  P  P  C
-C  P  P  C  C  P  P
-P  C  C  P  P  P  C
-C  P  P  P  C  C  P
-P  C  C  C  P  P  C
-C  P  P  P  C  C  C
-
-
-Tie: lengths, locations
- Depth: 5
-0  1  2  3  4  5  6
-C  C  C  P  P  C  C
-P  P  P  C  C  P  P
-P  C  C  P  P  P  C
-C  P  P  P  C  C  P
-P  C  C  C  P  P  C
-C  P  P  P  C  C  C
-
-
-Loser: lengths, Winner: locations
- Depth: 5
-0  1  2  3  4  5  6
-C  C  0  P  P  P  C
-C  P  0  C  C  P  P
-C  P  0  P  P  P  C
-P  P  0  P  C  C  P
-C  C  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Tie: lengths, locations
- Depth: 5
-0  1  2  3  4  5  6
-C  C  C  P  P  C  C
-P  P  P  C  C  P  P
-P  C  C  P  P  C  C
-C  P  P  P  C  P  P
-C  P  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Loser: lengths, Winner: locations
- Depth: 5
-0  1  2  3  4  5  6
-0  0  0  P  P  0  0
-C  0  0  C  C  0  C
+0  0  0  C  C  0  C
 P  0  0  P  P  C  C
 C  0  0  P  C  P  P
 P  0  0  C  P  P  C
 C  0  0  P  C  P  C
 
 
-Tie: lengths, locations
- Depth: 5
-0  1  2  3  4  5  6
-C  C  C  P  P  C  C
-P  P  P  C  C  P  P
-P  C  C  P  P  C  C
-C  P  P  P  C  P  P
-C  P  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Loser: lengths, Winner: locations
- Depth: 5
-0  1  2  3  4  5  6
-P  0  0  P  P  0  P
-C  0  0  C  C  C  C
-P  0  0  P  P  P  C
-C  C  0  P  C  C  P
-P  P  0  C  P  P  C
-C  C  0  P  C  P  C
-
-
-Tie: lengths, locations
- Depth: 5
-0  1  2  3  4  5  6
-C  C  C  P  P  C  C
-P  P  P  C  C  P  P
-P  C  C  P  P  C  C
-C  P  P  P  C  P  P
-C  P  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Loser: lengths, Winner: locations
- Depth: 5
-0  1  2  3  4  5  6
-P  0  0  P  P  0  C
-C  0  0  C  C  C  C
-P  0  0  P  P  P  C
-C  0  0  P  C  C  P
-P  0  0  C  P  P  C
-C  P  0  P  C  P  C
-
-
-Tie: lengths, locations
- Depth: 5
-0  1  2  3  4  5  6
-C  C  C  P  P  P  C
-C  P  P  C  C  P  P
-P  C  C  P  P  P  C
-C  P  P  P  C  C  P
-P  C  C  C  P  P  C
-C  P  P  P  C  C  C
-
-
 Loser: lengths, Winner: locations
  Depth: 5
 0  1  2  3  4  5  6
 0  0  0  P  P  0  0
-0  0  0  C  C  C  C
-P  0  0  P  P  P  C
-C  0  0  P  C  C  P
-P  0  0  C  P  P  C
-C  0  0  P  C  P  C
-
-
-Tie: lengths, locations
- Depth: 5
-0  1  2  3  4  5  6
-C  C  C  P  P  C  C
-P  P  P  C  C  P  P
-P  C  C  P  P  C  C
-C  P  P  P  C  P  P
-C  P  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Tie: lengths, locations
- Depth: 5
-0  1  2  3  4  5  6
-C  C  C  P  P  C  C
-P  P  P  C  C  P  P
-P  C  C  P  P  C  C
-C  P  P  P  C  P  P
-C  P  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Tie: lengths, locations
- Depth: 5
-0  1  2  3  4  5  6
-C  C  C  P  P  C  C
-P  P  P  C  C  P  P
-P  C  C  P  P  C  C
-C  P  P  P  C  P  P
-C  P  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Tie: lengths, locations
- Depth: 5
-0  1  2  3  4  5  6
-C  C  C  P  P  C  C
-P  P  P  C  C  P  P
-P  C  C  P  P  C  C
+0  0  0  C  C  0  P
+C  C  0  P  P  C  C
 C  P  P  P  C  P  P
 C  P  C  C  P  P  C
 C  C  P  P  C  P  C
@@ -3741,28 +3741,6 @@ C  C  P  P  C  P  C
 Tie: lengths, locations
  Depth: 6
 0  1  2  3  4  5  6
-C  C  C  P  C  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  C
-C  P  P  P  C  C  P
-P  P  C  C  P  P  P
-C  C  P  P  C  P  C
-
-
-Tie: lengths, locations
- Depth: 6
-0  1  2  3  4  5  6
-C  C  C  P  C  P  P
-C  C  P  P  C  C  C
-P  P  C  C  P  P  C
-C  P  P  P  C  C  P
-P  P  C  C  P  P  P
-C  C  P  P  C  P  C
-
-
-Tie: lengths, locations
- Depth: 6
-0  1  2  3  4  5  6
 C  C  C  P  C  P  P
 C  C  P  P  C  C  C
 P  P  C  C  P  P  C
@@ -3796,30 +3774,8 @@ C  C  P  P  C  P  C
 Tie: lengths, locations
  Depth: 6
 0  1  2  3  4  5  6
-C  C  C  P  C  P  P
-C  C  P  P  C  C  C
-P  P  C  C  P  P  C
-C  P  P  P  C  C  P
-P  P  C  C  P  P  P
-C  C  P  P  C  P  C
-
-
-Tie: lengths, locations
- Depth: 6
-0  1  2  3  4  5  6
-C  C  C  P  C  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  C
-C  P  P  P  C  C  P
-P  P  C  C  P  P  P
-C  C  P  P  C  P  C
-
-
-Tie: lengths, locations
- Depth: 6
-0  1  2  3  4  5  6
-C  C  C  P  C  P  P
-C  C  P  P  C  C  C
+C  P  C  P  C  P  P
+C  C  C  P  C  C  C
 P  P  C  C  P  P  C
 C  P  P  P  C  C  P
 P  P  C  C  P  P  P
@@ -3873,8 +3829,19 @@ C  C  P  P  C  P  C
 Tie: lengths, locations
  Depth: 6
 0  1  2  3  4  5  6
-C  C  C  P  C  P  C
-C  C  P  P  C  C  P
+C  C  C  P  C  P  P
+C  C  P  P  C  C  C
+P  P  C  C  P  P  C
+C  P  P  P  C  C  P
+P  P  C  C  P  P  P
+C  C  P  P  C  P  C
+
+
+Tie: lengths, locations
+ Depth: 6
+0  1  2  3  4  5  6
+C  P  C  P  C  P  P
+C  C  C  P  C  C  C
 P  P  C  C  P  P  C
 C  P  P  P  C  C  P
 P  P  C  C  P  P  P
@@ -3886,6 +3853,39 @@ Tie: lengths, locations
 0  1  2  3  4  5  6
 C  C  C  P  C  P  C
 C  C  P  P  C  C  P
+P  P  C  C  P  P  C
+C  P  P  P  C  C  P
+P  P  C  C  P  P  P
+C  C  P  P  C  P  C
+
+
+Tie: lengths, locations
+ Depth: 6
+0  1  2  3  4  5  6
+C  P  C  P  C  P  P
+C  C  C  P  C  C  C
+P  P  C  C  P  P  C
+C  P  P  P  C  C  P
+P  P  C  C  P  P  P
+C  C  P  P  C  P  C
+
+
+Tie: lengths, locations
+ Depth: 6
+0  1  2  3  4  5  6
+C  C  C  P  C  P  P
+C  C  P  P  C  C  C
+P  P  C  C  P  P  C
+C  P  P  P  C  C  P
+P  P  C  C  P  P  P
+C  C  P  P  C  P  C
+
+
+Tie: lengths, locations
+ Depth: 6
+0  1  2  3  4  5  6
+C  P  C  P  C  P  P
+C  C  C  P  C  C  C
 P  P  C  C  P  P  C
 C  P  P  P  C  C  P
 P  P  C  C  P  P  P
@@ -3928,6 +3928,28 @@ C  C  P  P  C  P  C
 Tie: lengths, locations
  Depth: 6
 0  1  2  3  4  5  6
+C  P  C  P  C  P  P
+C  C  C  P  C  C  C
+P  P  C  C  P  P  C
+C  P  P  P  C  C  P
+P  P  C  C  P  P  P
+C  C  P  P  C  P  C
+
+
+Tie: lengths, locations
+ Depth: 6
+0  1  2  3  4  5  6
+C  P  C  P  C  P  P
+C  C  C  P  C  C  C
+P  P  C  C  P  P  C
+C  P  P  P  C  C  P
+P  P  C  C  P  P  P
+C  C  P  P  C  P  C
+
+
+Tie: lengths, locations
+ Depth: 6
+0  1  2  3  4  5  6
 C  C  C  P  C  P  P
 C  C  P  P  C  C  C
 P  P  C  C  P  P  C
@@ -3936,26 +3958,81 @@ P  P  C  C  P  P  P
 C  C  P  P  C  P  C
 
 
-Tie: lengths, locations
- Depth: 6
+Winner: locations, Loser: both
+ Depth: 1
 0  1  2  3  4  5  6
-C  C  C  P  C  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  C
-C  P  P  P  C  C  P
-P  P  C  C  P  P  P
-C  C  P  P  C  P  C
+0  0  P  C  0  0  0
+0  0  C  C  0  0  0
+0  0  P  C  0  C  0
+0  0  C  P  0  P  0
+0  C  P  C  0  C  0
+P  P  P  P  0  P  0
 
 
-Tie: lengths, locations
- Depth: 6
+Winner: locations, Loser: both
+ Depth: 1
 0  1  2  3  4  5  6
-C  C  C  P  C  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  C
-C  P  P  P  C  C  P
-P  P  C  C  P  P  P
-C  C  P  P  C  P  C
+0  0  0  C  P  0  0
+0  C  0  C  C  0  0
+0  C  0  C  P  0  0
+0  P  0  P  C  0  0
+0  C  0  C  P  0  0
+0  P  0  P  P  P  P
+
+
+Winner: locations, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  C  0  C  C  0  0
+0  C  0  C  P  0  0
+0  P  0  P  C  0  0
+0  C  0  C  P  0  0
+0  P  0  P  P  P  P
+
+
+Winner: locations, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  P  C  0  0  0
+0  0  C  C  0  0  0
+0  0  P  C  0  C  0
+0  0  C  P  0  P  0
+0  C  P  C  0  C  0
+P  P  P  P  0  P  0
+
+
+Winner: locations, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  P  C  0  0  0
+0  0  C  C  0  0  0
+0  0  P  C  0  C  0
+0  0  C  P  0  P  0
+0  C  P  C  0  C  0
+P  P  P  P  0  P  0
+
+
+Winner: locations, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  0  0  C  C  0  0
+0  0  0  C  P  0  0
+0  0  0  P  C  0  0
+0  0  0  C  P  C  0
+0  0  0  P  P  P  P
+
+
+Winner: locations, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  C  0  C  C  0  0
+0  C  0  C  P  0  0
+0  P  0  P  C  0  0
+0  C  0  C  P  0  0
+0  P  0  P  P  P  P
 
 
 Winner: locations, Loser: both
@@ -3972,56 +4049,34 @@ P  P  P  P  0  0  0
 Winner: locations, Loser: both
  Depth: 1
 0  1  2  3  4  5  6
-0  0  P  C  0  0  0
-0  0  C  C  0  C  0
-0  0  P  C  0  C  0
-0  0  C  P  0  P  0
-0  0  P  C  0  C  0
-P  P  P  P  0  P  0
-
-
-Winner: locations, Loser: both
- Depth: 1
-0  1  2  3  4  5  6
-0  0  P  C  0  0  0
-0  0  C  C  0  C  0
-0  0  P  C  0  C  0
-0  0  C  P  0  P  0
-0  0  P  C  0  C  0
-P  P  P  P  0  P  0
-
-
-Winner: locations, Loser: both
- Depth: 1
-0  1  2  3  4  5  6
 0  0  0  C  P  0  0
-0  0  0  C  C  0  0
-0  0  0  C  P  0  0
-0  0  0  P  C  0  0
-0  0  0  C  P  C  0
-0  0  0  P  P  P  P
-
-
-Winner: locations, Loser: both
- Depth: 1
-0  1  2  3  4  5  6
-0  0  0  C  P  0  0
-0  0  0  C  C  0  0
-0  0  0  C  P  0  0
-0  0  0  P  C  0  0
-0  0  0  C  P  C  0
-0  0  0  P  P  P  P
-
-
-Winner: locations, Loser: both
- Depth: 1
-0  1  2  3  4  5  6
-0  0  0  C  P  0  0
-0  0  0  C  C  0  0
+0  C  0  C  C  0  0
 0  C  0  C  P  0  0
 0  P  0  P  C  0  0
-0  C  0  C  P  C  0
+0  C  0  C  P  0  0
 0  P  0  P  P  P  P
+
+
+Winner: locations, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  0  0  C  C  0  0
+0  0  0  C  P  0  0
+0  0  0  P  C  0  0
+0  0  0  C  P  C  0
+0  0  0  P  P  P  P
+
+
+Winner: locations, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  0  0  C  C  0  0
+0  0  0  C  P  0  0
+0  0  0  P  C  0  0
+0  0  0  C  P  C  0
+0  0  0  P  P  P  P
 
 
 Winner: locations, Loser: both
@@ -4050,10 +4105,32 @@ Winner: locations, Loser: both
  Depth: 1
 0  1  2  3  4  5  6
 0  0  P  C  0  0  0
-0  0  C  C  0  C  0
+0  0  C  C  0  0  0
+0  0  P  C  0  0  0
+0  0  C  P  0  0  0
+0  C  P  C  0  0  0
+P  P  P  P  0  0  0
+
+
+Winner: locations, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  0  0  C  C  0  0
+0  0  0  C  P  0  0
+0  0  0  P  C  0  0
+0  0  0  C  P  C  0
+0  0  0  P  P  P  P
+
+
+Winner: locations, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  P  C  0  0  0
+0  0  C  C  0  0  0
 0  0  P  C  0  C  0
 0  0  C  P  0  P  0
-0  0  P  C  0  C  0
+0  C  P  C  0  C  0
 P  P  P  P  0  P  0
 
 
@@ -4061,33 +4138,22 @@ Winner: locations, Loser: both
  Depth: 1
 0  1  2  3  4  5  6
 0  0  P  C  0  0  0
-0  0  C  C  0  C  0
+0  0  C  C  0  0  0
 0  0  P  C  0  C  0
 0  0  C  P  0  P  0
-0  0  P  C  0  C  0
+0  C  P  C  0  C  0
 P  P  P  P  0  P  0
 
 
 Winner: locations, Loser: both
  Depth: 1
 0  1  2  3  4  5  6
-0  0  P  C  0  0  0
-0  0  C  C  0  C  0
-0  0  P  C  0  C  0
-0  0  C  P  0  P  0
-0  0  P  C  0  C  0
-P  P  P  P  0  P  0
-
-
-Winner: locations, Loser: both
- Depth: 1
-0  1  2  3  4  5  6
-0  0  P  C  0  0  0
-0  0  C  C  0  C  0
-0  0  P  C  0  C  0
-0  0  C  P  0  P  0
-0  0  P  C  0  C  0
-P  P  P  P  0  P  0
+0  0  0  C  P  0  0
+0  C  0  C  C  0  0
+0  C  0  C  P  0  0
+0  P  0  P  C  0  0
+0  C  0  C  P  0  0
+0  P  0  P  P  P  P
 
 
 Winner: locations, Loser: both
@@ -4113,79 +4179,35 @@ P  P  P  P  0  P  0
 
 
 Winner: locations, Loser: both
- Depth: 1
+ Depth: 2
 0  1  2  3  4  5  6
-0  0  0  C  P  0  0
-0  0  0  C  C  0  0
-0  C  0  C  P  0  0
-0  P  0  P  C  0  0
-0  C  0  C  P  C  0
-0  P  0  P  P  P  P
-
-
-Winner: locations, Loser: both
- Depth: 1
-0  1  2  3  4  5  6
-0  0  P  C  0  0  0
-0  0  C  C  0  0  0
-0  0  P  C  0  0  0
-0  0  C  P  0  0  0
-0  C  P  C  0  0  0
-P  P  P  P  0  0  0
-
-
-Winner: locations, Loser: both
- Depth: 1
-0  1  2  3  4  5  6
-0  0  0  C  P  0  0
-0  0  0  C  C  0  0
-0  0  0  C  P  0  0
-0  0  0  P  C  0  0
-0  0  0  C  P  C  0
-0  0  0  P  P  P  P
-
-
-Winner: locations, Loser: both
- Depth: 1
-0  1  2  3  4  5  6
-0  0  0  C  P  0  0
-0  0  0  C  C  0  0
-0  0  0  C  P  0  0
-0  0  0  P  C  0  0
-0  0  0  C  P  C  0
-0  0  0  P  P  P  P
-
-
-Winner: locations, Loser: both
- Depth: 1
-0  1  2  3  4  5  6
-0  0  P  C  0  0  0
-0  0  C  C  0  C  0
-0  0  P  C  0  C  0
-0  0  C  P  0  P  0
-0  0  P  C  0  C  0
-P  P  P  P  0  P  0
-
-
-Winner: locations, Loser: both
- Depth: 1
-0  1  2  3  4  5  6
-0  0  0  C  P  0  0
-0  0  0  C  C  0  0
-0  0  0  C  P  0  0
-0  0  0  P  C  0  0
-0  0  0  C  P  C  0
-0  0  0  P  P  P  P
+0  0  P  C  C  0  0
+0  0  C  P  P  0  0
+0  0  P  C  C  0  0
+0  0  C  C  P  0  0
+0  0  P  C  C  0  0
+0  P  P  P  P  0  0
 
 
 Winner: locations, Loser: both
  Depth: 2
 0  1  2  3  4  5  6
-0  0  C  C  P  0  0
-0  0  C  P  P  0  0
-0  0  C  C  P  0  0
+0  0  0  0  0  0  0
+0  0  0  P  P  0  0
+0  0  0  C  C  0  0
+0  0  0  C  P  0  0
+0  0  C  C  C  0  0
+0  P  P  P  P  0  0
+
+
+Winner: locations, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  P  C  C  0  0
+0  0  P  P  C  0  0
 0  0  P  C  C  0  0
 0  0  C  C  P  0  0
+0  0  P  C  C  0  0
 0  P  P  P  P  0  0
 
 
@@ -4203,8 +4225,8 @@ Winner: locations, Loser: both
 Winner: locations, Loser: both
  Depth: 2
 0  1  2  3  4  5  6
-0  0  P  C  C  0  0
-0  0  P  P  C  0  0
+0  0  C  C  P  0  0
+0  0  C  P  P  0  0
 0  0  C  C  P  0  0
 0  0  P  C  C  0  0
 0  0  C  C  P  0  0
@@ -4220,17 +4242,6 @@ Winner: locations, Loser: both
 0  0  P  C  C  0  0
 0  0  C  C  P  0  0
 0  P  P  P  P  0  0
-
-
-Winner: locations, Loser: both
- Depth: 2
-0  1  2  3  4  5  6
-0  0  C  C  P  0  0
-0  0  P  P  C  0  0
-0  0  C  C  P  0  0
-0  0  P  C  C  0  0
-0  0  C  C  P  0  0
-0  0  P  P  P  P  0
 
 
 Winner: locations, Loser: both
@@ -4252,17 +4263,17 @@ Winner: locations, Loser: both
 0  0  C  C  P  0  0
 0  0  P  C  C  0  0
 0  0  C  C  P  0  0
-0  P  P  P  P  0  0
+0  0  P  P  P  P  0
 
 
 Winner: locations, Loser: both
  Depth: 2
 0  1  2  3  4  5  6
-0  0  C  C  P  0  0
-0  0  C  P  P  0  0
-0  0  C  C  P  0  0
-0  0  P  C  C  0  0
-0  0  C  C  P  0  0
+0  0  0  0  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+0  0  P  C  0  0  0
+0  0  C  C  C  0  0
 0  0  P  P  P  P  0
 
 
@@ -4270,10 +4281,43 @@ Winner: locations, Loser: both
  Depth: 2
 0  1  2  3  4  5  6
 0  0  P  C  C  0  0
-0  0  C  P  P  0  0
-0  0  C  C  P  0  0
+0  0  P  P  C  0  0
 0  0  P  C  C  0  0
 0  0  C  C  P  0  0
+0  0  P  C  C  0  0
+0  P  P  P  P  0  0
+
+
+Winner: locations, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  0  P  P  0  0
+0  0  0  C  C  0  0
+0  0  0  C  P  0  0
+0  0  C  C  C  0  0
+0  P  P  P  P  0  0
+
+
+Winner: locations, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+0  0  P  C  0  0  0
+0  0  C  C  C  0  0
+0  0  P  P  P  P  0
+
+
+Winner: locations, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  0  P  P  0  0
+0  0  0  C  C  0  0
+0  0  0  C  P  0  0
+0  0  C  C  C  0  0
 0  P  P  P  P  0  0
 
 
@@ -4313,22 +4357,33 @@ Winner: locations, Loser: both
 Winner: locations, Loser: both
  Depth: 2
 0  1  2  3  4  5  6
-0  0  0  0  0  0  0
-0  0  0  P  P  0  0
-0  0  0  C  C  0  0
-0  0  0  C  P  0  0
-0  0  C  C  C  0  0
+0  0  C  C  P  0  0
+0  0  C  P  P  0  0
+0  0  C  C  P  0  0
+0  0  P  C  C  0  0
+0  0  C  C  P  0  0
 0  P  P  P  P  0  0
 
 
 Winner: locations, Loser: both
  Depth: 2
 0  1  2  3  4  5  6
+0  0  C  C  P  0  0
+0  0  P  P  C  0  0
 0  0  P  C  C  0  0
-0  0  C  P  P  0  0
 0  0  C  C  P  0  0
 0  0  P  C  C  0  0
-0  0  C  C  P  0  0
+0  P  P  P  P  0  0
+
+
+Winner: locations, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  0  P  P  0  0
+0  0  0  C  C  0  0
+0  0  0  C  P  0  0
+0  0  C  C  C  0  0
 0  P  P  P  P  0  0
 
 
@@ -4337,67 +4392,12 @@ Winner: locations, Loser: both
 0  1  2  3  4  5  6
 0  0  P  C  C  0  0
 0  0  P  P  C  0  0
-0  0  C  C  P  0  0
 0  0  P  C  C  0  0
 0  0  C  C  P  0  0
-0  P  P  P  P  0  0
-
-
-Winner: locations, Loser: both
- Depth: 2
-0  1  2  3  4  5  6
-0  0  0  0  0  0  0
-0  0  0  P  P  0  0
-0  0  0  C  C  0  0
-0  0  0  C  P  0  0
-0  0  C  C  C  0  0
-0  P  P  P  P  0  0
-
-
-Winner: locations, Loser: both
- Depth: 2
-0  1  2  3  4  5  6
 0  0  P  C  C  0  0
-0  0  C  P  P  0  0
-0  0  C  C  P  0  0
-0  0  P  C  C  0  0
-0  0  C  C  P  0  0
 0  0  P  P  P  P  0
 
 
-Winner: locations, Loser: both
- Depth: 2
-0  1  2  3  4  5  6
-0  0  C  C  P  0  0
-0  0  P  P  C  0  0
-0  0  C  C  P  0  0
-0  0  P  C  C  0  0
-0  0  C  C  P  0  0
-0  P  P  P  P  0  0
-
-
-Winner: locations, Loser: both
- Depth: 2
-0  1  2  3  4  5  6
-0  0  C  C  P  0  0
-0  0  C  P  P  0  0
-0  0  P  C  C  0  0
-0  0  C  C  P  0  0
-0  0  P  C  C  0  0
-0  P  P  P  P  0  0
-
-
-Winner: locations, Loser: both
- Depth: 2
-0  1  2  3  4  5  6
-0  0  C  C  P  0  0
-0  0  C  P  P  0  0
-0  0  P  C  C  0  0
-0  0  C  C  P  0  0
-0  0  P  C  C  0  0
-0  P  P  P  P  0  0
-
-
 Loser: locations, Winner: both
  Depth: 3
 0  1  2  3  4  5  6
@@ -4616,28 +4616,6 @@ Loser: locations, Winner: both
 0  0  P  C  C  0  0
 P  0  C  P  P  C  0
 P  C  C  C  P  P  0
-
-
-Loser: locations, Winner: both
- Depth: 4
-0  1  2  3  4  5  6
-0  C  0  0  0  0  0
-0  P  C  P  0  0  0
-0  C  P  C  P  0  0
-0  P  C  P  C  0  0
-0  P  P  C  C  0  0
-0  C  C  P  P  0  0
-
-
-Loser: locations, Winner: both
- Depth: 4
-0  1  2  3  4  5  6
-0  C  0  0  0  0  0
-0  P  C  P  0  0  0
-0  C  P  C  P  0  0
-0  P  C  P  C  0  0
-0  P  P  C  C  0  0
-0  C  C  P  P  0  0
 
 
 Loser: locations, Winner: both
@@ -4698,39 +4676,6 @@ Loser: locations, Winner: both
 Loser: locations, Winner: both
  Depth: 4
 0  1  2  3  4  5  6
-0  C  0  C  0  0  0
-0  P  C  P  P  0  0
-0  C  P  C  P  P  0
-0  P  C  P  C  C  0
-0  P  P  C  C  P  0
-0  C  C  P  P  C  0
-
-
-Loser: locations, Winner: both
- Depth: 4
-0  1  2  3  4  5  6
-0  C  0  C  0  0  0
-0  P  C  P  P  0  0
-0  C  P  C  P  P  0
-0  P  C  P  C  C  0
-0  P  P  C  C  P  0
-0  C  C  P  P  C  0
-
-
-Loser: locations, Winner: both
- Depth: 4
-0  1  2  3  4  5  6
-0  C  0  0  0  0  0
-0  P  C  P  0  0  0
-0  C  P  C  P  0  0
-0  P  C  P  C  0  0
-0  P  P  C  C  0  0
-0  C  C  P  P  0  0
-
-
-Loser: locations, Winner: both
- Depth: 4
-0  1  2  3  4  5  6
 0  0  0  P  0  0  0
 0  0  C  P  C  0  0
 0  0  C  C  P  0  0
@@ -4759,28 +4704,6 @@ Loser: locations, Winner: both
 0  0  P  P  C  0  0
 0  0  C  C  P  C  0
 0  0  C  P  P  P  0
-
-
-Loser: locations, Winner: both
- Depth: 4
-0  1  2  3  4  5  6
-0  C  0  0  0  0  0
-0  P  C  P  0  0  0
-0  C  P  C  P  0  0
-0  P  C  P  C  0  0
-0  P  P  C  C  0  0
-0  C  C  P  P  0  0
-
-
-Loser: locations, Winner: both
- Depth: 4
-0  1  2  3  4  5  6
-0  C  0  0  0  0  0
-0  P  C  P  0  0  0
-0  C  P  C  P  0  0
-0  P  C  P  C  0  0
-0  P  P  C  C  0  0
-0  C  C  P  P  0  0
 
 
 Loser: locations, Winner: both
@@ -4839,6 +4762,83 @@ Loser: locations, Winner: both
 
 
 Loser: locations, Winner: both
+ Depth: 4
+0  1  2  3  4  5  6
+0  C  0  0  0  0  0
+0  P  C  P  0  0  0
+0  C  P  C  P  0  0
+0  P  C  P  C  0  0
+0  P  P  C  C  0  0
+0  C  C  P  P  0  0
+
+
+Loser: locations, Winner: both
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  C  P  C  0  0
+0  0  C  C  P  0  0
+0  0  P  P  C  0  0
+0  0  C  C  P  C  0
+0  0  C  P  P  P  0
+
+
+Loser: locations, Winner: both
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  C  P  C  0  0
+0  0  C  C  P  0  0
+0  0  P  P  C  0  0
+0  0  C  C  P  C  0
+0  0  C  P  P  P  0
+
+
+Loser: locations, Winner: both
+ Depth: 4
+0  1  2  3  4  5  6
+0  C  0  0  0  0  0
+0  P  C  P  0  0  0
+0  C  P  C  P  0  0
+0  P  C  P  C  0  0
+0  P  P  C  C  0  0
+0  C  C  P  P  0  0
+
+
+Loser: locations, Winner: both
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  C  P  C  0  0
+0  0  C  C  P  0  0
+0  0  P  P  C  0  0
+0  0  C  C  P  C  0
+0  0  C  P  P  P  0
+
+
+Loser: locations, Winner: both
+ Depth: 4
+0  1  2  3  4  5  6
+0  C  0  C  0  0  0
+0  P  C  P  P  0  0
+0  C  P  C  P  P  0
+0  P  C  P  C  C  0
+0  P  P  C  C  P  0
+0  C  C  P  P  C  0
+
+
+Loser: locations, Winner: both
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  C  P  C  0  0
+0  0  C  C  P  0  0
+0  0  P  P  C  0  0
+0  0  C  C  P  C  0
+0  0  C  P  P  P  0
+
+
+Loser: locations, Winner: both
  Depth: 5
 0  1  2  3  4  5  6
 0  0  C  C  C  0  0
@@ -5074,9 +5074,20 @@ Loser: locations, Winner: both
 0  1  2  3  4  5  6
 0  0  0  P  0  0  0
 0  0  P  C  P  0  0
-0  P  C  C  C  C  0
-0  C  P  P  C  P  0
-0  P  P  C  C  C  0
+0  C  C  C  C  P  0
+0  P  P  P  C  C  0
+0  C  P  C  C  P  0
+0  P  C  P  P  C  0
+
+
+Loser: locations, Winner: both
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  P  0  0  0
+0  0  P  C  P  0  0
+0  C  C  C  C  P  0
+0  P  P  P  C  C  0
+0  C  P  C  C  P  0
 0  P  C  P  P  C  0
 
 
@@ -5088,50 +5099,6 @@ Loser: locations, Winner: both
 0  P  C  C  C  P  0
 0  C  P  P  C  C  0
 0  P  P  C  C  P  0
-0  P  C  P  P  C  0
-
-
-Loser: locations, Winner: both
- Depth: 6
-0  1  2  3  4  5  6
-0  0  C  P  0  0  0
-0  C  P  C  P  0  0
-0  P  C  C  C  P  0
-0  C  P  P  C  C  0
-0  P  P  C  C  P  0
-0  P  C  P  P  C  0
-
-
-Loser: locations, Winner: both
- Depth: 6
-0  1  2  3  4  5  6
-0  0  0  P  0  0  0
-0  0  P  C  P  0  0
-0  C  C  C  C  P  0
-0  P  P  P  C  C  0
-0  C  P  C  C  P  0
-0  P  C  P  P  C  0
-
-
-Loser: locations, Winner: both
- Depth: 6
-0  1  2  3  4  5  6
-0  0  0  P  0  0  0
-0  0  P  C  P  0  0
-0  C  C  C  C  P  0
-0  P  P  P  C  C  0
-0  C  P  C  C  P  0
-0  P  C  P  P  C  0
-
-
-Loser: locations, Winner: both
- Depth: 6
-0  1  2  3  4  5  6
-0  0  0  P  0  0  0
-0  0  P  C  P  0  0
-0  C  C  C  C  P  0
-0  P  P  P  C  C  0
-0  C  P  C  C  P  0
 0  P  C  P  P  C  0
 
 
@@ -5193,11 +5160,33 @@ Loser: locations, Winner: both
 Loser: locations, Winner: both
  Depth: 6
 0  1  2  3  4  5  6
-0  0  0  P  0  0  0
-0  0  P  C  P  0  0
-0  P  C  C  C  C  0
-0  C  P  P  C  P  0
-0  P  P  C  C  C  0
+0  0  C  P  0  0  0
+0  C  P  C  P  0  0
+0  P  C  C  C  P  0
+0  C  P  P  C  C  0
+0  P  P  C  C  P  0
+0  P  C  P  P  C  0
+
+
+Loser: locations, Winner: both
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  C  P  0  0  0
+0  C  P  C  P  0  0
+0  P  C  C  C  P  0
+0  C  P  P  C  C  0
+0  P  P  C  C  P  0
+0  P  C  P  P  C  0
+
+
+Loser: locations, Winner: both
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  C  P  0  0  0
+0  C  P  C  P  0  0
+0  P  C  C  C  P  0
+0  C  P  P  C  C  0
+0  P  P  C  C  P  0
 0  P  C  P  P  C  0
 
 
@@ -5209,6 +5198,17 @@ Loser: locations, Winner: both
 0  C  C  C  C  P  0
 0  P  P  P  C  C  0
 0  C  P  C  C  P  0
+0  P  C  P  P  C  0
+
+
+Loser: locations, Winner: both
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  C  P  0  0  0
+0  C  P  C  P  0  0
+0  P  C  C  C  P  0
+0  C  P  P  C  C  0
+0  P  P  C  C  P  0
 0  P  C  P  P  C  0
 
 
@@ -5259,45 +5259,34 @@ Loser: locations, Winner: both
 Loser: locations, Winner: both
  Depth: 6
 0  1  2  3  4  5  6
-0  0  0  P  0  0  0
-0  0  P  C  P  0  0
-0  P  C  C  C  C  0
-0  C  P  P  C  P  0
-0  P  P  C  C  C  0
+0  0  C  P  0  0  0
+0  C  P  C  P  0  0
+0  P  C  C  C  P  0
+0  C  P  P  C  C  0
+0  P  P  C  C  P  0
 0  P  C  P  P  C  0
 
 
 Loser: locations, Winner: both
  Depth: 6
 0  1  2  3  4  5  6
-0  0  0  P  0  0  0
-0  0  P  C  P  0  0
-0  C  C  C  C  P  0
-0  P  P  P  C  C  0
-0  C  P  C  C  P  0
+0  0  C  P  0  0  0
+0  C  P  C  P  0  0
+0  P  C  C  C  P  0
+0  C  P  P  C  C  0
+0  P  P  C  C  P  0
 0  P  C  P  P  C  0
 
 
-Winner: both, Loser: locations
+Tie: both, locations
  Depth: 1
 0  1  2  3  4  5  6
-0  P  P  P  C  C  0
-0  P  C  C  P  P  P
-P  C  P  P  C  P  C
-C  P  C  P  P  C  C
-P  C  P  C  C  P  P
-C  C  C  P  P  C  C
-
-
-Loser: both, Winner: locations
- Depth: 1
-0  1  2  3  4  5  6
-0  0  P  P  P  0  0
-P  0  P  C  C  0  0
-C  0  C  P  P  0  C
-P  C  P  P  C  0  P
-C  P  C  C  P  0  C
-C  C  P  P  C  0  C
+C  P  P  P  C  C  C
+P  P  C  C  P  P  P
+C  C  P  P  C  P  C
+P  P  C  P  P  C  C
+C  C  P  C  C  P  P
+P  C  C  P  P  C  C
 
 
 Loser: both, Winner: locations
@@ -5306,9 +5295,42 @@ Loser: both, Winner: locations
 0  0  P  P  P  0  0
 0  0  P  C  C  0  0
 C  0  C  P  P  0  C
-P  0  P  P  C  0  P
-C  C  C  C  P  0  C
-C  P  P  P  C  0  C
+P  C  P  P  C  P  P
+C  P  C  C  P  C  C
+C  C  P  P  C  P  C
+
+
+Loser: both, Winner: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  P  P  P  0  0
+0  0  P  C  C  0  0
+C  0  C  P  P  0  C
+P  C  P  P  C  P  P
+C  P  C  C  P  C  C
+C  C  P  P  C  P  C
+
+
+Loser: both, Winner: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  P  P  P  0  0
+0  0  P  C  C  0  0
+C  0  C  P  P  0  C
+P  C  P  P  C  P  P
+C  P  C  C  P  C  C
+C  C  P  P  C  P  C
+
+
+Tie: both, locations
+ Depth: 1
+0  1  2  3  4  5  6
+C  P  P  P  C  C  C
+P  P  C  C  P  P  P
+C  C  P  P  C  P  C
+P  P  C  P  P  C  C
+C  C  P  C  C  P  P
+P  C  C  P  P  C  C
 
 
 Winner: both, Loser: locations
@@ -5339,6 +5361,127 @@ Loser: both, Winner: locations
 0  0  P  P  P  0  0
 0  0  P  C  C  0  0
 C  0  C  P  P  0  C
+P  C  P  P  C  P  P
+C  P  C  C  P  C  C
+C  C  P  P  C  P  C
+
+
+Tie: both, locations
+ Depth: 1
+0  1  2  3  4  5  6
+C  P  P  P  C  C  C
+P  P  C  C  P  P  P
+C  C  P  P  C  P  C
+P  P  C  P  P  C  C
+C  C  P  C  C  P  P
+P  C  C  P  P  C  C
+
+
+Loser: both, Winner: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  P  P  P  0  0
+0  0  P  C  C  0  0
+C  0  C  P  P  0  C
+P  C  P  P  C  P  P
+C  P  C  C  P  C  C
+C  C  P  P  C  P  C
+
+
+Loser: both, Winner: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  P  P  P  0  0
+0  0  P  C  C  0  0
+C  0  C  P  P  0  C
+P  C  P  P  C  P  P
+C  P  C  C  P  C  C
+C  C  P  P  C  P  C
+
+
+Loser: both, Winner: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  P  P  P  0  0
+0  0  P  C  C  0  0
+C  0  C  P  P  0  C
+P  C  P  P  C  P  P
+C  P  C  C  P  C  C
+C  C  P  P  C  P  C
+
+
+Tie: both, locations
+ Depth: 1
+0  1  2  3  4  5  6
+C  P  P  P  C  C  C
+P  P  C  C  P  P  P
+C  C  P  P  C  P  C
+P  P  C  P  P  C  C
+C  C  P  C  C  P  P
+P  C  C  P  P  C  C
+
+
+Loser: both, Winner: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  P  P  P  0  0
+0  0  P  C  C  0  0
+C  0  C  P  P  0  C
+P  C  P  P  C  P  P
+C  P  C  C  P  C  C
+C  C  P  P  C  P  C
+
+
+Tie: both, locations
+ Depth: 1
+0  1  2  3  4  5  6
+C  P  P  P  C  C  C
+P  P  C  C  P  P  P
+C  C  P  P  C  P  C
+P  P  C  P  P  C  C
+C  C  P  C  C  P  P
+P  C  C  P  P  C  C
+
+
+Loser: both, Winner: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  P  P  P  0  0
+0  0  P  C  C  0  0
+C  0  C  P  P  0  C
+P  C  P  P  C  P  P
+C  P  C  C  P  C  C
+C  C  P  P  C  P  C
+
+
+Winner: both, Loser: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  P  P  P  C  C  0
+0  P  C  C  P  P  P
+P  C  P  P  C  P  C
+C  P  C  P  P  C  C
+P  C  P  C  C  P  P
+C  C  C  P  P  C  C
+
+
+Tie: both, locations
+ Depth: 1
+0  1  2  3  4  5  6
+C  P  P  P  C  C  C
+P  P  C  C  P  P  P
+C  C  P  P  C  P  C
+P  P  C  P  P  C  C
+C  C  P  C  C  P  P
+P  C  C  P  P  C  C
+
+
+Loser: both, Winner: locations
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  P  P  P  0  0
+0  0  P  C  C  0  0
+C  0  C  P  P  0  C
 P  0  P  P  C  0  P
 C  C  C  C  P  0  C
 C  P  P  P  C  0  C
@@ -5355,367 +5498,345 @@ C  C  P  C  C  P  P
 P  C  C  P  P  C  C
 
 
-Winner: both, Loser: locations
- Depth: 1
-0  1  2  3  4  5  6
-0  P  P  P  C  C  0
-0  P  C  C  P  P  P
-P  C  P  P  C  P  C
-C  P  C  P  P  C  C
-P  C  P  C  C  P  P
-C  C  C  P  P  C  C
-
-
 Tie: both, locations
- Depth: 1
+ Depth: 2
 0  1  2  3  4  5  6
-C  P  P  P  C  C  C
-P  P  C  C  P  P  P
-C  C  P  P  C  P  C
-P  P  C  P  P  C  C
-C  C  P  C  C  P  P
-P  C  C  P  P  C  C
-
-
-Loser: both, Winner: locations
- Depth: 1
-0  1  2  3  4  5  6
-0  0  P  P  P  0  0
-P  0  P  C  C  0  0
-C  0  C  P  P  0  C
-P  C  P  P  C  0  P
-C  P  C  C  P  0  C
-C  C  P  P  C  0  C
-
-
-Tie: both, locations
- Depth: 1
-0  1  2  3  4  5  6
-C  P  P  P  C  C  C
-P  P  C  C  P  P  P
-C  C  P  P  C  P  C
-P  P  C  P  P  C  C
-C  C  P  C  C  P  P
-P  C  C  P  P  C  C
-
-
-Winner: both, Loser: locations
- Depth: 1
-0  1  2  3  4  5  6
-0  P  P  P  C  C  0
-0  P  C  C  P  P  P
-P  C  P  P  C  P  C
-C  P  C  P  P  C  C
-P  C  P  C  C  P  P
-C  C  C  P  P  C  C
-
-
-Loser: both, Winner: locations
- Depth: 1
-0  1  2  3  4  5  6
-0  0  P  P  P  0  0
-P  0  P  C  C  0  0
-C  0  C  P  P  P  C
-P  C  P  P  C  C  P
 C  P  C  C  P  P  C
+C  P  P  P  C  P  C
+P  P  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  P  C
+C  C  P  P  C  P  C
+
+
+Tie: both, locations
+ Depth: 2
+0  1  2  3  4  5  6
+C  P  C  C  P  P  C
+C  P  P  P  C  P  C
+P  P  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  P  C
+C  C  P  P  C  P  C
+
+
+Tie: both, locations
+ Depth: 2
+0  1  2  3  4  5  6
+C  P  C  C  P  C  C
+C  P  P  P  C  P  P
+P  P  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  P  C
+C  C  P  P  C  P  C
+
+
+Winner: both, Loser: locations
+ Depth: 2
+0  1  2  3  4  5  6
+0  P  C  C  0  P  C
+P  P  P  P  0  P  C
+C  P  C  C  0  C  P
+C  C  P  P  0  P  C
+P  P  C  C  0  C  P
+C  P  C  P  0  P  C
+
+
+Winner: both, Loser: locations
+ Depth: 2
+0  1  2  3  4  5  6
+0  P  C  C  0  P  C
+P  P  P  P  0  P  C
+C  P  C  C  0  C  P
+C  C  P  P  0  P  C
+P  P  C  C  0  C  P
+C  P  C  P  0  P  C
+
+
+Winner: both, Loser: locations
+ Depth: 2
+0  1  2  3  4  5  6
+0  P  C  C  0  P  C
+P  P  P  P  0  P  C
+C  P  C  C  0  C  P
+C  C  P  P  0  P  C
+P  P  C  C  0  C  P
+C  P  C  P  0  P  C
+
+
+Winner: both, Loser: locations
+ Depth: 2
+0  1  2  3  4  5  6
+C  C  0  C  P  P  C
+P  P  P  P  C  P  C
+P  P  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  P  C
+C  C  P  P  C  P  C
+
+
+Tie: both, locations
+ Depth: 2
+0  1  2  3  4  5  6
+C  P  C  C  P  P  C
+C  P  P  P  C  P  C
+P  P  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  P  C
+C  C  P  P  C  P  C
+
+
+Tie: both, locations
+ Depth: 2
+0  1  2  3  4  5  6
+C  P  C  C  P  P  C
+C  P  P  P  C  P  C
+P  P  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  P  C
+C  C  P  P  C  P  C
+
+
+Winner: both, Loser: locations
+ Depth: 2
+0  1  2  3  4  5  6
+C  C  0  C  P  P  C
+P  P  P  P  C  P  C
+P  P  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  P  C
+C  C  P  P  C  P  C
+
+
+Winner: both, Loser: locations
+ Depth: 2
+0  1  2  3  4  5  6
+0  P  C  C  0  P  C
+P  P  P  P  0  P  C
+C  P  C  C  0  C  P
+C  C  P  P  0  P  C
+P  P  C  C  0  C  P
+C  P  C  P  0  P  C
+
+
+Winner: both, Loser: locations
+ Depth: 2
+0  1  2  3  4  5  6
+C  C  0  C  P  P  C
+P  P  P  P  C  P  C
+P  P  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  P  C
+C  C  P  P  C  P  C
+
+
+Winner: both, Loser: locations
+ Depth: 2
+0  1  2  3  4  5  6
+C  C  0  C  P  P  C
+P  P  P  P  C  P  C
+P  P  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  P  C
+C  C  P  P  C  P  C
+
+
+Winner: both, Loser: locations
+ Depth: 2
+0  1  2  3  4  5  6
+C  C  0  C  P  P  C
+P  P  P  P  C  P  C
+P  P  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  P  C
+C  C  P  P  C  P  C
+
+
+Tie: both, locations
+ Depth: 2
+0  1  2  3  4  5  6
+C  P  C  C  P  P  C
+C  P  P  P  C  P  C
+P  P  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  P  C
+C  C  P  P  C  P  C
+
+
+Tie: both, locations
+ Depth: 2
+0  1  2  3  4  5  6
+C  P  C  C  P  P  C
+C  P  P  P  C  P  C
+P  P  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  P  C
+C  C  P  P  C  P  C
+
+
+Tie: both, locations
+ Depth: 2
+0  1  2  3  4  5  6
+C  P  C  C  P  C  C
+C  P  P  P  C  P  P
+P  P  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  P  C
+C  C  P  P  C  P  C
+
+
+Winner: both, Loser: locations
+ Depth: 2
+0  1  2  3  4  5  6
+C  C  0  C  P  P  C
+P  P  P  P  C  P  C
+P  P  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  P  C
+C  C  P  P  C  P  C
+
+
+Tie: both, locations
+ Depth: 2
+0  1  2  3  4  5  6
+C  P  C  C  P  P  C
+C  P  P  P  C  P  C
+P  P  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  P  C
+C  C  P  P  C  P  C
+
+
+Winner: both, Loser: locations
+ Depth: 2
+0  1  2  3  4  5  6
+C  C  0  C  P  P  C
+P  P  P  P  C  P  C
+P  P  C  C  P  P  C
+C  C  P  P  C  C  P
+P  P  C  C  P  P  C
+C  C  P  P  C  P  C
+
+
+Loser: both, Winner: locations
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  C  P  0  0  0
+0  0  C  P  0  C  0
+0  0  P  C  0  P  0
+0  0  C  P  C  P  0
+0  0  P  C  P  C  0
+0  0  C  P  P  C  0
+
+
+Loser: both, Winner: locations
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  P  P  C  0  0
+0  0  P  P  P  0  C
+0  0  C  C  C  0  P
+0  0  P  P  P  0  C
+0  0  P  C  C  C  C
+0  C  P  P  C  P  C
+
+
+Loser: both, Winner: locations
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  P  P  C  0  0
+0  0  P  P  P  0  C
+0  0  C  C  C  0  P
+0  0  P  P  P  0  C
+0  0  P  C  C  C  C
+0  C  P  P  C  P  C
+
+
+Loser: both, Winner: locations
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  C  P  0  0  0
+0  0  C  P  0  C  0
+0  0  P  C  0  P  0
+0  0  C  P  C  P  0
+0  0  P  C  P  C  0
+0  0  C  P  P  C  0
+
+
+Loser: both, Winner: locations
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  C  P  0  0  0
+0  0  C  P  0  C  0
+0  0  P  C  0  P  0
+0  0  C  P  C  P  0
+0  0  P  C  P  C  0
+0  0  C  P  P  C  0
+
+
+Loser: both, Winner: locations
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  P  P  0  0
+0  0  0  P  P  P  0
+0  0  P  C  C  C  C
+0  0  C  P  P  C  P
+0  0  P  C  C  P  C
+0  C  P  P  C  C  C
+
+
+Loser: both, Winner: locations
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  C  P  0  0  0
+0  0  C  P  0  C  0
+0  0  P  C  0  P  0
+0  0  C  P  C  P  0
+0  0  P  C  P  C  0
+0  0  C  P  P  C  0
+
+
+Loser: both, Winner: locations
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  C  P  0  0  0
+0  0  C  P  0  C  0
+0  0  P  C  0  P  0
+0  0  C  P  C  P  0
+0  0  P  C  P  C  0
+0  0  C  P  P  C  0
+
+
+Loser: both, Winner: locations
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  P  P  C  0  0
+0  0  P  P  P  0  C
+0  0  C  C  C  0  P
+0  0  P  P  P  0  C
+0  0  P  C  C  C  C
+0  C  P  P  C  P  C
+
+
+Winner: both, Loser: locations
+ Depth: 3
+0  1  2  3  4  5  6
+0  P  P  P  P  C  0
+0  C  C  P  P  P  0
+P  P  P  C  C  C  0
+C  C  C  P  P  C  0
+P  P  P  C  C  P  0
 C  C  P  P  C  C  C
 
 
 Loser: both, Winner: locations
- Depth: 1
+ Depth: 3
 0  1  2  3  4  5  6
-0  0  P  P  P  0  0
-P  0  P  C  C  0  0
-C  0  C  P  P  0  C
-P  C  P  P  C  0  P
-C  P  C  C  P  0  C
-C  C  P  P  C  0  C
-
-
-Winner: both, Loser: locations
- Depth: 1
-0  1  2  3  4  5  6
-0  P  P  P  C  C  0
-0  P  C  C  P  P  P
-P  C  P  P  C  P  C
-C  P  C  P  P  C  C
-P  C  P  C  C  P  P
-C  C  C  P  P  C  C
-
-
-Winner: both, Loser: locations
- Depth: 1
-0  1  2  3  4  5  6
-0  P  P  P  C  C  0
-0  P  C  C  P  P  P
-P  C  P  P  C  P  C
-C  P  C  P  P  C  C
-P  C  P  C  C  P  P
-C  C  C  P  P  C  C
-
-
-Loser: both, Winner: locations
- Depth: 1
-0  1  2  3  4  5  6
-0  0  P  P  P  C  0
-C  0  P  C  C  C  P
-C  0  C  P  P  P  C
-P  0  P  P  C  P  P
-C  C  C  C  P  C  C
-C  P  P  P  C  P  C
-
-
-Loser: both, Winner: locations
- Depth: 1
-0  1  2  3  4  5  6
-0  0  P  P  P  0  0
-P  0  P  C  C  0  0
-C  0  C  P  P  0  C
-P  C  P  P  C  0  P
-C  P  C  C  P  0  C
-C  C  P  P  C  0  C
-
-
-Winner: both, Loser: locations
- Depth: 1
-0  1  2  3  4  5  6
-0  P  P  P  C  C  0
-0  P  C  C  P  P  P
-P  C  P  P  C  P  C
-C  P  C  P  P  C  C
-P  C  P  C  C  P  P
-C  C  C  P  P  C  C
-
-
-Winner: both, Loser: locations
- Depth: 1
-0  1  2  3  4  5  6
-0  P  P  P  C  C  0
-0  P  C  C  P  P  P
-P  C  P  P  C  P  C
-C  P  C  P  P  C  C
-P  C  P  C  C  P  P
-C  C  C  P  P  C  C
-
-
-Winner: both, Loser: locations
- Depth: 2
-0  1  2  3  4  5  6
-0  P  C  C  0  P  C
-P  P  P  P  0  P  C
-C  P  C  C  0  C  P
-C  C  P  P  0  P  C
-P  P  C  C  0  C  P
-C  P  C  P  0  P  C
-
-
-Winner: both, Loser: locations
- Depth: 2
-0  1  2  3  4  5  6
-C  C  0  C  P  P  C
-P  P  P  P  C  P  C
-P  P  C  C  P  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Winner: both, Loser: locations
- Depth: 2
-0  1  2  3  4  5  6
-C  P  0  C  P  C  C
-P  P  P  P  C  P  C
-P  P  C  C  P  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Loser: both, Winner: locations
- Depth: 2
-0  1  2  3  4  5  6
-C  C  C  C  P  P  C
-C  P  P  P  C  P  P
-P  P  C  C  P  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Tie: both, locations
- Depth: 2
-0  1  2  3  4  5  6
-C  P  C  C  P  C  C
-C  P  P  P  C  P  P
-P  P  C  C  P  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Winner: both, Loser: locations
- Depth: 2
-0  1  2  3  4  5  6
-C  C  0  C  P  P  C
-P  P  P  P  C  P  C
-P  P  C  C  P  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Winner: both, Loser: locations
- Depth: 2
-0  1  2  3  4  5  6
-C  C  0  C  P  P  C
-P  P  P  P  C  P  C
-P  P  C  C  P  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Winner: both, Loser: locations
- Depth: 2
-0  1  2  3  4  5  6
-C  P  0  C  P  C  C
-P  P  P  P  C  P  C
-P  P  C  C  P  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Loser: both, Winner: locations
- Depth: 2
-0  1  2  3  4  5  6
-C  C  C  C  P  P  C
-C  P  P  P  C  P  P
-P  P  C  C  P  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Winner: both, Loser: locations
- Depth: 2
-0  1  2  3  4  5  6
-C  C  0  C  P  P  C
-P  P  P  P  C  P  C
-P  P  C  C  P  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Winner: both, Loser: locations
- Depth: 2
-0  1  2  3  4  5  6
-0  P  C  C  0  P  C
-P  P  P  P  0  P  C
-C  P  C  C  0  C  P
-C  C  P  P  0  P  C
-P  P  C  C  0  C  P
-C  P  C  P  0  P  C
-
-
-Tie: both, locations
- Depth: 2
-0  1  2  3  4  5  6
-C  P  C  C  P  C  C
-C  P  P  P  C  P  P
-P  P  C  C  P  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Tie: both, locations
- Depth: 2
-0  1  2  3  4  5  6
-C  P  C  C  P  C  C
-C  P  P  P  C  P  P
-P  P  C  C  P  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Tie: both, locations
- Depth: 2
-0  1  2  3  4  5  6
-C  P  C  C  P  C  C
-C  P  P  P  C  P  P
-P  P  C  C  P  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Tie: both, locations
- Depth: 2
-0  1  2  3  4  5  6
-C  P  C  C  P  C  C
-C  P  P  P  C  P  P
-P  P  C  C  P  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Tie: both, locations
- Depth: 2
-0  1  2  3  4  5  6
-C  P  C  C  P  C  C
-C  P  P  P  C  P  P
-P  P  C  C  P  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Tie: both, locations
- Depth: 2
-0  1  2  3  4  5  6
-C  P  C  C  P  P  C
-C  P  P  P  C  P  C
-P  P  C  C  P  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Winner: both, Loser: locations
- Depth: 2
-0  1  2  3  4  5  6
-C  P  0  C  P  C  C
-P  P  P  P  C  P  C
-P  P  C  C  P  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Loser: both, Winner: locations
- Depth: 2
-0  1  2  3  4  5  6
-C  C  C  C  P  P  C
-C  P  P  P  C  P  P
-P  P  C  C  P  P  C
-C  C  P  P  C  C  P
-P  P  C  C  P  P  C
-C  C  P  P  C  P  C
-
-
-Winner: both, Loser: locations
- Depth: 2
-0  1  2  3  4  5  6
-0  P  C  C  0  P  C
-P  P  P  P  0  P  C
-C  P  C  C  0  C  P
-C  C  P  P  0  P  C
-P  P  C  C  0  C  P
-C  P  C  P  0  P  C
+0  0  0  P  P  0  0
+0  0  0  P  P  P  0
+0  0  P  C  C  C  C
+0  0  C  P  P  C  P
+0  0  P  C  C  P  C
+0  C  P  P  C  C  C
 
 
 Loser: both, Winner: locations
@@ -5738,6 +5859,17 @@ Loser: both, Winner: locations
 0  0  C  P  C  P  0
 0  0  P  C  P  C  0
 0  0  C  P  P  C  0
+
+
+Loser: both, Winner: locations
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  P  P  C  0  0
+0  0  P  P  P  0  C
+0  0  C  C  C  0  P
+0  0  P  P  P  0  C
+0  0  P  C  C  C  C
+0  C  P  P  C  P  C
 
 
 Winner: both, Loser: locations
@@ -5765,34 +5897,12 @@ Loser: both, Winner: locations
 Loser: both, Winner: locations
  Depth: 3
 0  1  2  3  4  5  6
-0  0  C  P  0  0  0
-0  0  C  P  0  C  0
-0  0  P  C  0  P  0
-0  0  C  P  C  P  0
-0  0  P  C  P  C  0
-0  0  C  P  P  C  0
-
-
-Loser: both, Winner: locations
- Depth: 3
-0  1  2  3  4  5  6
-0  0  C  P  0  0  0
-0  0  C  P  0  C  0
-0  0  P  C  0  P  0
-0  0  C  P  C  P  0
-0  0  P  C  P  C  0
-0  0  C  P  P  C  0
-
-
-Loser: both, Winner: locations
- Depth: 3
-0  1  2  3  4  5  6
-0  0  C  P  0  0  0
-0  0  C  P  0  C  0
-0  0  P  C  0  P  0
-0  0  C  P  C  P  0
-0  0  P  C  P  C  0
-0  0  C  P  P  C  0
+0  0  P  P  C  0  0
+0  0  P  P  P  0  C
+0  0  C  C  C  0  P
+0  0  P  P  P  0  C
+0  0  P  C  C  C  C
+0  C  P  P  C  P  C
 
 
 Loser: both, Winner: locations
@@ -5806,37 +5916,15 @@ Loser: both, Winner: locations
 0  C  P  P  C  P  C
 
 
-Loser: both, Winner: locations
+Winner: both, Loser: locations
  Depth: 3
 0  1  2  3  4  5  6
-0  0  C  P  0  0  0
-0  0  C  P  0  C  0
-0  0  P  C  0  P  0
-0  0  C  P  C  P  0
-0  0  P  C  P  C  0
-0  0  C  P  P  C  0
-
-
-Loser: both, Winner: locations
- Depth: 3
-0  1  2  3  4  5  6
-0  0  C  P  0  0  0
-0  0  C  P  0  C  0
-0  0  P  C  0  P  0
-0  0  C  P  C  P  0
-0  0  P  C  P  C  0
-0  0  C  P  P  C  0
-
-
-Loser: both, Winner: locations
- Depth: 3
-0  1  2  3  4  5  6
-0  0  P  P  C  0  0
-0  0  P  P  P  0  C
-0  0  C  C  C  0  P
-0  0  P  P  P  0  C
-0  0  P  C  C  C  C
-0  C  P  P  C  P  C
+0  P  P  P  P  C  0
+0  C  C  P  P  P  0
+P  P  P  C  C  C  0
+C  C  C  P  P  C  0
+P  P  P  C  C  P  0
+C  C  P  P  C  C  C
 
 
 Loser: both, Winner: locations
@@ -5850,149 +5938,6 @@ Loser: both, Winner: locations
 0  0  C  P  P  C  0
 
 
-Loser: both, Winner: locations
- Depth: 3
-0  1  2  3  4  5  6
-0  0  C  P  0  0  0
-0  0  C  P  0  C  0
-0  0  P  C  0  P  0
-0  0  C  P  C  P  0
-0  0  P  C  P  C  0
-0  0  C  P  P  C  0
-
-
-Loser: both, Winner: locations
- Depth: 3
-0  1  2  3  4  5  6
-0  0  C  P  0  0  0
-0  0  C  P  0  C  0
-0  0  P  C  0  P  0
-0  0  C  P  C  P  0
-0  0  P  C  P  C  0
-0  0  C  P  P  C  0
-
-
-Loser: both, Winner: locations
- Depth: 3
-0  1  2  3  4  5  6
-0  0  0  P  P  0  0
-0  0  0  P  P  P  0
-0  0  P  C  C  C  C
-0  0  C  P  P  C  P
-0  0  P  C  C  P  C
-0  C  P  P  C  C  C
-
-
-Loser: both, Winner: locations
- Depth: 3
-0  1  2  3  4  5  6
-0  0  C  P  0  0  0
-0  0  C  P  0  C  0
-0  0  P  C  0  P  0
-0  0  C  P  C  P  0
-0  0  P  C  P  C  0
-0  0  C  P  P  C  0
-
-
-Loser: both, Winner: locations
- Depth: 3
-0  1  2  3  4  5  6
-0  0  C  P  0  0  0
-0  0  C  P  0  C  0
-0  0  P  C  0  P  0
-0  0  C  P  C  P  0
-0  0  P  C  P  C  0
-0  0  C  P  P  C  0
-
-
-Loser: both, Winner: locations
- Depth: 3
-0  1  2  3  4  5  6
-0  0  C  P  0  0  0
-0  0  C  P  0  C  0
-0  0  P  C  0  P  0
-0  0  C  P  C  P  0
-0  0  P  C  P  C  0
-0  0  C  P  P  C  0
-
-
-Loser: both, Winner: locations
- Depth: 3
-0  1  2  3  4  5  6
-0  0  P  P  C  0  0
-0  0  P  P  P  0  C
-0  0  C  C  C  0  P
-0  0  P  P  P  0  C
-0  0  P  C  C  C  C
-0  C  P  P  C  P  C
-
-
-Loser: both, Winner: locations
- Depth: 3
-0  1  2  3  4  5  6
-0  0  0  P  P  0  0
-0  0  0  P  P  P  0
-0  0  P  C  C  C  C
-0  0  C  P  P  C  P
-0  0  P  C  C  P  C
-0  C  P  P  C  C  C
-
-
-Winner: both, Loser: locations
- Depth: 4
-0  1  2  3  4  5  6
-0  0  P  C  C  P  0
-P  P  P  P  P  C  C
-C  C  P  C  C  P  P
-P  C  C  P  C  C  C
-C  P  P  C  P  P  P
-C  C  P  P  P  C  C
-
-
-Winner: both, Loser: locations
- Depth: 4
-0  1  2  3  4  5  6
-C  0  P  C  C  P  0
-P  P  P  P  P  C  0
-C  C  P  C  C  P  C
-P  C  C  P  C  C  P
-C  P  P  C  P  P  C
-C  C  P  P  P  C  P
-
-
-Winner: both, Loser: locations
- Depth: 4
-0  1  2  3  4  5  6
-C  0  P  C  C  P  0
-P  P  P  P  P  C  0
-C  C  P  C  C  P  C
-P  C  C  P  C  C  P
-C  P  P  C  P  P  C
-C  C  P  P  P  C  P
-
-
-Winner: both, Loser: locations
- Depth: 4
-0  1  2  3  4  5  6
-C  0  P  C  C  P  0
-P  P  P  P  P  C  0
-C  C  P  C  C  P  C
-P  C  C  P  C  C  P
-C  P  P  C  P  P  C
-C  C  P  P  P  C  P
-
-
-Winner: both, Loser: locations
- Depth: 4
-0  1  2  3  4  5  6
-0  0  P  C  C  P  0
-P  P  P  P  P  C  C
-C  C  P  C  C  P  P
-P  C  C  P  C  C  C
-C  P  P  C  P  P  P
-C  C  P  P  P  C  C
-
-
 Winner: both, Loser: locations
  Depth: 4
 0  1  2  3  4  5  6
@@ -6062,12 +6007,67 @@ C  C  P  P  P  C  P
 Winner: both, Loser: locations
  Depth: 4
 0  1  2  3  4  5  6
+0  0  P  C  C  P  0
+P  P  P  P  P  C  C
+C  C  P  C  C  P  P
+P  C  C  P  C  C  C
+C  P  P  C  P  P  P
+C  C  P  P  P  C  C
+
+
+Winner: both, Loser: locations
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  P  C  C  P  0
+P  P  P  P  P  C  C
+C  C  P  C  C  P  P
+P  C  C  P  C  C  C
+C  P  P  C  P  P  P
+C  C  P  P  P  C  C
+
+
+Winner: both, Loser: locations
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  P  C  C  P  0
+P  P  P  P  P  C  C
+C  C  P  C  C  P  P
+P  C  C  P  C  C  C
+C  P  P  C  P  P  P
+C  C  P  P  P  C  C
+
+
+Winner: both, Loser: locations
+ Depth: 4
+0  1  2  3  4  5  6
 C  0  P  C  C  P  0
 P  P  P  P  P  C  0
 C  C  P  C  C  P  C
 P  C  C  P  C  C  P
 C  P  P  C  P  P  C
 C  C  P  P  P  C  P
+
+
+Winner: both, Loser: locations
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  P  C  C  P  0
+P  P  P  P  P  C  C
+C  C  P  C  C  P  P
+P  C  C  P  C  C  C
+C  P  P  C  P  P  P
+C  C  P  P  P  C  C
+
+
+Winner: both, Loser: locations
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  P  C  C  P  0
+P  P  P  P  P  C  C
+C  C  P  C  C  P  P
+P  C  C  P  C  C  C
+C  P  P  C  P  P  P
+C  C  P  P  P  C  C
 
 
 Winner: both, Loser: locations
@@ -6117,34 +6117,12 @@ C  C  P  P  P  C  C
 Winner: both, Loser: locations
  Depth: 4
 0  1  2  3  4  5  6
-C  0  P  C  C  P  0
-P  P  P  P  P  C  0
-C  C  P  C  C  P  C
-P  C  C  P  C  C  P
-C  P  P  C  P  P  C
-C  C  P  P  P  C  P
-
-
-Winner: both, Loser: locations
- Depth: 4
-0  1  2  3  4  5  6
-C  0  P  C  C  P  0
-P  P  P  P  P  C  0
-C  C  P  C  C  P  C
-P  C  C  P  C  C  P
-C  P  P  C  P  P  C
-C  C  P  P  P  C  P
-
-
-Winner: both, Loser: locations
- Depth: 4
-0  1  2  3  4  5  6
-C  0  P  C  C  P  0
-P  P  P  P  P  C  0
-C  C  P  C  C  P  C
-P  C  C  P  C  C  P
-C  P  P  C  P  P  C
-C  C  P  P  P  C  P
+0  0  P  C  C  P  0
+P  P  P  P  P  C  C
+C  C  P  C  C  P  P
+P  C  C  P  C  C  C
+C  P  P  C  P  P  P
+C  C  P  P  P  C  C
 
 
 Winner: both, Loser: locations
@@ -6158,14 +6136,47 @@ C  P  P  C  P  P  P
 C  C  P  P  P  C  C
 
 
-Loser: both, Winner: locations
+Winner: both, Loser: locations
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  P  C  C  P  0
+P  P  P  P  P  C  C
+C  C  P  C  C  P  P
+P  C  C  P  C  C  C
+C  P  P  C  P  P  P
+C  C  P  P  P  C  C
+
+
+Winner: both, Loser: locations
+ Depth: 4
+0  1  2  3  4  5  6
+0  0  P  C  C  P  0
+P  P  P  P  P  C  C
+C  C  P  C  C  P  P
+P  C  C  P  C  C  C
+C  P  P  C  P  P  P
+C  C  P  P  P  C  C
+
+
+Winner: both, Loser: locations
  Depth: 5
 0  1  2  3  4  5  6
-C  P  C  C  C  C  0
-P  C  P  P  P  C  0
-C  P  C  C  P  P  0
-P  P  C  P  C  P  0
-P  C  P  C  P  P  0
-P  C  C  P  C  C  0
+0  0  C  C  P  P  C
+0  P  P  P  C  P  P
+0  C  C  C  P  P  C
+0  P  P  P  C  P  P
+C  P  C  C  P  C  C
+C  C  P  P  C  C  P
+
+
+Winner: both, Loser: locations
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  C  C  P  P  C
+0  P  P  P  C  P  P
+0  C  C  C  P  P  C
+0  P  P  P  C  P  P
+C  P  C  C  P  C  C
+C  C  P  P  C  C  P
 
 

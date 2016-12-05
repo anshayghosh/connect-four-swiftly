@@ -1,0 +1,55 @@
+Score: locations: 15  locations: 0  Ties: 5    Depth was:1
+Score: locations: 2  locations: 18  Ties: 0    Depth was:2
+Score: locations: 0  locations: 5  Ties: 15    Depth was:3
+Score: locations: 0  locations: 10  Ties: 10    Depth was:4
+Score: locations: 6  locations: 11  Ties: 3    Depth was:5
+Score: locations: 5  locations: 7  Ties: 8    Depth was:6
+
+Score: locations: 20  lengths: 0  Ties: 0    Depth was:1
+Score: locations: 20  lengths: 0  Ties: 0    Depth was:2
+Score: locations: 0  lengths: 20  Ties: 0    Depth was:3
+Score: locations: 0  lengths: 20  Ties: 0    Depth was:4
+Score: locations: 0  lengths: 20  Ties: 0    Depth was:5
+Score: locations: 0  lengths: 20  Ties: 0    Depth was:6
+
+Score: lengths: 6  locations: 10  Ties: 4    Depth was:1
+Score: lengths: 11  locations: 8  Ties: 1    Depth was:2
+Score: lengths: 19  locations: 1  Ties: 0    Depth was:3
+Score: lengths: 15  locations: 0  Ties: 5    Depth was:4
+Score: lengths: 0  locations: 13  Ties: 7    Depth was:5
+Score: lengths: 0  locations: 0  Ties: 20    Depth was:6
+
+Score: locations: 20  both: 0  Ties: 0    Depth was:1
+Score: locations: 20  both: 0  Ties: 0    Depth was:2
+Score: locations: 0  both: 20  Ties: 0    Depth was:3
+Score: locations: 0  both: 20  Ties: 0    Depth was:4
+Score: locations: 0  both: 20  Ties: 0    Depth was:5
+Score: locations: 0  both: 20  Ties: 0    Depth was:6
+
+Score: both: 10  locations: 8  Ties: 2    Depth was:1
+Score: both: 14  locations: 1  Ties: 5    Depth was:2
+Score: both: 3  locations: 17  Ties: 0    Depth was:3
+Score: both: 20  locations: 0  Ties: 0    Depth was:4
+Score: both: 2  locations: 14  Ties: 4    Depth was:5
+Score: both: 0  locations: 0  Ties: 20    Depth was:6
+
+Score: lengths: 14  lengths: 5  Ties: 1    Depth was:1
+Score: lengths: 11  lengths: 9  Ties: 0    Depth was:2
+Score: lengths: 20  lengths: 0  Ties: 0    Depth was:3
+Score: lengths: 13  lengths: 7  Ties: 0    Depth was:4
+Score: lengths: 0  lengths: 12  Ties: 8    Depth was:5
+Score: lengths: 13  lengths: 7  Ties: 0    Depth was:6
+
+Score: lengths: 17  both: 2  Ties: 1    Depth was:1
+Score: lengths: 20  both: 0  Ties: 0    Depth was:2
+Score: lengths: 20  both: 0  Ties: 0    Depth was:3
+Score: lengths: 0  both: 20  Ties: 0    Depth was:4
+Score: lengths: 10  both: 0  Ties: 10    Depth was:5
+Score: lengths: 0  both: 20  Ties: 0    Depth was:6
+
+Score: both: 20  lengths: 0  Ties: 0    Depth was:1
+Score: both: 12  lengths: 8  Ties: 0    Depth was:2
+Score: both: 20  lengths: 0  Ties: 0    Depth was:3
+Score: both: 20  lengths: 0  Ties: 0    Depth was:4
+Score: both: 0  lengths: 20  Ties: 0    Depth was:5
+Score: both: 20  lengths: 0  Ties: 0    Depth was:6

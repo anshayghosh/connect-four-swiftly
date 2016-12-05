@@ -340,6 +340,9 @@ def eval_func_to_string(func):
         return "both"
 
 def test_no_random_moves(final_scores):
+    test_no = 1
+    while(os.path.isfile("final_boards_no_random_moves" + str(test_no) + ".txt")):
+        test_no += 1      
     with open("final_boards_no_random_moves" + str(test_no) + ".txt", 'w', 1) as final_boards_no_random_moves:
         single_test_no_random_moves(final_scores, final_boards_no_random_moves, LOCATION, LOCATION)
         single_test_no_random_moves(final_scores, final_boards_no_random_moves, LOCATION, LENGTH)
@@ -349,7 +352,7 @@ def test_no_random_moves(final_scores):
         single_test_no_random_moves(final_scores, final_boards_no_random_moves, LENGTH, LENGTH)
         single_test_no_random_moves(final_scores, final_boards_no_random_moves, LENGTH, BOTH)
         single_test_no_random_moves(final_scores, final_boards_no_random_moves, BOTH, LENGTH)
-        single_test_no_random_moves(final_scores, final_boards_no_random_moves, LOCATION, LOCATION)
+        single_test_no_random_moves(final_scores, final_boards_no_random_moves, BOTH, BOTH)
     
 def single_test_no_random_moves(final_scores, final_boards_no_random_moves, eval_func1, eval_func2):
     for depth in range(1, 7):
@@ -372,16 +375,19 @@ def single_test_no_random_moves(final_scores, final_boards_no_random_moves, eval
     final_scores.write("\n")
     
 def test_n_random_moves(final_scores, rand_moves=5, difficulty_levels=[1, 2, 3, 4]):
+    test_no = 1
+    while(os.path.isfile("final_boards_n_random_moves" + str(test_no) + ".txt")):
+        test_no += 1  
     with open("final_boards_n_random_moves" + str(test_no) + ".txt", 'w', 1) as final_boards_n_random_moves:
-        single_test_n_random_moves(final_scores, final_boards_no_random, LOCATION, LOCATION, rand_moves=rand_moves, difficulty_levels=difficulty_levels)
-        single_test_n_random_moves(final_scores, final_boards_no_random, LOCATION, LENGTH, rand_moves=rand_moves, difficulty_levels=difficulty_levels)
-        single_test_n_random_moves(final_scores, final_boards_no_random, LENGTH, LOCATION, rand_moves=rand_moves, difficulty_levels=difficulty_levels)
-        single_test_n_random_moves(final_scores, final_boards_no_random, LOCATION, BOTH, rand_moves=rand_moves, difficulty_levels=difficulty_levels)
-        single_test_n_random_moves(final_scores, final_boards_no_random, BOTH, LOCATION, rand_moves=rand_moves, difficulty_levels=difficulty_levels)
-        single_test_n_random_moves(final_scores, final_boards_no_random, LENGTH, LENGTH, rand_moves=rand_moves, difficulty_levels=difficulty_levels)
-        single_test_n_random_moves(final_scores, final_boards_no_random, LENGTH, BOTH, rand_moves=rand_moves, difficulty_levels=difficulty_levels)
-        single_test_n_random_moves(final_scores, final_boards_no_random, BOTH, LENGTH, rand_moves=rand_moves, difficulty_levels=difficulty_levels)
-        single_test_n_random_moves(final_scores, final_boards_no_random, LOCATION, LOCATION, rand_moves=rand_moves, difficulty_levels=difficulty_levels)
+        single_test_n_random_moves(final_scores, final_boards_n_random_moves, LOCATION, LOCATION, rand_moves=rand_moves, difficulty_levels=difficulty_levels)
+        single_test_n_random_moves(final_scores, final_boards_n_random_moves, LOCATION, LENGTH, rand_moves=rand_moves, difficulty_levels=difficulty_levels)
+        single_test_n_random_moves(final_scores, final_boards_n_random_moves, LENGTH, LOCATION, rand_moves=rand_moves, difficulty_levels=difficulty_levels)
+        single_test_n_random_moves(final_scores, final_boards_n_random_moves, LOCATION, BOTH, rand_moves=rand_moves, difficulty_levels=difficulty_levels)
+        single_test_n_random_moves(final_scores, final_boards_n_random_moves, BOTH, LOCATION, rand_moves=rand_moves, difficulty_levels=difficulty_levels)
+        single_test_n_random_moves(final_scores, final_boards_n_random_moves, LENGTH, LENGTH, rand_moves=rand_moves, difficulty_levels=difficulty_levels)
+        single_test_n_random_moves(final_scores, final_boards_n_random_moves, LENGTH, BOTH, rand_moves=rand_moves, difficulty_levels=difficulty_levels)
+        single_test_n_random_moves(final_scores, final_boards_n_random_moves, BOTH, LENGTH, rand_moves=rand_moves, difficulty_levels=difficulty_levels)
+        single_test_n_random_moves(final_scores, final_boards_n_random_moves, BOTH, BOTH, rand_moves=rand_moves, difficulty_levels=difficulty_levels)
         
 def single_test_n_random_moves(final_scores, final_boards_n_random_moves, eval_func1, eval_func2, rand_moves=5, difficulty_levels=[1, 2, 3, 4]):
     for difficulty in difficulty_levels:
@@ -410,12 +416,8 @@ if __name__ == '__main__':
     #main(), computer_vs_computer(), grid_search()
     
     test_no = 1
-    final_scores = open("final_scores" + str(test_no) + ".txt", 'w')
-    while(os.path.getsize("final_scores" + str(test_no) + ".txt") > 0):
-        final_scores.close()
+    while(os.path.isfile("final_scores" + str(test_no) + ".txt")):
         test_no += 1
-        final_scores = open("final_scores" + str(test_no) + ".txt", 'w')
-    final_scores.close()
     with open("final_scores" + str(test_no) + ".txt", 'w', 1) as final_scores:
         test_no_random_moves(final_scores)
         test_n_random_moves(final_scores, rand_moves=5, difficulty_levels=[1, 2, 3, 4, 5, 6])
