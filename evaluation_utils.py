@@ -69,7 +69,7 @@ def evaluate_using_lengths(state):
                             try:
                                 final = final + color * weights[current]
                             except IndexError:
-                                print([actual1, actual2, potential1, pontential2], file=sys.stderr)
+                                print([actual1, actual2, potential1, potential2], file=sys.stderr)
 
                 visited[row][col]=True
     return final

@@ -364,6 +364,7 @@ def single_test_no_random_moves(final_scores, final_boards_no_random_moves, eval
             printBoardToFile(final_boards_no_random_moves, result[1])
             final_boards_no_random_moves.write("\n")
         final_scores.write("Score: " + eval_func_to_string(eval_func1) + ": " + str(scores[0]) + "  " + eval_func_to_string(eval_func2) + ": " + str(scores[1]) + "  Ties: " + str(scores[2]) + "    Depth was:" + str(depth) + "\n")
+    final_scores.write("\n")
     
 def test_n_random_moves(final_scores, rand_moves=5, difficulty_levels=[1, 2, 3, 4]):
     with open("final_boards_n_random_moves" + str(test_no) + ".txt", 'w', 1) as final_boards_n_random_moves:
@@ -396,7 +397,8 @@ def single_test_n_random_moves(final_scores, final_boards_n_random_moves, eval_f
             final_boards_n_random_moves.write(" Depth: " + str(difficulty) + "\n")
             printBoardToFile(final_boards_n_random_moves, result[0][1])
             final_boards_n_random_moves.write("\n")
-        final_scores.write("Score: " + eval_func_to_string(eval_func1) + ": " + str(scores[0]) + "  " + eval_func_to_string(eval_func2) + ": " + str(scores[1]) + "  Ties: " + str(scores[2]) + "    Depth was:" + str(difficulty) + "  random moves:" + str(rand_moves) + "\n")     
+        final_scores.write("Score: " + eval_func_to_string(eval_func1) + ": " + str(scores[0]) + "  " + eval_func_to_string(eval_func2) + ": " + str(scores[1]) + "  Ties: " + str(scores[2]) + "    Depth was:" + str(difficulty) + "  random moves:" + str(rand_moves) + "\n")
+    final_scores.write("\n")
 
 
 if __name__ == '__main__':

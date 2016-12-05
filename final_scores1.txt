@@ -14,3 +14,15 @@ Score: lengths: 13  locations: 7  Ties: 0    Depth was:1
 Score: lengths: 17  locations: 2  Ties: 1    Depth was:2
 Score: lengths: 18  locations: 2  Ties: 0    Depth was:3
 Score: lengths: 8  locations: 0  Ties: 12    Depth was:4
+Score: lengths: 0  locations: 9  Ties: 11    Depth was:5
+Score: lengths: 0  locations: 0  Ties: 20    Depth was:6
+Score: locations: 20  both: 0  Ties: 0    Depth was:1
+Score: locations: 20  both: 0  Ties: 0    Depth was:2
+Score: locations: 0  both: 20  Ties: 0    Depth was:3
+Score: locations: 0  both: 20  Ties: 0    Depth was:4
+Score: locations: 0  both: 20  Ties: 0    Depth was:5
+Score: locations: 0  both: 20  Ties: 0    Depth was:6
+Score: both: 8  locations: 9  Ties: 3    Depth was:1
+Score: both: 10  locations: 3  Ties: 7    Depth was:2
+Score: both: 1  locations: 19  Ties: 0    Depth was:3
+Score: both: 20  locations: 0  Ties: 0    Depth was:4
