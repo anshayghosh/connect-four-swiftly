@@ -1,0 +1,16 @@
+Score: locations: 15  locations: 1  Ties: 4    Depth was:1
+Score: locations: 9  locations: 11  Ties: 0    Depth was:2
+Score: locations: 0  locations: 8  Ties: 12    Depth was:3
+Score: locations: 0  locations: 11  Ties: 9    Depth was:4
+Score: locations: 3  locations: 14  Ties: 3    Depth was:5
+Score: locations: 3  locations: 10  Ties: 7    Depth was:6
+Score: locations: 20  lengths: 0  Ties: 0    Depth was:1
+Score: locations: 20  lengths: 0  Ties: 0    Depth was:2
+Score: locations: 0  lengths: 20  Ties: 0    Depth was:3
+Score: locations: 0  lengths: 20  Ties: 0    Depth was:4
+Score: locations: 0  lengths: 20  Ties: 0    Depth was:5
+Score: locations: 0  lengths: 20  Ties: 0    Depth was:6
+Score: lengths: 13  locations: 7  Ties: 0    Depth was:1
+Score: lengths: 17  locations: 2  Ties: 1    Depth was:2
+Score: lengths: 18  locations: 2  Ties: 0    Depth was:3
+Score: lengths: 8  locations: 0  Ties: 12    Depth was:4

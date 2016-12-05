@@ -61,19 +61,18 @@ def evaluate_using_lengths(state):
                 color = state.game.board[row][col]
                 if(color != NONE):
                     for i in range(0,4):
-                        actual1,potential1 = getActualandPotentialLength(state, row, col, DIRECTION_TABLE[0][i], DIRECTION_TABLE[1][i],visited)
-                        actual2,potential2 = getActualandPotentialLength(state, row, col, -DIRECTION_TABLE[0][i], -DIRECTION_TABLE[1][i],visited)
+                        actual1, potential1 = getActualAndPotentialLength(state, row, col, DIRECTION_TABLE[0][i], DIRECTION_TABLE[1][i],visited)
+                        actual2, potential2 = getActualAndPotentialLength(state, row, col, -DIRECTION_TABLE[0][i], -DIRECTION_TABLE[1][i],visited)
 
                         current = actual1 + actual2
                         if(potential1 + potential2 >= 3):
-                            final = final + color*weights[current]
+                            try:
+                                final = final + color * weights[current]
+                            except IndexError:
+                                print([actual1, actual2, potential1, pontential2], file=sys.stderr)
 
                 visited[row][col]=True
-
-
     return final
-
-
 
 def evaluate_using_both(state):
     total = 0
@@ -82,20 +81,7 @@ def evaluate_using_both(state):
 
     return total 
 
-
-
-
-
-
-
-
-
-
-
 #========================  HELPER FUNCTIONS  ==================================================
-
-
-
 
 def positionCheck(row,col, color, state):
     if(col<= BORDER_COLUMN and row <= BORDER_ROW and row>=0 and col>=0 and state.game.board[row][col] == color):
@@ -104,35 +90,19 @@ def positionCheck(row,col, color, state):
         return False
 
 
-def getActualandPotentialLength(state, row, col, dir1, dir2, visited):
+def getActualAndPotentialLength(state, row, col, dir1, dir2, visited):
     length = 1
     color = state.game.board[row][col]
 
-    while(positionCheck(row + (dir1*length), col + (dir2*length), color, state)):
-        visited[row + (dir1*length)][col + (dir2*length)] = True
+    while(positionCheck(row + (dir1 * length), col + (dir2 * length), color, state)):
+        visited[row + (dir1 * length)][col + (dir2 * length)] = True
         length = length + 1
 
-    actual = length-1
+    actual = length - 1
 
-    while(positionCheck(row + (dir1*length), col + (dir2*length), NONE, state)):
-        visited[row + (dir1*length)][col + (dir2*length)] = True
+    while(positionCheck(row + (dir1 * length), col + (dir2 * length), NONE, state)):
+        visited[row + (dir1 * length)][col + (dir2 * length)] = True
         length = length + 1
 
 
-    return actual-1,length-1
-
-
-
-
-
-
-                            
-                
-
-
-
-
-
-
-
-
+    return actual - 1, length - 1
