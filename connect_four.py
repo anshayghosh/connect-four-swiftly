@@ -19,7 +19,12 @@ TIE = 0
 NOT_OVER = -5000
 
 MIN = -1
-MAX = 1        
+MAX = 1
+
+#base game taken from https://gist.github.com/poke/6934842
+#changed to use numpy
+#additional variables were added, and checking for wins was made significantly faster
+#main() and other functions outside of Game class were added/changed to support CPU players
 
 class Game:
     def __init__ (self, cols = 7, rows = 6, requiredToWin = 4, move_list="", last_move = []):
@@ -413,4 +418,4 @@ if __name__ == '__main__':
     final_scores.close()
     with open("final_scores" + str(test_no) + ".txt", 'w', 1) as final_scores:
         test_no_random_moves(final_scores)
-        test_n_random_moves(final_scores, rand_moves=5, difficulty_levels=[1, 2, 3, 4])
+        test_n_random_moves(final_scores, rand_moves=5, difficulty_levels=[1, 2, 3, 4, 5, 6])
