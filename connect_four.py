@@ -341,7 +341,7 @@ def eval_func_to_string(func):
 
 def test_no_random_moves(final_scores):
     test_no = 1
-    while(os.path.isfile("final_boards_no_random_moves" + str(test_no) + ".txt")):
+    while os.path.isfile("final_boards_no_random_moves" + str(test_no) + ".txt"):
         test_no += 1      
     with open("final_boards_no_random_moves" + str(test_no) + ".txt", 'w', 1) as final_boards_no_random_moves:
         single_test_no_random_moves(final_scores, final_boards_no_random_moves, LOCATION, LOCATION)
@@ -376,7 +376,7 @@ def single_test_no_random_moves(final_scores, final_boards_no_random_moves, eval
     
 def test_n_random_moves(final_scores, rand_moves=5, difficulty_levels=[1, 2, 3, 4]):
     test_no = 1
-    while(os.path.isfile("final_boards_n_random_moves" + str(test_no) + ".txt")):
+    while os.path.isfile("final_boards_n_random_moves" + str(test_no) + ".txt"):
         test_no += 1  
     with open("final_boards_n_random_moves" + str(test_no) + ".txt", 'w', 1) as final_boards_n_random_moves:
         single_test_n_random_moves(final_scores, final_boards_n_random_moves, LOCATION, LOCATION, rand_moves=rand_moves, difficulty_levels=difficulty_levels)
@@ -416,7 +416,7 @@ if __name__ == '__main__':
     #main(), computer_vs_computer(), grid_search()
     
     test_no = 1
-    while(os.path.isfile("final_scores" + str(test_no) + ".txt")):
+    while os.path.isfile("final_scores" + str(test_no) + ".txt"):
         test_no += 1
     with open("final_scores" + str(test_no) + ".txt", 'w', 1) as final_scores:
         test_no_random_moves(final_scores)

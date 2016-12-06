@@ -10558,3 +10558,1323 @@ P  C  C  C  P  C  C
 C  C  P  P  P  C  C
 
 
+Winner: both, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  C  0  C
+0  0  P  P  P  P  P
+0  0  C  C  P  C  P
+0  0  C  P  P  P  C
+
+
+Winner: both, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+P  0  0  C  C  C  0
+C  0  0  P  P  P  0
+P  P  0  P  C  C  C
+C  C  0  C  P  P  C
+P  P  P  P  C  C  P
+
+
+Winner: both, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+P  0  0  C  C  C  0
+C  0  0  P  P  P  0
+P  P  0  P  C  C  C
+C  C  0  C  P  P  C
+P  P  P  P  C  C  P
+
+
+Winner: both, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+C  P  0  C  P  0  0
+C  C  0  C  C  C  0
+C  P  0  P  P  P  0
+P  P  0  P  C  P  C
+C  C  0  C  P  C  C
+P  P  P  P  C  P  P
+
+
+Winner: both, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+C  P  0  C  P  0  0
+C  C  0  C  C  C  0
+C  P  0  P  P  P  0
+P  P  0  P  C  P  C
+C  C  0  C  P  C  C
+P  P  P  P  C  P  P
+
+
+Winner: both, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+P  0  0  C  C  C  0
+C  0  0  P  P  P  0
+P  P  0  P  C  C  C
+C  C  0  C  P  P  C
+P  P  P  P  C  C  P
+
+
+Winner: both, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  C  0  C
+0  0  P  P  P  P  P
+0  0  C  C  P  C  P
+0  0  C  P  P  P  C
+
+
+Winner: both, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  C  0  C
+0  0  P  P  P  P  P
+0  0  C  C  P  C  P
+0  0  C  P  P  P  C
+
+
+Winner: both, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  C  0  C
+0  0  P  P  P  P  P
+0  0  C  C  P  C  P
+0  0  C  P  P  P  C
+
+
+Winner: both, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  C  0  C
+0  0  P  P  P  P  P
+0  0  C  C  P  C  P
+0  0  C  P  P  P  C
+
+
+Winner: both, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  C  0  C
+0  0  P  P  P  P  P
+0  0  C  C  P  C  P
+0  0  C  P  P  P  C
+
+
+Winner: both, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+P  0  0  C  C  C  0
+C  0  0  P  P  P  0
+P  P  0  P  C  C  C
+C  C  0  C  P  P  C
+P  P  P  P  C  C  P
+
+
+Winner: both, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+P  0  0  C  C  C  0
+C  0  0  P  P  P  0
+P  P  0  P  C  C  C
+C  C  0  C  P  P  C
+P  P  P  P  C  C  P
+
+
+Winner: both, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  C  0  C
+0  0  P  P  P  P  P
+0  0  C  C  P  C  P
+0  0  C  P  P  P  C
+
+
+Winner: both, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  C  0  C
+0  0  P  P  P  P  P
+0  0  C  C  P  C  P
+0  0  C  P  P  P  C
+
+
+Winner: both, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+C  P  0  C  P  0  0
+P  C  0  C  C  C  0
+C  P  0  P  P  P  0
+P  C  P  P  C  P  C
+C  P  C  C  P  C  C
+P  C  P  P  C  P  P
+
+
+Winner: both, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  C  0  C
+0  0  P  P  P  P  P
+0  0  C  C  P  C  P
+0  0  C  P  P  P  C
+
+
+Winner: both, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+C  P  0  C  P  0  0
+P  C  0  C  C  C  0
+C  P  0  P  P  P  0
+P  C  P  P  C  P  C
+C  P  C  C  P  C  C
+P  C  P  P  C  P  P
+
+
+Winner: both, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  C  0  C
+0  0  P  P  P  P  P
+0  0  C  C  P  C  P
+0  0  C  P  P  P  C
+
+
+Winner: both, Loser: both
+ Depth: 1
+0  1  2  3  4  5  6
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  C  0  C
+0  0  P  P  P  P  P
+0  0  C  C  P  C  P
+0  0  C  P  P  P  C
+
+
+Winner: both, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+P  P  P  P  C  0  0
+
+
+Winner: both, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  C  P  0  0  0
+0  0  P  C  C  0  0
+C  P  P  P  P  0  C
+C  P  C  C  P  0  P
+P  C  P  C  C  C  P
+C  C  P  P  P  C  P
+
+
+Winner: both, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+P  P  P  P  C  0  0
+
+
+Winner: both, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  0  P  P  0  0
+C  0  0  C  C  0  0
+P  0  0  P  P  0  0
+C  0  0  C  C  0  0
+P  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+P  P  P  P  C  0  0
+
+
+Winner: both, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+P  P  P  P  C  0  0
+
+
+Winner: both, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  C  P  0  0  0
+0  0  P  C  C  0  0
+C  P  P  P  P  0  C
+C  P  C  C  P  0  P
+P  C  P  C  C  C  P
+C  C  P  P  P  C  P
+
+
+Winner: both, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  C  P  0  0  0
+0  0  P  C  C  0  0
+C  P  P  P  P  0  C
+C  P  C  C  P  0  P
+P  C  P  C  C  C  P
+C  C  P  P  P  C  P
+
+
+Winner: both, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  0  P  P  0  0
+C  0  0  C  C  0  0
+P  0  0  P  P  0  0
+C  0  0  C  C  0  0
+P  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+P  P  P  P  C  0  0
+
+
+Winner: both, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  C  P  0  0  0
+0  0  P  C  C  0  0
+C  P  P  P  P  0  C
+C  P  C  C  P  0  P
+P  C  P  C  C  C  P
+C  C  P  P  P  C  P
+
+
+Winner: both, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+P  P  P  P  C  0  0
+
+
+Winner: both, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  0  P  P  0  0
+C  0  0  C  C  0  0
+P  0  0  P  P  0  0
+C  0  0  C  C  0  0
+P  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+P  P  P  P  C  0  0
+
+
+Winner: both, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+P  P  P  P  C  0  0
+
+
+Winner: both, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+P  P  P  P  C  0  0
+
+
+Winner: both, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+0  0  P  P  0  0  0
+0  0  C  C  0  0  0
+P  P  P  P  C  0  0
+
+
+Winner: both, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  0  P  P  0  0
+C  0  0  C  C  0  0
+P  0  0  P  P  0  0
+C  0  0  C  C  0  0
+P  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  C  P  0  0  0
+0  0  P  C  C  0  0
+C  P  P  P  P  0  C
+C  P  C  C  P  0  P
+P  C  P  C  C  C  P
+C  C  P  P  P  C  P
+
+
+Winner: both, Loser: both
+ Depth: 2
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  0  P  P  0  0
+C  0  0  C  C  0  0
+P  0  0  P  P  0  0
+C  0  0  C  C  0  0
+P  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  C  C  0  0
+0  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  C  C  0  0
+0  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  C  C  0  0
+0  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  C  C  0  0
+0  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  C  C  0  0
+0  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  C  C  0  0
+0  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  C  C  0  0
+0  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  C  C  0  0
+0  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  C  C  0  0
+0  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  C  C  0  0
+0  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  C  C  0  0
+0  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  C  C  0  0
+0  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  C  C  0  0
+0  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  C  C  0  0
+0  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  C  C  0  0
+0  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  C  C  0  0
+0  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  C  C  0  0
+0  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  C  C  0  0
+0  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  C  C  0  0
+0  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 3
+0  1  2  3  4  5  6
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  0  0  0  0
+0  0  0  C  C  0  0
+0  P  P  P  P  C  0
+
+
+Winner: both, Loser: both
+ Depth: 4
+0  1  2  3  4  5  6
+P  P  0  C  P  0  C
+C  P  0  P  C  0  P
+P  P  0  C  C  0  P
+C  C  0  P  C  P  C
+C  P  C  C  P  C  C
+P  P  C  P  P  C  P
+
+
+Winner: both, Loser: both
+ Depth: 4
+0  1  2  3  4  5  6
+P  P  0  C  P  0  C
+C  P  0  P  C  0  P
+P  P  0  C  C  0  P
+C  C  0  P  C  P  C
+C  P  C  C  P  C  C
+P  P  C  P  P  C  P
+
+
+Winner: both, Loser: both
+ Depth: 4
+0  1  2  3  4  5  6
+P  P  0  C  P  0  C
+C  P  0  P  C  0  P
+P  P  0  C  C  0  P
+C  C  0  P  C  P  C
+C  P  C  C  P  C  C
+P  P  C  P  P  C  P
+
+
+Winner: both, Loser: both
+ Depth: 4
+0  1  2  3  4  5  6
+P  P  0  C  P  0  C
+C  P  0  P  C  0  P
+P  P  0  C  C  0  P
+C  C  0  P  C  P  C
+C  P  C  C  P  C  C
+P  P  C  P  P  C  P
+
+
+Winner: both, Loser: both
+ Depth: 4
+0  1  2  3  4  5  6
+P  P  0  C  P  0  C
+C  P  0  P  C  0  P
+P  P  0  C  C  0  P
+C  C  0  P  C  P  C
+C  P  C  C  P  C  C
+P  P  C  P  P  C  P
+
+
+Winner: both, Loser: both
+ Depth: 4
+0  1  2  3  4  5  6
+P  P  0  C  P  0  C
+C  P  0  P  C  0  P
+P  P  0  C  C  0  P
+C  C  0  P  C  P  C
+C  P  C  C  P  C  C
+P  P  C  P  P  C  P
+
+
+Winner: both, Loser: both
+ Depth: 4
+0  1  2  3  4  5  6
+P  P  0  C  P  0  C
+C  P  0  P  C  0  P
+P  P  0  C  C  0  P
+C  C  0  P  C  P  C
+C  P  C  C  P  C  C
+P  P  C  P  P  C  P
+
+
+Winner: both, Loser: both
+ Depth: 4
+0  1  2  3  4  5  6
+P  P  0  C  P  0  C
+C  P  0  P  C  0  P
+P  P  0  C  C  0  P
+C  C  0  P  C  P  C
+C  P  C  C  P  C  C
+P  P  C  P  P  C  P
+
+
+Winner: both, Loser: both
+ Depth: 4
+0  1  2  3  4  5  6
+P  P  0  C  P  0  C
+C  P  0  P  C  0  P
+P  P  0  C  C  0  P
+C  C  0  P  C  P  C
+C  P  C  C  P  C  C
+P  P  C  P  P  C  P
+
+
+Winner: both, Loser: both
+ Depth: 4
+0  1  2  3  4  5  6
+P  P  0  C  P  0  C
+C  P  0  P  C  0  P
+P  P  0  C  C  0  P
+C  C  0  P  C  P  C
+C  P  C  C  P  C  C
+P  P  C  P  P  C  P
+
+
+Winner: both, Loser: both
+ Depth: 4
+0  1  2  3  4  5  6
+P  P  0  C  P  0  C
+C  P  0  P  C  0  P
+P  P  0  C  C  0  P
+C  C  0  P  C  P  C
+C  P  C  C  P  C  C
+P  P  C  P  P  C  P
+
+
+Winner: both, Loser: both
+ Depth: 4
+0  1  2  3  4  5  6
+P  P  0  C  P  0  C
+C  P  0  P  C  0  P
+P  P  0  C  C  0  P
+C  C  0  P  C  P  C
+C  P  C  C  P  C  C
+P  P  C  P  P  C  P
+
+
+Winner: both, Loser: both
+ Depth: 4
+0  1  2  3  4  5  6
+P  P  0  C  P  0  C
+C  P  0  P  C  0  P
+P  P  0  C  C  0  P
+C  C  0  P  C  P  C
+C  P  C  C  P  C  C
+P  P  C  P  P  C  P
+
+
+Winner: both, Loser: both
+ Depth: 4
+0  1  2  3  4  5  6
+P  P  0  C  P  0  C
+C  P  0  P  C  0  P
+P  P  0  C  C  0  P
+C  C  0  P  C  P  C
+C  P  C  C  P  C  C
+P  P  C  P  P  C  P
+
+
+Winner: both, Loser: both
+ Depth: 4
+0  1  2  3  4  5  6
+P  P  0  C  P  0  C
+C  P  0  P  C  0  P
+P  P  0  C  C  0  P
+C  C  0  P  C  P  C
+C  P  C  C  P  C  C
+P  P  C  P  P  C  P
+
+
+Winner: both, Loser: both
+ Depth: 4
+0  1  2  3  4  5  6
+P  P  0  C  P  0  C
+P  P  0  P  C  0  C
+P  P  0  C  C  0  P
+C  C  0  P  C  P  C
+C  P  C  C  P  C  C
+P  P  C  P  P  C  P
+
+
+Winner: both, Loser: both
+ Depth: 4
+0  1  2  3  4  5  6
+P  P  0  C  P  0  C
+C  P  0  P  C  0  P
+P  P  0  C  C  0  P
+C  C  0  P  C  P  C
+C  P  C  C  P  C  C
+P  P  C  P  P  C  P
+
+
+Winner: both, Loser: both
+ Depth: 4
+0  1  2  3  4  5  6
+P  P  0  C  P  0  C
+C  P  0  P  C  0  P
+P  P  0  C  C  0  P
+C  C  0  P  C  P  C
+C  P  C  C  P  C  C
+P  P  C  P  P  C  P
+
+
+Winner: both, Loser: both
+ Depth: 4
+0  1  2  3  4  5  6
+P  P  0  C  P  0  C
+C  P  0  P  C  0  P
+P  P  0  C  C  0  P
+C  C  0  P  C  P  C
+C  P  C  C  P  C  C
+P  P  C  P  P  C  P
+
+
+Winner: both, Loser: both
+ Depth: 4
+0  1  2  3  4  5  6
+P  P  0  C  P  0  C
+C  P  0  P  C  0  P
+P  P  0  C  C  0  P
+C  C  0  P  C  P  C
+C  P  C  C  P  C  C
+P  P  C  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  C  C  P  0  P
+0  0  P  C  C  C  P
+0  0  P  P  C  C  C
+0  0  C  C  P  P  P
+P  P  C  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  C  C  P  0  P
+0  0  P  C  C  C  P
+0  0  P  P  C  C  C
+0  0  C  C  P  P  P
+P  P  C  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  C  C  P  0  P
+0  0  P  C  C  C  P
+0  0  P  P  C  C  C
+0  0  C  C  P  P  P
+P  P  C  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  C  C  P  0  P
+0  0  P  C  C  C  P
+0  0  P  P  C  C  C
+0  0  C  C  P  P  P
+P  P  C  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  C  C  P  0  P
+0  0  P  C  C  C  P
+0  0  P  P  C  C  C
+0  0  C  C  P  P  P
+P  P  C  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  C  C  P  0  P
+0  0  P  C  C  C  P
+0  0  P  P  C  C  C
+0  0  C  C  P  P  P
+P  P  C  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  C  C  P  0  P
+0  0  P  C  C  C  P
+0  0  P  P  C  C  C
+0  0  C  C  P  P  P
+P  P  C  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  C  C  P  0  P
+0  0  P  C  C  C  P
+0  0  P  P  C  C  C
+0  0  C  C  P  P  P
+P  P  C  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  C  C  P  0  P
+0  0  P  C  C  C  P
+0  0  P  P  C  C  C
+0  0  C  C  P  P  P
+P  P  C  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  C  C  P  0  P
+0  0  P  C  C  C  P
+0  0  P  P  C  C  C
+0  0  C  C  P  P  P
+P  P  C  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  C  C  P  0  P
+0  0  P  C  C  C  P
+0  0  P  P  C  C  C
+0  0  C  C  P  P  P
+P  P  C  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  C  C  P  0  P
+0  0  P  C  C  C  P
+0  0  P  P  C  C  C
+0  0  C  C  P  P  P
+P  P  C  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  C  C  P  0  P
+0  0  P  C  C  C  P
+0  0  P  P  C  C  C
+0  0  C  C  P  P  P
+P  P  C  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  C  C  P  0  P
+0  0  P  C  C  C  P
+0  0  P  P  C  C  C
+0  0  C  C  P  P  P
+P  P  C  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  C  C  P  0  P
+0  0  P  C  C  C  P
+0  0  P  P  C  C  C
+0  0  C  C  P  P  P
+P  P  C  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  C  C  P  0  P
+0  0  P  C  C  C  P
+0  0  P  P  C  C  C
+0  0  C  C  P  P  P
+P  P  C  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  C  C  P  0  P
+0  0  P  C  C  C  P
+0  0  P  P  C  C  C
+0  0  C  C  P  P  P
+P  P  C  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  C  C  P  0  P
+0  0  P  C  C  C  P
+0  0  P  P  C  C  C
+0  0  C  C  P  P  P
+P  P  C  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  C  C  P  0  P
+0  0  P  C  C  C  P
+0  0  P  P  C  C  C
+0  0  C  C  P  P  P
+P  P  C  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 5
+0  1  2  3  4  5  6
+0  0  0  C  C  0  0
+0  0  C  C  P  0  P
+0  0  P  C  C  C  P
+0  0  P  P  C  C  C
+0  0  C  C  P  P  P
+P  P  C  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  C  0  P  P  P  0
+0  C  0  C  C  P  0
+0  P  C  P  P  C  C
+P  C  P  C  P  C  C
+C  C  P  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  C  0  P  P  P  0
+0  C  0  C  C  P  0
+0  P  C  P  P  C  C
+P  C  P  C  P  C  C
+C  C  P  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  C  0  P  P  P  0
+0  C  0  C  C  P  0
+0  P  C  P  P  C  C
+P  C  P  C  P  C  C
+C  C  P  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  C  0  P  P  P  0
+0  C  0  C  C  P  0
+0  P  C  P  P  C  C
+P  C  P  C  P  C  C
+C  C  P  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  C  0  P  P  P  0
+0  C  0  C  C  P  0
+0  P  C  P  P  C  C
+P  C  P  C  P  C  C
+C  C  P  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  C  0  P  P  P  0
+0  C  0  C  C  P  0
+0  P  C  P  P  C  C
+P  C  P  C  P  C  C
+C  C  P  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  C  0  P  P  P  0
+0  C  0  C  C  P  0
+0  P  C  P  P  C  C
+P  C  P  C  P  C  C
+C  C  P  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  C  0  P  P  P  0
+0  C  0  C  C  P  0
+0  P  C  P  P  C  C
+P  C  P  C  P  C  C
+C  C  P  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  C  0  P  P  P  0
+0  C  0  C  C  P  0
+0  P  C  P  P  C  C
+P  C  P  C  P  C  C
+C  C  P  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  C  0  P  P  P  0
+0  C  0  C  C  P  0
+0  P  C  P  P  C  C
+P  C  P  C  P  C  C
+C  C  P  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  C  0  P  P  P  0
+0  C  0  C  C  P  0
+0  P  C  P  P  C  C
+P  C  P  C  P  C  C
+C  C  P  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  C  0  P  P  P  0
+0  C  0  C  C  P  0
+0  P  C  P  P  C  C
+P  C  P  C  P  C  C
+C  C  P  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  C  0  P  P  P  0
+0  C  0  C  C  P  0
+0  P  C  P  P  C  C
+P  C  P  C  P  C  C
+C  C  P  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  C  0  P  P  P  0
+0  C  0  C  C  P  0
+0  P  C  P  P  C  C
+P  C  P  C  P  C  C
+C  C  P  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  C  0  P  P  P  0
+0  C  0  C  C  P  0
+0  P  C  P  P  C  C
+P  C  P  C  P  C  C
+C  C  P  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  C  0  P  P  P  0
+0  C  0  C  C  P  0
+0  P  C  P  P  C  C
+P  C  P  C  P  C  C
+C  C  P  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  C  0  P  P  P  0
+0  C  0  C  C  P  0
+0  P  C  P  P  C  C
+P  C  P  C  P  C  C
+C  C  P  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  C  0  P  P  P  0
+0  C  0  C  C  P  0
+0  P  C  P  P  C  C
+P  C  P  C  P  C  C
+C  C  P  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  C  0  P  P  P  0
+0  C  0  C  C  P  0
+0  P  C  P  P  C  C
+P  C  P  C  P  C  C
+C  C  P  P  P  C  P
+
+
+Loser: both, Winner: both
+ Depth: 6
+0  1  2  3  4  5  6
+0  0  0  C  P  0  0
+0  C  0  P  P  P  0
+0  C  0  C  C  P  0
+0  P  C  P  P  C  C
+P  C  P  C  P  C  C
+C  C  P  P  P  C  P
+
+
