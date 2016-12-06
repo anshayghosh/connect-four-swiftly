@@ -61,7 +61,7 @@ def alpha_beta_search(state, player, depth_limit=4, eval_func=evaluate_using_bot
     return best_move
 
 
-def search(state, player, alpha=-9999, beta=9999, depth_limit=6, current_depth=0, eval_func=evaluate_using_both):
+def search(state, player, alpha=-math.inf, beta=math.inf, depth_limit=6, current_depth=0, eval_func=evaluate_using_both):
     """
     Performs minimax search with alpha-beta pruning. Uses a transposition table to keep track of previously seen
     states.
@@ -105,7 +105,7 @@ def search(state, player, alpha=-9999, beta=9999, depth_limit=6, current_depth=0
     # The case where player is MIN
     if player == MIN:
         best_move = None
-        min_value = 9999
+        min_value = math.inf
         one_time = True
 
         # Iterate over all of the successors for the current board state and player
@@ -134,7 +134,7 @@ def search(state, player, alpha=-9999, beta=9999, depth_limit=6, current_depth=0
     # The case where player is MAX
     else:
         best_move = None
-        max_value = -9999
+        max_value = -math.inf
         one_time = True
 
         # Iterate over all of the successors for the current board state and player

@@ -1,12 +1,10 @@
 import numpy as np
 import sys
 
-
 # INTEGER VALUES REPRESENTING EACH DIFFERENT KIND OF "COLOR" IN A SQUARE ON THE BOARD
 NONE = 0
 PLAYER = -1
 COMPUTER = 1
-
 
 # Evaluation table is used to represent the number of possible ways of winning
 # from a specific square on the board for ex: corners will have only 3 because there are only
@@ -16,12 +14,9 @@ EVALUATION_TABLE = np.array(
     [[3, 4, 5, 7, 5, 4, 3], [4, 6, 8, 10, 8, 6, 4], [5, 8, 11, 13, 11, 8, 5], [5, 8, 11, 13, 11, 8, 5],
      [4, 6, 8, 10, 8, 6, 4], [3, 4, 5, 7, 5, 4, 3]])
 
-
 # used for checking wheiher the row,col pair is outside the board or not. 
 BORDER_COLUMN = 6
-
 BORDER_ROW = 5
-
 
 # used to iterate through all the directions possible from a square on the board
 # a direction pair is represneted by DT[0][0], DT[1][0] which is 0,1 which is
@@ -57,9 +52,6 @@ def evaluate_based_on_location_ratings(state):
                 sum += EVALUATION_TABLE[i][j]
 
     return sum
-
-
-
 
 def evaluate_using_lengths(state):
     """
@@ -108,7 +100,6 @@ def evaluate_using_lengths(state):
                 visited[row][col]=True
     return final
 
-
 def evaluate_using_both(state):
     """
     Estimate the current utility of the state by adding the two previous utility functions
@@ -122,7 +113,6 @@ def evaluate_using_both(state):
 #========================  HELPER FUNCTIONS  ==================================================
 
 
-
 def positionCheck(row,col, color, state):
     """
     simple boolean helper to check if the row and col pair are within the bounds and the color inputted
@@ -132,7 +122,6 @@ def positionCheck(row,col, color, state):
         return True
     else:
         return False
-
 
 def getActualAndPotentialLength(state, row, col, dir1, dir2, visited):
     """
@@ -153,6 +142,5 @@ def getActualAndPotentialLength(state, row, col, dir1, dir2, visited):
     while(positionCheck(row + (dir1 * length), col + (dir2 * length), NONE, state)):
         visited[row + (dir1 * length)][col + (dir2 * length)] = True
         length = length + 1
-
 
     return actual - 1, length - 1

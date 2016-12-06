@@ -80,11 +80,11 @@ class Game:
         if w == PLAYER:
             # self.printBoard()
             # print(str(w) + ' won!')
-            return - 9999
+            return -math.inf
         elif w == COMPUTER:
             # self.printBoard()
             # print(str(w) + ' won!')
-            return 9999
+            return math.inf
 
         # self.printBoard()
         if not (self.board != 0).all():
@@ -194,7 +194,6 @@ def main():
         if (turn == COMPUTER):
             state = minimax_search.StateSpace(g)
             print("computer turn")
-            # new_state = minimax_search.search(state, MAX)[1]
             new_move = minimax_search.alpha_beta_search(state, MAX)
 
             # cProfile.runctx('minimax_search.search(state, MAX)[1]', {"state": state, "minimax_search":minimax_search, "MAX":MAX}, {})
@@ -218,11 +217,10 @@ def main():
 
         win_check_result = g.checkForWin()
         if (win_check_result != NOT_OVER):
-            # print(g.checkForWin())
             g.printBoard()
-            if win_check_result == 9999:
+            if win_check_result == math.inf:
                 print("Computer won!")
-            elif win_check_result == -9999:
+            elif win_check_result == -math.inf:
                 print("Player won!")
             else:
                 print("Tie Game!")
@@ -243,11 +241,11 @@ def computer_vs_computer(p1_initial_moves=[], p2_initial_moves=[], p1_diff=3, p2
 
         win_check_result = g.checkForWin()
         if (win_check_result != NOT_OVER):
-            #g.printBoard()
-            if win_check_result == 9999:
+            g.printBoard()
+            if win_check_result == math.inf:
                 print("Computer won!")
                 return False
-            elif win_check_result == -9999:
+            elif win_check_result == -math.inf:
                 print("Player won!")
                 return False
             else:
@@ -260,11 +258,11 @@ def computer_vs_computer(p1_initial_moves=[], p2_initial_moves=[], p1_diff=3, p2
 
         win_check_result = g.checkForWin()
         if (win_check_result != NOT_OVER):
-            #g.printBoard()
-            if win_check_result == 9999:
+            g.printBoard()
+            if win_check_result == math.inf:
                 print("Computer won!")
                 return False
-            elif win_check_result == -9999:
+            elif win_check_result == -math.inf:
                 print("Player won!")
                 return False
             else:
@@ -274,11 +272,11 @@ def computer_vs_computer(p1_initial_moves=[], p2_initial_moves=[], p1_diff=3, p2
 
 
     while True:
-        #g.printBoard()
+        g.printBoard()
 
         if (turn == COMPUTER):
             state = minimax_search.StateSpace(g, eval_func=eval_func1)
-            #print("computer turn")
+            print("computer turn")
             new_move = minimax_search.alpha_beta_search(state, MAX, depth_limit=p1_diff, eval_func=eval_func1)
 
 
@@ -286,7 +284,7 @@ def computer_vs_computer(p1_initial_moves=[], p2_initial_moves=[], p1_diff=3, p2
                 g.insert(new_move[1], turn)
         else:
             state = minimax_search.StateSpace(g, eval_func=eval_func1)
-            #print("player turn")
+            print("player turn")
             new_move = minimax_search.alpha_beta_search(state, MAX, depth_limit=p2_diff, eval_func=eval_func2)
 
 
@@ -295,11 +293,11 @@ def computer_vs_computer(p1_initial_moves=[], p2_initial_moves=[], p1_diff=3, p2
 
         win_check_result = g.checkForWin()
         if (win_check_result != NOT_OVER):
-            #g.printBoard()
-            if win_check_result == 9999:
+            g.printBoard()
+            if win_check_result == math.inf:
                 print("Computer won!")
                 return COMPUTER, g.board
-            elif win_check_result == -9999:
+            elif win_check_result == -math.inf:
                 print("Player won!")
                 return PLAYER, g.board
             else:
@@ -415,9 +413,12 @@ def single_test_n_random_moves(final_scores, final_boards_n_random_moves, eval_f
 if __name__ == '__main__':
     #main(), computer_vs_computer(), grid_search()
     
+    main()
+    '''
     test_no = 1
     while os.path.isfile("final_scores" + str(test_no) + ".txt"):
         test_no += 1
     with open("final_scores" + str(test_no) + ".txt", 'w', 1) as final_scores:
         test_no_random_moves(final_scores)
-        test_n_random_moves(final_scores, rand_moves=5, difficulty_levels=[1, 2, 3, 4, 5, 6])
+        test_n_random_moves(final_scores, rand_moves=3, difficulty_levels=[1, 2, 3, 4, 5, 6])
+    '''
