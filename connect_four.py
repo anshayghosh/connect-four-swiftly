@@ -7,6 +7,8 @@ import minimax_search
 import math
 import cProfile
 from evaluation_utils import *
+import pickle
+
 
 def cls():
     os.system('cls' if os.name=='nt' else 'clear')
@@ -185,7 +187,7 @@ def printBoardToFile (file, board):
     file.write("\n")
 
 def main():
-    minimax_search.load_cache()
+    # minimax_search.load_cache()
     g = Game()
     turn = PLAYER
     while True:
@@ -409,6 +411,35 @@ def single_test_n_random_moves(final_scores, final_boards_n_random_moves, eval_f
         final_scores.write("Score: " + eval_func_to_string(eval_func1) + ": " + str(scores[0]) + "  " + eval_func_to_string(eval_func2) + ": " + str(scores[1]) + "  Ties: " + str(scores[2]) + "    Depth was:" + str(difficulty) + "  random moves:" + str(rand_moves) + "\n")
     final_scores.write("\n")
 
+
+def test_effectiveness_of_pruning(file_name="transposition_pruning_effect_table_ordering.txt"):
+    minimax_search.load_cache()
+    difficulties = [3,4,5]
+    times = np.zeros([4,5])
+    with open(file_name, "w") as output_file:
+        for j, diff in enumerate(difficulties):
+            for i in range(5):
+                output_file.write("_________Start_________\n")
+                print("_________Start_________")
+                current_time = os.times()[0]
+                computer_vs_computer(p1_diff=diff, p2_diff=diff)
+                output_file.write("Nodes pruned: " + str(minimax_search.NODES_PRUNED))
+                output_file.write("\n")
+                print("Nodes pruned: " + str(minimax_search.NODES_PRUNED))
+                output_file.write("Nodes explored: " + str(minimax_search.NODES_EXPLORED))
+                output_file.write("\n")
+                print("Nodes explored: " + str(minimax_search.NODES_EXPLORED))
+                minimax_search.reset_nodes_pruned()
+                minimax_search.reset_nodes_explored()
+                output_file.write("Time Search took: " + str(os.times()[0] - current_time))
+                output_file.write("\n")
+                print("Time Search took: " + str(os.times()[0] - current_time))
+                times[j,i] = os.times()[0] - current_time
+                output_file.write("_________End_________\n")
+                print("_________End_________")
+                minimax_search.save_cache()
+    pickle.dump(times, open('transposition_pruning_effect_table_ordering', 'wb'))
+    print(times)
 
 if __name__ == '__main__':
     #main(), computer_vs_computer(), grid_search()
