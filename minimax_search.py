@@ -13,6 +13,9 @@ MAX = 1
 
 CACHE = {}
 
+NODES_PRUNED = 0
+NODES_EXPLORED = 0
+
 class StateSpace:
     def __init__(self, game, eval_func=evaluate_using_both):
         self.game = game
@@ -74,7 +77,10 @@ def search(state, player, alpha=-9999, beta=9999, depth_limit=6, current_depth=0
     :param current_depth: The current depth of recursion
     :return: A tuple of the form (utility, best_move)
     """
+    global NODES_PRUNED
+    global NODES_EXPLORED
 
+    # NODES_EXPLORED += 1
     # Get an md5 hash of the current board to use as the key for the transposition table
     md5 = hashlib.md5(state.game.board.tostring()).hexdigest()
 
@@ -84,15 +90,16 @@ def search(state, player, alpha=-9999, beta=9999, depth_limit=6, current_depth=0
     # table
     if current_depth != 0:
         cache_result = CACHE.get(md5)
-        if cache_result is not None:
+        if cache_result is not None and cache_result[0] != connect_four.NOT_OVER:
             # Case when state utility value has been cached in the transposition table.
             return cache_result[0], cache_result[1]
         else:
             # Case state utility hasn't yet been cached.
             check_game_over = state.game.checkForWin()
 
+            CACHE[md5] = (check_game_over, state.game.last_move)
+
             if check_game_over != connect_four.NOT_OVER:
-                CACHE[md5] = (check_game_over, state.game.last_move)
                 return check_game_over, state.game.last_move
                 # return check_game_over
 
@@ -109,7 +116,8 @@ def search(state, player, alpha=-9999, beta=9999, depth_limit=6, current_depth=0
         one_time = True
 
         # Iterate over all of the successors for the current board state and player
-        for state in state.successorsSorted(player):
+        successors = state.successorsSorted(player)
+        for i, state in enumerate(successors):
             # Make sure that best_move won't be None
             if one_time:
                 best_move = state.game.last_move
@@ -123,6 +131,7 @@ def search(state, player, alpha=-9999, beta=9999, depth_limit=6, current_depth=0
 
             # This performs a beta cut
             if alpha >= beta:
+                # NODES_PRUNED += (len(successors) - (i + 1)) * (len(successors) ** (depth_limit - current_depth))
                 return beta, state.game.last_move
 
             # Updates the minimum utility
@@ -138,7 +147,8 @@ def search(state, player, alpha=-9999, beta=9999, depth_limit=6, current_depth=0
         one_time = True
 
         # Iterate over all of the successors for the current board state and player
-        for state in state.successorsSorted(player):
+        successors = state.successorsSorted(player)
+        for i, state in enumerate(successors):
             # Make sure that best_move won't be None
             if one_time:
                 best_move = state.game.last_move
@@ -152,6 +162,7 @@ def search(state, player, alpha=-9999, beta=9999, depth_limit=6, current_depth=0
 
             # This performs an alpha cut
             if alpha >= beta:
+                # NODES_PRUNED += (len(successors) - (i + 1)) * (len(successors) ** (depth_limit - current_depth))
                 return alpha, state.game.last_move
 
             # Updates the maximum utility
@@ -170,3 +181,15 @@ def load_cache():
     global CACHE
 
     CACHE = pickle.load(open("transposition_tables/transposition_table", "rb"))
+
+
+def reset_nodes_pruned():
+    global NODES_PRUNED
+
+    NODES_PRUNED = 0
+
+
+def reset_nodes_explored():
+    global NODES_EXPLORED
+
+    NODES_EXPLORED = 0
