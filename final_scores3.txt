@@ -53,3 +53,74 @@ Score: both: 20  lengths: 0  Ties: 0    Depth was:3
 Score: both: 20  lengths: 0  Ties: 0    Depth was:4
 Score: both: 0  lengths: 20  Ties: 0    Depth was:5
 Score: both: 20  lengths: 0  Ties: 0    Depth was:6
+
+Score: both: 20  both: 0  Ties: 0    Depth was:1
+Score: both: 20  both: 0  Ties: 0    Depth was:2
+Score: both: 20  both: 0  Ties: 0    Depth was:3
+Score: both: 20  both: 0  Ties: 0    Depth was:4
+Score: both: 0  both: 20  Ties: 0    Depth was:5
+Score: both: 0  both: 20  Ties: 0    Depth was:6
+
+Score: locations: 13  locations: 4  Ties: 3    Depth was:1  random moves:5
+Score: locations: 9  locations: 10  Ties: 1    Depth was:2  random moves:5
+Score: locations: 7  locations: 13  Ties: 0    Depth was:3  random moves:5
+Score: locations: 11  locations: 9  Ties: 0    Depth was:4  random moves:5
+Score: locations: 9  locations: 11  Ties: 0    Depth was:5  random moves:5
+Score: locations: 6  locations: 12  Ties: 2    Depth was:6  random moves:5
+
+Score: locations: 15  lengths: 5  Ties: 0    Depth was:1  random moves:5
+Score: locations: 11  lengths: 9  Ties: 0    Depth was:2  random moves:5
+Score: locations: 7  lengths: 13  Ties: 0    Depth was:3  random moves:5
+Score: locations: 11  lengths: 8  Ties: 1    Depth was:4  random moves:5
+Score: locations: 9  lengths: 11  Ties: 0    Depth was:5  random moves:5
+Score: locations: 7  lengths: 13  Ties: 0    Depth was:6  random moves:5
+
+Score: lengths: 17  locations: 2  Ties: 1    Depth was:1  random moves:5
+Score: lengths: 16  locations: 2  Ties: 2    Depth was:2  random moves:5
+Score: lengths: 8  locations: 12  Ties: 0    Depth was:3  random moves:5
+Score: lengths: 10  locations: 9  Ties: 1    Depth was:4  random moves:5
+Score: lengths: 7  locations: 12  Ties: 1    Depth was:5  random moves:5
+Score: lengths: 11  locations: 8  Ties: 1    Depth was:6  random moves:5
+
+Score: locations: 10  both: 10  Ties: 0    Depth was:1  random moves:5
+Score: locations: 7  both: 11  Ties: 2    Depth was:2  random moves:5
+Score: locations: 5  both: 15  Ties: 0    Depth was:3  random moves:5
+Score: locations: 8  both: 12  Ties: 0    Depth was:4  random moves:5
+Score: locations: 5  both: 15  Ties: 0    Depth was:5  random moves:5
+Score: locations: 8  both: 12  Ties: 0    Depth was:6  random moves:5
+
+Score: both: 14  locations: 6  Ties: 0    Depth was:1  random moves:5
+Score: both: 12  locations: 8  Ties: 0    Depth was:2  random moves:5
+Score: both: 14  locations: 5  Ties: 1    Depth was:3  random moves:5
+Score: both: 12  locations: 8  Ties: 0    Depth was:4  random moves:5
+Score: both: 11  locations: 9  Ties: 0    Depth was:5  random moves:5
+Score: both: 13  locations: 6  Ties: 1    Depth was:6  random moves:5
+
+Score: lengths: 17  lengths: 2  Ties: 1    Depth was:1  random moves:5
+Score: lengths: 10  lengths: 8  Ties: 2    Depth was:2  random moves:5
+Score: lengths: 8  lengths: 10  Ties: 2    Depth was:3  random moves:5
+Score: lengths: 11  lengths: 9  Ties: 0    Depth was:4  random moves:5
+Score: lengths: 10  lengths: 10  Ties: 0    Depth was:5  random moves:5
+Score: lengths: 10  lengths: 10  Ties: 0    Depth was:6  random moves:5
+
+Score: lengths: 13  both: 7  Ties: 0    Depth was:1  random moves:5
+Score: lengths: 10  both: 10  Ties: 0    Depth was:2  random moves:5
+Score: lengths: 10  both: 8  Ties: 2    Depth was:3  random moves:5
+Score: lengths: 7  both: 10  Ties: 3    Depth was:4  random moves:5
+Score: lengths: 8  both: 11  Ties: 1    Depth was:5  random moves:5
+Score: lengths: 10  both: 9  Ties: 1    Depth was:6  random moves:5
+
+Score: both: 13  lengths: 7  Ties: 0    Depth was:1  random moves:5
+Score: both: 10  lengths: 9  Ties: 1    Depth was:2  random moves:5
+Score: both: 9  lengths: 11  Ties: 0    Depth was:3  random moves:5
+Score: both: 10  lengths: 10  Ties: 0    Depth was:4  random moves:5
+Score: both: 11  lengths: 8  Ties: 1    Depth was:5  random moves:5
+Score: both: 7  lengths: 13  Ties: 0    Depth was:6  random moves:5
+
+Score: both: 13  both: 7  Ties: 0    Depth was:1  random moves:5
+Score: both: 9  both: 9  Ties: 2    Depth was:2  random moves:5
+Score: both: 13  both: 7  Ties: 0    Depth was:3  random moves:5
+Score: both: 6  both: 11  Ties: 3    Depth was:4  random moves:5
+Score: both: 10  both: 9  Ties: 1    Depth was:5  random moves:5
+Score: both: 10  both: 10  Ties: 0    Depth was:6  random moves:5
+
